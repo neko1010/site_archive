@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="http://water.usgs.gov/XML/AQ/stylesheets/AQSVMobile_SS1.xsl"?>
+<UsgsHydroML xmlns="http://water.usgs.gov/XML/AQ" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://water.usgs.gov/XML/AQ http://water.usgs.gov/XML/AQ/schema/UsgsHydroML.xsd">
+  <Version>AQUARIUS</Version>
+  <Source>
+    <SoftwareName>SVMobile-AQ</SoftwareName>
+    <SoftwareVersionText>2.1.174.0</SoftwareVersionText>
+    <AgencyCode>USGS</AgencyCode>
+    <RemarksText />
+    <EmailAddress />
+  </Source>
+  <UnitsFamily>English</UnitsFamily>
+  <Site>
+    <SiteIdentifier organizationCode="USGS">03363400</SiteIdentifier>
+    <Name>FLATROCK RIVER NR RUSHVILLE, IN</Name>
+    <SiteData>
+      <SiteVisit>
+        <TimeRules>
+          <TimeZoneStandardName>Eastern Standard Time</TimeZoneStandardName>
+          <TimeZoneWinID>Eastern Standard Time</TimeZoneWinID>
+          <TimeDatumCode>EST</TimeDatumCode>
+          <AdjustForDayLightSavings>false</AdjustForDayLightSavings>
+          <TimeZoneBaseUTCOffset>-05:00</TimeZoneBaseUTCOffset>
+        </TimeRules>
+        <StartDateTime timeDatumCode="EST">2018-05-14T13:03:00-05:00</StartDateTime>
+        <EndDateTime>2018-05-14T13:15:01-05:00</EndDateTime>
+        <PartyText>MRJ</PartyText>
+        <CollectionAgencyCode>USGS</CollectionAgencyCode>
+        <WeatherDescription>clear, hot, no precip, very light wind, swirling/variable</WeatherDescription>
+        <RecorderRecordRemovedIndicator>false</RecorderRecordRemovedIndicator>
+        <WaterQualitySampleIndicator>false</WaterQualitySampleIndicator>
+        <SedimentSampleIndicator>false</SedimentSampleIndicator>
+        <BiologicalSampleIndicator>false</BiologicalSampleIndicator>
+        <OtherSampleIndicator>false</OtherSampleIndicator>
+        <LevelsRunIndicator>false</LevelsRunIndicator>
+        <GwWaterLevelsIndicator>true</GwWaterLevelsIndicator>
+        <SafetyInspectionPerformedIndicator>false</SafetyInspectionPerformedIndicator>
+        <Comment />
+        <DischargeMeasurementStatus>Not Started</DischargeMeasurementStatus>
+        <EnvironmentalMeasurementsStatus />
+        <StreamFlowControlInspectionStatus>Complete</StreamFlowControlInspectionStatus>
+        <SensorInspectionStatus>Complete</SensorInspectionStatus>
+        <StreamZeroFlowInspectionStatus>Not Started</StreamZeroFlowInspectionStatus>
+        <HighWaterMarkObservationStatus>Not Started</HighWaterMarkObservationStatus>
+        <StillingWellInspectionStatus />
+        <StationLevelsStatus>Not Started</StationLevelsStatus>
+        <QWMonMaintStatus />
+        <GroundwaterLevelsStatus>Not Started</GroundwaterLevelsStatus>
+        <MiscSiteVisitInfoStatus>Not Started</MiscSiteVisitInfoStatus>
+        <DataAgingCode>500</DataAgingCode>
+        <SensorInspection>
+          <WireWeightGageInspection>
+            <LocationSensor>
+              <Location>
+                <LocationName />
+              </Location>
+              <Sensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00065</USGSParameterCode>
+                    <Name>Gage height</Name>
+                    <Units>ft</Units>
+                  </Parameter>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                  <MethodCode>HGWWG</MethodCode>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+                <SensorName>
+                </SensorName>
+              </Sensor>
+            </LocationSensor>
+            <CheckbarFoundMeasure>29.280</CheckbarFoundMeasure>
+          </WireWeightGageInspection>
+          <SensorReading>
+            <ReadingDateTime>2018-05-14T13:15:00-05:00</ReadingDateTime>
+            <SensorMeasure readingType="Routine">4.91</SensorMeasure>
+            <MeasureAccuracy>.02</MeasureAccuracy>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+          </SensorReading>
+        </SensorInspection>
+        <SensorInspection>
+          <LocationSensor>
+            <Location>
+              <LocationName />
+            </Location>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <Name>Gage height</Name>
+                  <Units>ft</Units>
+                </Parameter>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+                <MethodCode>HGNCRD</MethodCode>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+              <SensorName />
+            </Sensor>
+          </LocationSensor>
+          <SensorReading>
+            <ReadingDateTime>2018-05-14T13:15:00-05:00</ReadingDateTime>
+            <SensorMeasure readingType="Routine">4.90</SensorMeasure>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+          </SensorReading>
+        </SensorInspection>
+        <SensorInspection>
+          <CrestStageGageInspection>
+            <LocationSensor>
+              <Location>
+                <LocationName />
+              </Location>
+              <Sensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00065</USGSParameterCode>
+                    <Name>Gage height</Name>
+                    <Units>ft</Units>
+                  </Parameter>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                  <MethodCode>HGCSG</MethodCode>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+                <SensorName>
+                </SensorName>
+              </Sensor>
+            </LocationSensor>
+            <GageInspectedCode>Read</GageInspectedCode>
+            <IntakeHoleConditionCode>Open</IntakeHoleConditionCode>
+            <VentHoleConditionCode>Open</VentHoleConditionCode>
+            <CrestStageGageReading>
+              <HighWaterMarkMeasure>7.25</HighWaterMarkMeasure>
+              <StreamStageMeasure readingType="Extreme - Max">16.26</StreamStageMeasure>
+              <EstimatedDateTime>2018-04-04</EstimatedDateTime>
+              <MeasuringPointElevation>9.012</MeasuringPointElevation>
+              <MeasuringPointElevationDate>11/15/2016</MeasuringPointElevationDate>
+              <GageInspectedCode>Read</GageInspectedCode>
+              <MeasuringPointName>CSG</MeasuringPointName>
+            </CrestStageGageReading>
+          </CrestStageGageInspection>
+        </SensorInspection>
+        <StreamFlowControlInspection>
+          <ControlCode description="Section">SECT</ControlCode>
+          <DistanceToGageMeasure>60</DistanceToGageMeasure>
+          <ControlCleanedCode description="NO">NTCL</ControlCleanedCode>
+          <ConditionCode description="Clear">CLER</ConditionCode>
+          <Comment>Sand Riffle</Comment>
+        </StreamFlowControlInspection>
+      </SiteVisit>
+    </SiteData>
+  </Site>
+  <SVMobileSiteSensors>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <AQParameterCode>HG</AQParameterCode>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGCSG</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>CrestStageCageInspection</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <AQParameterCode>HG</AQParameterCode>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGNCRD</MethodCode>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <AQParameterCode>HG</AQParameterCode>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGWWG</MethodCode>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>WireWeightGageInspection</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+  </SVMobileSiteSensors>
+</UsgsHydroML>
