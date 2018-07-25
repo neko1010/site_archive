@@ -18,7 +18,7 @@ root.title("Site Visit File Archive Tool")
 menu = Menu(root)
 root.config(menu= menu) 
 
-explanation = "Select site visit files and archive with the click of a button!"
+explanation = "Select site visit files and archive them with the click of a button!"
 helpmenu = Menu(menu)
 menu.add_cascade(label = "Help", menu = helpmenu)
 
