@@ -150,20 +150,33 @@ def archive_files(files):
             ## Checking for special inspection type
             for insp in insp_type:
                 if insp != "None":
-                    os.mkdir(dest + state + "/" + gage_no + "/WY" + wy + "/" + date + "_insp")
-                    shutil.copy(source + "/" + f, dest + state + "/" + 
-                            gage_no + "/WY" + wy + "/" + date + "_insp")
-                    break
+                    try:
+                        os.mkdir(dest + state + "/" + gage_no + "/WY" + wy + "/" + date + "_insp")
+                        shutil.copy(source + "/" + f, dest + state + "/" + 
+                                gage_no + "/WY" + wy + "/" + date + "_insp")
+                        break
+                    
+                    except:
+                        print("ERROR: File may already exist!")
+                        continue
                 else:
-                    shutil.copy(source + "/" + f, dest + state + "/" + 
-                            gage_no + "/WY" + wy + "/" + date)
-        
+                    try:
+                        shutil.copy(source + "/" + f, dest + state + "/" + 
+                                gage_no + "/WY" + wy + "/" + date)
+                    except:
+                        print("ERROR: File may already exist!")
+                        continue
         else:
             ## appending measurement numbers to directory name
             meas_nos = ""
             for m in meas:
               meas_nos += "_" + m  
             
-            os.mkdir(dest + state + "/" +gage_no + "/WY" + wy + "/" + date + "_"  + m)
-            shutil.copy( source + "/" + f, dest + state + "/" + gage_no + 
-                    "/WY"+ wy + "/" + date + meas_nos)
+            try:
+                os.mkdir(dest + state + "/" +gage_no + "/WY" + wy + "/" + date + "_"  + m)
+                shutil.copy( source + "/" + f, dest + state + "/" + gage_no + 
+                        "/WY"+ wy + "/" + date + meas_nos)
+
+            except:
+                print("ERROR: File may already exist!")
+                continue

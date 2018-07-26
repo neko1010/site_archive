@@ -15,6 +15,10 @@ def process():
 root = Tk()
 root.title("Site Visit File Archive Tool")
 
+root.columnconfigure(1, weight = 1)
+root.columnconfigure(2, weight = 2)
+root.rowconfigure(1, weight =1 )
+
 menu = Menu(root)
 root.config(menu= menu) 
 
@@ -31,16 +35,21 @@ insert_logo = Label(image = logo).grid(row = 1, rowspan = 3, column = 0)
 label = Label(text = "Files to archive: ", justify = RIGHT)
 label.grid(row = 0, column = 1)
 
-listbox = Listbox(root, width = 50, height = 10)
-##Setting width to 0 allows for dynamic sizing, but looks terrible 
-## until there are files present. Need a solution here.
-#listbox.config(width = 0)
-listbox.grid(row = 1, column = 1, columnspan = 2)
+listbox = Listbox(root, width = 50, height = 13)
+listbox.grid(row = 1, column = 1, columnspan = 2, sticky = NSEW)
+listbox.columnconfigure(1, weight = 1)
+listbox.columnconfigure(2, weight = 1)
+listbox.rowconfigure(1, weight = 1)
+
+#yscroll = Scrollbar(root, orient = 'vertical', command = listbox.yview)
+#yscroll.grid(row = 1, column = 2, sticky = NS)
+xscroll = Scrollbar(root, orient = 'horizontal', command = listbox.xview)
+xscroll.grid(row = 3, column = 1, columnspan = 2, sticky = EW)
 
 addButton = Button( text = "Add Files", command = insert_files, width = 20)
-addButton.grid(row = 2, column = 2)
+addButton.grid(row = 4, column = 2)
 
 procButton = Button( text = "Archive", command = process, width = 20)
-procButton.grid(row = 3, column = 2)
+procButton.grid(row = 5, column = 2)
 
 root.mainloop()
