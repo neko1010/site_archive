@@ -25,7 +25,7 @@ menu.add_cascade(label = "Help", menu = helpmenu)
 helpmenu.add_command(label = "About", 
         command = lambda : messagebox.showinfo("About", explanation))
 
-logo = PhotoImage(file = '../logo/round.png')
+logo = PhotoImage(file = '../img/logo/round.png')
 insert_logo = Label(image = logo).grid(row = 1, rowspan = 3, column = 0)
 
 label = Label(text = "Files to archive: ", justify = RIGHT)

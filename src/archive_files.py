@@ -95,8 +95,8 @@ def archive_files(files):
     Archiving site visit files as necessary
     """
 
-    wells = "../ancillary/OKI_wells.csv"
-    gages = "../ancillary/OKI_gage.csv"
+    wells = "../data/OKI_wells.csv"
+    gages = "../data/OKI_gage.csv"
 
     dest = "../OKI/"
     #source = "examples/"
