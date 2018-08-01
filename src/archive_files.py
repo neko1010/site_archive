@@ -4,10 +4,12 @@ import sys
 import shutil
 from datetime import datetime
 import csv
+from tkinter import *
+from tkinter import messagebox
 
 def gage_data(filepath):
     """
-    Gathering gage numbers and states for GW sites
+    Gathering gage numbers and states for sites
     """
     gage_ID = []
 
@@ -149,7 +151,8 @@ def final_dest(files):
                   meas_nos += "_" + m  
                
                 final_dest = dest + state + "/" + gage_no + "/WY" + wy + "/" + date  + meas_nos
-                os.mkdir(final_dest)
+                if (date + meas_nos) not in os.listdir(dest + state + "/" + gage_no + "/WY" + wy + "/"):
+                    os.mkdir(final_dest)
     
     return final_dest
 
@@ -158,10 +161,13 @@ def archive_files(files, dest):
     """ 
     Archiving site visit files as necessary
     """
+    ## Checking if file has been archived
     for f in files:
-        #try:
-        shutil.copy( f, dest) 
-        
-        #except:
-        #    print("ERROR: File may already exist!")
-        #    continue
+        if os.path.split(f)[1] in os.listdir(dest):
+            root = Tk()
+            root.withdraw()
+            messagebox.showerror("WARNING", f + " already archived")
+            root.destroy() 
+            continue
+        else:
+            shutil.copy( f, dest) 
