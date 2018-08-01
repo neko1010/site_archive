@@ -9,4 +9,4 @@ site visit XML file must be present to determine how files are archived. Current
 visit at a time. Ancillary data sets that include comprehensive lists of all surface water and groundwater 
 sites by state should be updated as necessary.
 
-![GUI](https://github.com/neko1010/site_archive/tree/master/img/GUI_snip.PNG "GUI Window")
+![GUI](https://github.com/neko1010/site_archive/blob/master/img/GUI_snip.PNG "GUI Window")
