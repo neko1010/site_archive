@@ -9,7 +9,9 @@ from tkinter import messagebox
 
 def gage_data(filepath):
     """
-    Gathering gage numbers and states for sites
+    Gathering gage numbers and states for sites.
+    Path to tab delimited file generated from SIMS for a particular state 
+    is only required argument, and a list of gage numbers is returned.
     """
     gage_ID = []
 
@@ -25,7 +27,8 @@ def gage_data(filepath):
 
 def get_tree(filepath):
     """
-    Open XML file using the ElementTree library
+    Open XML file using the ElementTree library.
+    Path to an XML file is the only required argument and XML element tree is returned. 
     
     """
     xml_tree = ET.parse(filepath)
@@ -35,7 +38,8 @@ def get_tree(filepath):
 
 def xml_data(xml_tree):
     """
-    Parse the XML file and extract data of interest: 
+    XML tree from get_tree function is the only required argument.
+    Parse the XML file and return data of interest as a list or string: 
         Measurement number (if present)
         Site number 
         Site name 
@@ -81,6 +85,12 @@ def xml_data(xml_tree):
     return meas, gage_no, insp_type , date
 
 def final_dest(files):
+    """ 
+    Requires a list of files as the only argument.
+    Loops through files to determine if a site visit XML document is present
+    and returns the appropriatedestination of the files based upon information 
+    embedded in this document.
+    """
 
     KY = "../data/Ky_sites.txt"
     IN = "../data/IN_sites.txt"
@@ -120,9 +130,9 @@ def final_dest(files):
                 os.mkdir(dest + state + "/" + gage_no)
            
             if date.split("_")[1][0] == 1:
-                wy = date.split("_")[0][-2:] + 1
+                wy = date.split("_")[0] + 1
             else:
-                wy = date.split("_")[0][-2:]
+                wy = date.split("_")[0]
 
             if "WY" + wy not in os.listdir(dest + state + "/" + gage_no):
                 os.mkdir(dest + state + "/" + gage_no + "/WY" + wy)
@@ -159,7 +169,9 @@ def final_dest(files):
 
 def archive_files(files, dest):
     """ 
-    Archiving site visit files as necessary
+    Archiving site visit files as necessary.
+    Accepts the same list of files given to the final_dest function and the destination
+    returned from final_dest as arguments.
     """
     ## Checking if file has been archived
     for f in files:

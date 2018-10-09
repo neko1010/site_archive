@@ -38,6 +38,7 @@ def process():
         messagebox.showerror("Invalid file entry", "Site visit XML file missing!")
         err_root.destroy()
 
+
 root = Tk()
 root.title("Site Visit File Archive Tool")
 
