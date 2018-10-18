@@ -137,23 +137,18 @@ def final_dest(files):
             if "WY" + wy not in os.listdir(dest + state + "/" + gage_no):
                 os.mkdir(dest + state + "/" + gage_no + "/WY" + wy)
 
-            ### Checking for existing date dir
-            #if date not in os.listdir(dest + state + "/" + gage_no + "/WY" + wy):
-            #    os.mkdir(dest + state + "/" + gage_no +  "/WY" + wy + "/" + date)
-
             ## Checking for measurements
             if len(meas) == 0:
                 
+                final_dest = dest + state + "/" + gage_no + "/WY" + wy + "/" + date
                 ## Checking for special inspection type
                 for insp in insp_type:
                     if insp != "None":
-                        #try:
-
                         final_dest = dest + state + "/" + gage_no + "/WY" + wy + "/" + date + "_insp"
                         os.mkdir(final_dest)
+                        break
                     else:
-                        final_dest = dest + state + "/" + gage_no + "/WY" + wy + "/" + date
-                        os.mkdir(final_dest)
+                        pass
             else:
                 ## appending measurement numbers to directory name
                 meas_nos = ""
@@ -163,7 +158,7 @@ def final_dest(files):
                 final_dest = dest + state + "/" + gage_no + "/WY" + wy + "/" + date  + meas_nos
                 if (date + meas_nos) not in os.listdir(dest + state + "/" + gage_no + "/WY" + wy + "/"):
                     os.mkdir(final_dest)
-    
+
     return final_dest
 
 
