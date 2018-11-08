@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="http://water.usgs.gov/XML/AQ/stylesheets/AQSVMobile_SS1.xsl"?>
+<UsgsHydroML xmlns="http://water.usgs.gov/XML/AQ" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://water.usgs.gov/XML/AQ http://water.usgs.gov/XML/AQ/schema/UsgsHydroML.xsd">
+  <Version>AQUARIUS</Version>
+  <Source>
+    <SoftwareName>SVMobile-AQ</SoftwareName>
+    <SoftwareVersionText>2.2.127.0</SoftwareVersionText>
+    <AgencyCode>USGS</AgencyCode>
+    <RemarksText />
+    <EmailAddress />
+  </Source>
+  <UnitsFamily>English</UnitsFamily>
+  <Site>
+    <SiteIdentifier organizationCode="USGS">03291000</SiteIdentifier>
+    <Name>EAGLE CREEK AT SADIEVILLE, KY</Name>
+    <SiteData>
+      <SiteVisit>
+        <TimeRules>
+          <TimeZoneStandardName>Eastern Standard Time</TimeZoneStandardName>
+          <TimeZoneWinID>Eastern Standard Time</TimeZoneWinID>
+          <TimeDatumCode>EDT</TimeDatumCode>
+          <AdjustForDayLightSavings>true</AdjustForDayLightSavings>
+          <TimeZoneBaseUTCOffset>-05:00</TimeZoneBaseUTCOffset>
+        </TimeRules>
+        <StartDateTime timeDatumCode="EDT">2018-10-30T13:06:00-04:00</StartDateTime>
+        <EndDateTime>2018-10-30T13:06:01-04:00</EndDateTime>
+        <PartyText>NHC</PartyText>
+        <CollectionAgencyCode>USGS</CollectionAgencyCode>
+        <WeatherDescription>mostly cloudy, hot, moderate rain, heavy wind, blowing upstream</WeatherDescription>
+        <RecorderRecordRemovedIndicator>false</RecorderRecordRemovedIndicator>
+        <WaterQualitySampleIndicator>false</WaterQualitySampleIndicator>
+        <SedimentSampleIndicator>false</SedimentSampleIndicator>
+        <BiologicalSampleIndicator>false</BiologicalSampleIndicator>
+        <OtherSampleIndicator>false</OtherSampleIndicator>
+        <LevelsRunIndicator>false</LevelsRunIndicator>
+        <GwWaterLevelsIndicator>false</GwWaterLevelsIndicator>
+        <SafetyInspectionPerformedIndicator>false</SafetyInspectionPerformedIndicator>
+        <Comment>This is a test of an entry of inspection with comment only.</Comment>
+        <DischargeMeasurementStatus />
+        <EnvironmentalMeasurementsStatus />
+        <StreamFlowControlInspectionStatus />
+        <SensorInspectionStatus />
+        <StreamZeroFlowInspectionStatus />
+        <HighWaterMarkObservationStatus />
+        <StillingWellInspectionStatus />
+        <StationLevelsStatus />
+        <QWMonMaintStatus />
+        <GroundwaterLevelsStatus />
+        <MiscSiteVisitInfoStatus />
+        <DataAgingCode>500</DataAgingCode>
+      </SiteVisit>
+    </SiteData>
+  </Site>
+  <SVMobileSiteSensors>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <AQParameterCode>HG</AQParameterCode>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGCSG</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <AQParameterCode>HG</AQParameterCode>
+      <Name>Orifice</Name>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGNTRAN</MethodCode>
+      <DefaultReadingType>Routine</DefaultReadingType>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <AQParameterCode>HG</AQParameterCode>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGSTAFF</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <AQParameterCode>HG</AQParameterCode>
+      <Name>Reference</Name>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGWWG</MethodCode>
+      <DefaultReadingType>Reference - Primary</DefaultReadingType>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+  </SVMobileSiteSensors>
+</UsgsHydroML>

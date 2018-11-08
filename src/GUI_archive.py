@@ -20,9 +20,9 @@ def process():
     
     ## Checking for site visit XML 
     if any(os.path.splitext(f)[1] == '.xml' and os.path.split(f)[1].startswith("SV") for f in files):
-        ## Determine destination for files
-        dest = final_dest(files)
-        archive_files(files, dest)
+        ## Determine destination, gage_no, and date for files
+        dest, gage_no, date = final_dest(files)
+        archive_files(files, dest, gage_no, date)
         #root.destroy()
         
         ##Message to confirm archival completion

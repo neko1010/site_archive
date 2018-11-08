@@ -1,0 +1,2536 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="http://water.usgs.gov/XML/AQ/stylesheets/AQSVMobile_SS1.xsl"?>
+<UsgsHydroML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://water.usgs.gov/XML/AQ http://water.usgs.gov/XML/AQ/schema/UsgsHydroML.xsd" xmlns="http://water.usgs.gov/XML/AQ">
+  <Version>AQUARIUS</Version>
+  <Source>
+    <SoftwareName>SVMobile-AQ</SoftwareName>
+    <SoftwareVersionText>2.2.127.0</SoftwareVersionText>
+    <AgencyCode>USGS</AgencyCode>
+    <RemarksText />
+    <EmailAddress />
+  </Source>
+  <UnitsFamily>English</UnitsFamily>
+  <Site>
+    <SiteIdentifier organizationCode="USGS">03290500</SiteIdentifier>
+    <Name>KENTUCKY RIVER AT LOCK 2 AT LOCKPORT, KY</Name>
+    <SiteData>
+      <SiteVisit>
+        <TimeRules>
+          <TimeZoneStandardName>Eastern Standard Time</TimeZoneStandardName>
+          <TimeZoneWinID>Eastern Standard Time</TimeZoneWinID>
+          <TimeDatumCode>EST</TimeDatumCode>
+          <AdjustForDayLightSavings>false</AdjustForDayLightSavings>
+          <TimeZoneBaseUTCOffset>-05:00</TimeZoneBaseUTCOffset>
+        </TimeRules>
+        <StartDateTime timeDatumCode="EST">2018-10-18T09:01:00-05:00</StartDateTime>
+        <EndDateTime>2018-10-18T15:30:01-05:00</EndDateTime>
+        <PartyText>MKL/PJB</PartyText>
+        <CollectionAgencyCode>USGS</CollectionAgencyCode>
+        <WeatherDescription>partly cloudy, cool, no precip, calm winds</WeatherDescription>
+        <RecorderRecordRemovedIndicator>false</RecorderRecordRemovedIndicator>
+        <WaterQualitySampleIndicator>true</WaterQualitySampleIndicator>
+        <SedimentSampleIndicator>true</SedimentSampleIndicator>
+        <BiologicalSampleIndicator>false</BiologicalSampleIndicator>
+        <OtherSampleIndicator>false</OtherSampleIndicator>
+        <LevelsRunIndicator>false</LevelsRunIndicator>
+        <GwWaterLevelsIndicator>false</GwWaterLevelsIndicator>
+        <SafetyInspectionPerformedIndicator>false</SafetyInspectionPerformedIndicator>
+        <Comment>First QW sample! Radios locked up and stage acting weird.  Nitrogen tank is still good and seems to be ok so we will not change at this time.  Orifice could be covered in sediment which could be why stage was acting weird--purged.  Updating firmware on radios to hopefully solve issue of locking up.</Comment>
+        <DischargeMeasurementStatus>Complete</DischargeMeasurementStatus>
+        <EnvironmentalMeasurementsStatus />
+        <StreamFlowControlInspectionStatus>Complete</StreamFlowControlInspectionStatus>
+        <SensorInspectionStatus>Complete</SensorInspectionStatus>
+        <StreamZeroFlowInspectionStatus>Not Started</StreamZeroFlowInspectionStatus>
+        <HighWaterMarkObservationStatus>Not Started</HighWaterMarkObservationStatus>
+        <StillingWellInspectionStatus />
+        <StationLevelsStatus>Not Started</StationLevelsStatus>
+        <QWMonMaintStatus>Complete</QWMonMaintStatus>
+        <GroundwaterLevelsStatus>Not Started</GroundwaterLevelsStatus>
+        <MiscSiteVisitInfoStatus>Complete</MiscSiteVisitInfoStatus>
+        <DataAgingCode>500</DataAgingCode>
+        <SensorInspection>
+          <BubbleGageInspection>
+            <LocationSensor>
+              <Location>
+                <LocationName />
+              </Location>
+              <Sensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00065</USGSParameterCode>
+                    <Name>Gage height</Name>
+                    <Units>ft</Units>
+                  </Parameter>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                  <MethodCode>HGNTRAN</MethodCode>
+                </SensorType>
+                <SerialNumber>Unspecified (DCP)</SerialNumber>
+                <SensorName>DCP</SensorName>
+              </Sensor>
+            </LocationSensor>
+            <GasSystemTypeCode>Nitrogen</GasSystemTypeCode>
+            <OrificeServiceCode>Purged</OrificeServiceCode>
+            <OrificeServicedDateTime>2018-10-18T09:05:00-05:00</OrificeServicedDateTime>
+            <DesiccantChangedIndicator>false</DesiccantChangedIndicator>
+            <GasTankChangedIndicator>false</GasTankChangedIndicator>
+            <TankPressureBeforeMeasure>800</TankPressureBeforeMeasure>
+            <LinePressureBeforeMeasure>20</LinePressureBeforeMeasure>
+            <BubbleRateBeforeMeasure>60</BubbleRateBeforeMeasure>
+          </BubbleGageInspection>
+          <SensorReading>
+            <ReadingDateTime>2018-10-18T09:02:00-05:00</ReadingDateTime>
+            <SensorMeasure readingType="Routine">13.11</SensorMeasure>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+          </SensorReading>
+          <SensorReading>
+            <ReadingDateTime>2018-10-18T09:08:00-05:00</ReadingDateTime>
+            <SensorMeasure readingType="Routine">13.00</SensorMeasure>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+          </SensorReading>
+          <SensorReading>
+            <ReadingDateTime>2018-10-18T09:17:00-05:00</ReadingDateTime>
+            <SensorMeasure readingType="Routine">13.05</SensorMeasure>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+          </SensorReading>
+          <SensorReading>
+            <ReadingDateTime>2018-10-18T13:30:00-05:00</ReadingDateTime>
+            <SensorMeasure readingType="Routine">12.94</SensorMeasure>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+          </SensorReading>
+          <Comment>increased line PSI to 28-30.  possible sedimentation over orifice line.</Comment>
+        </SensorInspection>
+        <SensorInspection>
+          <LocationSensor>
+            <Location>
+              <LocationName />
+            </Location>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <Name>Gage height</Name>
+                  <Units>ft</Units>
+                </Parameter>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+                <MethodCode>HGSTAFF</MethodCode>
+              </SensorType>
+              <SerialNumber>Unspecified (Staff)</SerialNumber>
+              <SensorName>Staff</SensorName>
+            </Sensor>
+          </LocationSensor>
+          <SensorReading>
+            <ReadingDateTime>2018-10-18T09:02:00-05:00</ReadingDateTime>
+            <SensorMeasure readingType="Reference - Primary">13.05</SensorMeasure>
+            <MeasureAccuracy>.01</MeasureAccuracy>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+          </SensorReading>
+        </SensorInspection>
+        <MonitorInspection>
+          <Equipment>
+            <EquipmentType>
+              <EquipmentCode>QMON</EquipmentCode>
+              <ManufacturerName>Unspecified</ManufacturerName>
+              <ModelNumber>Unspecified</ModelNumber>
+            </EquipmentType>
+            <SiteEquipmentIndicator>true</SiteEquipmentIndicator>
+            <SerialNumber>Unspecified</SerialNumber>
+            <SensorName>Unspecified</SensorName>
+          </Equipment>
+          <Location>
+            <LocationName />
+          </Location>
+          <FieldMeter>
+            <SiteEquipmentIndicator>false</SiteEquipmentIndicator>
+            <SerialNumber>Unspecified</SerialNumber>
+            <SensorName>Unspecified</SensorName>
+            <EquipmentType>
+              <ManufacturerName>Unspecified</ManufacturerName>
+              <ModelNumber>Unspecified</ModelNumber>
+            </EquipmentType>
+            <SondeChangedIndicator>false</SondeChangedIndicator>
+          </FieldMeter>
+          <InspectionDateTime>2018-10-18T15:20:00-05:00</InspectionDateTime>
+          <Inspector>MKL/PJB</Inspector>
+          <MonitorCheckReadingSet>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>99133</USGSParameterCode>
+                  <Name>NO3+NO2,water,insitu as N</Name>
+                  <Units>mg/l</Units>
+                </Parameter>
+                <MethodCode>AQ55UV013</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <MonitorCheckReading>
+              <ReadingID>49481dee-bd6b-4a3a-a686-2ad4b1dcfef5</ReadingID>
+              <CheckReadingCode>BFOR</CheckReadingCode>
+              <ReadingDateTime>2018-10-18T15:30:00-05:00</ReadingDateTime>
+              <SensorMeasure readingType="Cleaning - Before">0.93</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>99133</USGSParameterCode>
+                    <Name>NO3+NO2,water,insitu as N</Name>
+                    <Units>mg/l</Units>
+                  </Parameter>
+                  <MethodCode>AQ55UV013</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+            </MonitorCheckReading>
+          </MonitorCheckReadingSet>
+          <MonitorCheckReadingSet>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>00400</USGSParameterCode>
+                  <Name>pH</Name>
+                  <Units>pH Units</Units>
+                </Parameter>
+                <MethodCode>PHPROBE</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <MonitorCheckReading>
+              <ReadingID>ed360d3e-7478-4eb6-93e0-4722fc8b914b</ReadingID>
+              <CheckReadingCode>BFOR</CheckReadingCode>
+              <ReadingDateTime>2018-10-18T15:30:00-05:00</ReadingDateTime>
+              <SensorMeasure readingType="Cleaning - Before">8.11</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00400</USGSParameterCode>
+                    <Name>pH</Name>
+                    <Units>pH Units</Units>
+                  </Parameter>
+                  <MethodCode>PHPROBE</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">7.97</FieldSensorMeasure>
+            </MonitorCheckReading>
+          </MonitorCheckReadingSet>
+          <MonitorCheckReadingSet>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>63680</USGSParameterCode>
+                  <Name>Turbidity, FNU</Name>
+                  <Units>_FNU</Units>
+                </Parameter>
+                <MethodCode>WTFNUTS213</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <MonitorCheckReading>
+              <ReadingID>c20a3c02-6984-4be5-ab4b-ef6c830d5ab3</ReadingID>
+              <CheckReadingCode>BFOR</CheckReadingCode>
+              <ReadingDateTime>2018-10-18T15:30:00-05:00</ReadingDateTime>
+              <SensorMeasure readingType="Cleaning - Before">54.7</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>63680</USGSParameterCode>
+                    <Name>Turbidity, FNU</Name>
+                    <Units>_FNU</Units>
+                  </Parameter>
+                  <MethodCode>WTFNUTS213</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">45</FieldSensorMeasure>
+            </MonitorCheckReading>
+          </MonitorCheckReadingSet>
+          <MonitorCheckReadingSet>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>00300</USGSParameterCode>
+                  <Name>Dissolved oxygen</Name>
+                  <Units>mg/l</Units>
+                </Parameter>
+                <MethodCode>WOLUMIN</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <MonitorCheckReading>
+              <ReadingID>3fcaae40-805e-4bda-aa28-ba2b7665289d</ReadingID>
+              <CheckReadingCode>BFOR</CheckReadingCode>
+              <ReadingDateTime>2018-10-18T15:30:00-05:00</ReadingDateTime>
+              <SensorMeasure readingType="Cleaning - Before">9.5</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00300</USGSParameterCode>
+                    <Name>Dissolved oxygen</Name>
+                    <Units>mg/l</Units>
+                  </Parameter>
+                  <MethodCode>WOLUMIN</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">9.43</FieldSensorMeasure>
+            </MonitorCheckReading>
+          </MonitorCheckReadingSet>
+          <MonitorCheckReadingSet>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>00095</USGSParameterCode>
+                  <Name>Specific cond at 25C</Name>
+                  <Units>uS/cm</Units>
+                </Parameter>
+                <MethodCode>SpCondSC001</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <MonitorCheckReading>
+              <ReadingID>649cbac4-aecf-40e1-b0d9-64970548eebd</ReadingID>
+              <CheckReadingCode>BFOR</CheckReadingCode>
+              <ReadingDateTime>2018-10-18T15:30:00-05:00</ReadingDateTime>
+              <SensorMeasure readingType="Cleaning - Before">381</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00095</USGSParameterCode>
+                    <Name>Specific cond at 25C</Name>
+                    <Units>uS/cm</Units>
+                  </Parameter>
+                  <MethodCode>SpCondSC001</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">380</FieldSensorMeasure>
+            </MonitorCheckReading>
+          </MonitorCheckReadingSet>
+          <MonitorCheckReadingSet>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>00010</USGSParameterCode>
+                  <Name>Temperature, water</Name>
+                  <Units>degC</Units>
+                </Parameter>
+                <MethodCode>TWTHM01</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <MonitorCheckReading>
+              <ReadingID>dc309fa3-5b2c-49c1-bffb-a22a693da1d4</ReadingID>
+              <CheckReadingCode>BFOR</CheckReadingCode>
+              <ReadingDateTime>2018-10-18T15:20:00-05:00</ReadingDateTime>
+              <SensorMeasure readingType="Cleaning - Before">18.2</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00010</USGSParameterCode>
+                    <Name>Temperature, water</Name>
+                    <Units>degC</Units>
+                  </Parameter>
+                  <MethodCode>TWTHM01</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">18.24</FieldSensorMeasure>
+            </MonitorCheckReading>
+          </MonitorCheckReadingSet>
+          <BatteryChangedIndicator>false</BatteryChangedIndicator>
+        </MonitorInspection>
+        <DischargeMeasurement>
+          <MeasurementNumber>701</MeasurementNumber>
+          <DischargeDateTime>2018-10-18T13:18:13-05:00</DischargeDateTime>
+          <StartDateTime>2018-10-18T13:11:00-05:00</StartDateTime>
+          <EndDateTime>2018-10-18T13:25:26-05:00</EndDateTime>
+          <ShowInRatingDevelopment>true</ShowInRatingDevelopment>
+          <AddToTimeSeries>true</AddToTimeSeries>
+          <Publish>true</Publish>
+          <ReasonFor>Routine</ReasonFor>
+          <MeasurementQualityCode description="Good (5%)">GOOD</MeasurementQualityCode>
+          <DischargeCode description="Measured">MEAS</DischargeCode>
+          <DischargeMeasure>13059.562</DischargeMeasure>
+          <StageMeasure>12.94</StageMeasure>
+          <StageDifferenceMeasure>0</StageDifferenceMeasure>
+          <StageDifferenceDurationMeasure>.3</StageDifferenceDurationMeasure>
+          <BaseFlowCode description="Unknown">UNKN</BaseFlowCode>
+          <Comment>QRev - QRev Main 10/19/2018  07:21:38: - ADCP moved during the first part of the 3d transect.  Unit was re-adjusted and tightened to stay in place while DCP was collecting data.    Possible negative flow on LEW.    Last transect (#5) started accidentally- do not use.
+
+QRev - GPS 10/19/2018  07:24:22: - Bad GGA.  Will use BT.  no MB.
+
+QRev - FileSave 10/19/2018  07:25:03: - 20181019_072503_QRev by mlott Q=13059.562 ft3/s
+
+QRev - FileSave 10/19/2018  07:45:52: - 20181019_074552_QRev by mlott Q=13059.562 ft3/s</Comment>
+          <Channel>
+            <ChannelNumber>1</ChannelNumber>
+            <ChannelName>Main</ChannelName>
+            <DischargeMeasure>13059.562</DischargeMeasure>
+            <DeploymentMethodCode description="Manned moving boat">MBOT</DeploymentMethodCode>
+            <MeasurementMethodCode description="ADCP">QADCP</MeasurementMethodCode>
+            <VelocityMethodCode>WVADCP</VelocityMethodCode>
+            <ChannelMaterialCode description="silt-mud">SILT</ChannelMaterialCode>
+            <ChannelStabilityCode description="firm">FIRM</ChannelStabilityCode>
+            <ChannelEvennessCode description="even">EVEN</ChannelEvennessCode>
+            <HorizontalFlowCode description="Even">EVEN</HorizontalFlowCode>
+            <VerticalVelocityDistributionCode description="standard">STND</VerticalVelocityDistributionCode>
+            <VelocityVariation description="steady">STDY</VelocityVariation>
+            <SectionLocationCode description="Downstream">DNST</SectionLocationCode>
+            <SectionDistanceMeasure>1500</SectionDistanceMeasure>
+            <AdcpDischargeMeasurement>
+              <AcousticChannelNotes>
+                <Note>
+                  <DateTime>2018-10-18T14:49:46-05:00</DateTime>
+                  <NoteTitle>QRev - QRev Main 10/19/2018  07:21:38:</NoteTitle>
+                  <NoteText>ADCP moved during the first part of the 3d transect.  Unit was re-adjusted and tightened to stay in place while DCP was collecting data.    Possible negative flow on LEW.    Last transect (#5) started accidentally- do not use.</NoteText>
+                </Note>
+                <Note>
+                  <DateTime>2018-10-18T14:49:46-05:00</DateTime>
+                  <NoteTitle>QRev - GPS 10/19/2018  07:24:22:</NoteTitle>
+                  <NoteText>Bad GGA.  Will use BT.  no MB.</NoteText>
+                </Note>
+                <Note>
+                  <DateTime>2018-10-18T14:49:46-05:00</DateTime>
+                  <NoteTitle>QRev - FileSave 10/19/2018  07:25:03:</NoteTitle>
+                  <NoteText>20181019_072503_QRev by mlott Q=13059.562 ft3/s</NoteText>
+                </Note>
+                <Note>
+                  <DateTime>2018-10-18T14:49:46-05:00</DateTime>
+                  <NoteTitle>QRev - FileSave 10/19/2018  07:45:52:</NoteTitle>
+                  <NoteText>20181019_074552_QRev by mlott Q=13059.562 ft3/s</NoteText>
+                </Note>
+              </AcousticChannelNotes>
+              <DiagnosticTestText>Pass</DiagnosticTestText>
+              <CompassCalibrationText>Max  0.3</CompassCalibrationText>
+              <InstrumentTested description="YES">true</InstrumentTested>
+              <CompassCallibrationCompleted description="YES">true</CompassCallibrationCompleted>
+              <NavigationMethod description="Bottom tracking">BT</NavigationMethod>
+              <MagneticVariationAngle>-5.43</MagneticVariationAngle>
+              <ExternalDepthSounderIndicator description="NO">false</ExternalDepthSounderIndicator>
+              <AreaComputationCode description="Parallel to boat course">PARA</AreaComputationCode>
+              <BoatMotorUsedText />
+              <AcousticDopplerCurrentProfiler>
+                <SensorType>
+                  <Parameter>
+                    <Name>Stream velocity</Name>
+                    <Units>ft/s</Units>
+                  </Parameter>
+                  <MethodCode>WVADCP</MethodCode>
+                  <ManufacturerName>RDI</ManufacturerName>
+                  <ModelNumber>Rio Grande Workhorse ADCP</ModelNumber>
+                </SensorType>
+                <SerialNumber>3205 - 1200 kHz</SerialNumber>
+                <FrequencyCode description="1200 kHz">1200</FrequencyCode>
+              </AcousticDopplerCurrentProfiler>
+              <SoftwareVersionText>QRev - 3.43</SoftwareVersionText>
+              <FirmwareVersionText>10.17</FirmwareVersionText>
+              <InstrumentConfiguration>Fixed     CR1       CF11110   BA30      BC220     BE100     BP1       BR2       ES0       EX10111   TE00000000TP000020  WA50      WE1500    WF50      WM1       WN50      WP1       WS50      WV170     WZ005     &amp;R20      Wizard    TP000009  BX299     BM5       WF25      WM12      WV175     WN58      WK25      WO3, 7    WS25      User</InstrumentConfiguration>
+              <ADCPDepthMeasure>0.8</ADCPDepthMeasure>
+              <DepthConsistentIndicator>true</DepthConsistentIndicator>
+              <BlankingDistanceMeasure>0.82</BlankingDistanceMeasure>
+              <WidthMeasure>298.139</WidthMeasure>
+              <AreaMeasure>6680.677</AreaMeasure>
+              <MeanDepthMeasure>23.174</MeanDepthMeasure>
+              <MaximumDepthMeasure>30.611</MaximumDepthMeasure>
+              <MovingBedEffected description="NO">false</MovingBedEffected>
+              <MeanVelocityMeasure>1.955</MeanVelocityMeasure>
+              <MaximumVelocityMeasure>3.488</MaximumVelocityMeasure>
+              <MeanTopDischargeMeasure>1385.345</MeanTopDischargeMeasure>
+              <MeanMiddleDischargeMeasure>10056.72</MeanMiddleDischargeMeasure>
+              <MeanBottomDischargeMeasure>1357.189</MeanBottomDischargeMeasure>
+              <MeanLeftDischargeMeasure>31.224</MeanLeftDischargeMeasure>
+              <MeanRightDischargeMeasure>229.083</MeanRightDischargeMeasure>
+              <LeftEdgeCoefficient>0.3535</LeftEdgeCoefficient>
+              <RightEdgeCoefficient>0.3535</RightEdgeCoefficient>
+              <DischargeCoefficient>1.2996</DischargeCoefficient>
+              <TopEstimateMethodCode description="Power">POWR</TopEstimateMethodCode>
+              <TopEstimateExponent>0.1667</TopEstimateExponent>
+              <BottomEstimateMethodCode description="Power">POWR</BottomEstimateMethodCode>
+              <BottomEstimateExponent>0.1667</BottomEstimateExponent>
+              <AdcpTransect>
+                <DischargeMeasure>13237.41</DischargeMeasure>
+                <StartDateTime>2018-10-18T13:11:01</StartDateTime>
+                <EndDateTime>2018-10-18T13:13:55</EndDateTime>
+                <AdcpTransectAttribute>
+                  <AttributeDateTime>2018-10-18T13:11:01</AttributeDateTime>
+                  <Parameter>
+                    <Name>Sensor temperature</Name>
+                    <Units>ft/s</Units>
+                  </Parameter>
+                  <MethodCode />
+                  <AttributeMeasure>18.4989</AttributeMeasure>
+                  <CollectionAgencyCode>USGS</CollectionAgencyCode>
+                </AdcpTransectAttribute>
+              </AdcpTransect>
+              <AdcpTransect>
+                <DischargeMeasure>13004.082</DischargeMeasure>
+                <StartDateTime>2018-10-18T13:14:02</StartDateTime>
+                <EndDateTime>2018-10-18T13:17:21</EndDateTime>
+                <AdcpTransectAttribute>
+                  <AttributeDateTime>2018-10-18T13:14:02</AttributeDateTime>
+                  <Parameter>
+                    <Name>Sensor temperature</Name>
+                    <Units>ft/s</Units>
+                  </Parameter>
+                  <MethodCode />
+                  <AttributeMeasure>18.5055</AttributeMeasure>
+                  <CollectionAgencyCode>USGS</CollectionAgencyCode>
+                </AdcpTransectAttribute>
+              </AdcpTransect>
+              <AdcpTransect>
+                <DischargeMeasure>13147.075</DischargeMeasure>
+                <StartDateTime>2018-10-18T13:17:33</StartDateTime>
+                <EndDateTime>2018-10-18T13:21:27</EndDateTime>
+                <AdcpTransectAttribute>
+                  <AttributeDateTime>2018-10-18T13:17:33</AttributeDateTime>
+                  <Parameter>
+                    <Name>Sensor temperature</Name>
+                    <Units>ft/s</Units>
+                  </Parameter>
+                  <MethodCode />
+                  <AttributeMeasure>18.5053</AttributeMeasure>
+                  <CollectionAgencyCode>USGS</CollectionAgencyCode>
+                </AdcpTransectAttribute>
+              </AdcpTransect>
+              <AdcpTransect>
+                <DischargeMeasure>12849.683</DischargeMeasure>
+                <StartDateTime>2018-10-18T13:21:51</StartDateTime>
+                <EndDateTime>2018-10-18T13:25:25</EndDateTime>
+                <AdcpTransectAttribute>
+                  <AttributeDateTime>2018-10-18T13:21:51</AttributeDateTime>
+                  <Parameter>
+                    <Name>Sensor temperature</Name>
+                    <Units>ft/s</Units>
+                  </Parameter>
+                  <MethodCode />
+                  <AttributeMeasure>18.5104</AttributeMeasure>
+                  <CollectionAgencyCode>USGS</CollectionAgencyCode>
+                </AdcpTransectAttribute>
+              </AdcpTransect>
+              <QRevXML>
+                <SiteInformation>
+                  <StationName type="char">Kentucky River @ Lock 2</StationName>
+                  <SiteID type="char">03290500</SiteID>
+                </SiteInformation>
+                <QA>
+                  <DiagnosticTestResult type="char">Pass</DiagnosticTestResult>
+                  <CompassCalibrationResult type="char">Max  0.3</CompassCalibrationResult>
+                  <MovingBedTestType type="char">Loop</MovingBedTestType>
+                  <MovingBedTestResult type="char">No</MovingBedTestResult>
+                  <DiagnosticTest>
+                    <Text type="char"> 
+[ALT-BREAK Wakeup] WorkHorse Rio Grande Broadband ADCP Version 10.17
+Teledyne RD Instruments (c) 1996-2009
+All Rights Reserved.
+&gt;CR1
+[Parameters set to FACTORY defaults]
+&gt;TS?
+TS = 18/10/18,12:53:00 --- Time Set (yr/mon/day,hour:min:sec)
+&gt;PS0
+  Instrument S/N:  3205
+       Frequency:  1228800 HZ
+   Configuration:  4 BEAM, JANUS
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  DOWN
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients: (c3,c2,c1,offset) 0.00,0.00,0.01,-5.04
+
+Temp Sens Offset:  -0.11 degrees C
+
+    CPU Firmware:  10.17 [0]
+   Boot Code Ver:  Required:  1.13   Actual:  1.13
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   7
+
+Board Serial Number Data:
+   B0  00 00 00 E7 14 6E  09 REC727-1000-02A
+   4C  00 00 02 C6 FE 9D  09 DSP727-2001-02F
+   6B  00 00 03 01 7D BD  09 PIO727-3008-02A
+   DD  00 00 02 C9 0E FF  09 CPU727-2000-00H
+&gt;PS3
+Beam Width:   3.7 degrees
+
+Beam     Elevation     Azimuth
+  1         -69.96      269.91
+  2         -70.04       89.90
+  3         -69.96        0.09
+  4         -70.03      180.09
+
+Beam Directional Matrix (Down):
+  0.3428    0.0006    0.9394    0.2415  
+ -0.3415   -0.0006    0.9399    0.2424  
+ -0.0006   -0.3429    0.9394   -0.2415  
+  0.0006    0.3417    0.9399   -0.2424  
+
+Instrument Transformation Matrix (Down):    Q14:
+  1.4628   -1.4598    0.0012   -0.0035       23967  -23917      20     -58  
+ -0.0012    0.0035   -1.4623    1.4593         -20      58  -23958   23909  
+  0.2656    0.2665    0.2656    0.2665        4351    4367    4351    4367  
+  1.0312    1.0350   -1.0313   -1.0350       16895   16957  -16896  -16957  
+Beam Angle Corrections Are Loaded.
+&gt;PT200
+
+  Ambient  Temperature =    18.54 Degrees C
+  Attitude Temperature =    22.35 Degrees C
+  Internal Moisture    = 8FB1h
+
+Correlation Magnitude: Wide Bandwidth
+
+               Lag  Bm1  Bm2  Bm3  Bm4
+                 0  255  255  255  255
+                 1  174  172  174  175
+                 2   45   38   41   40
+                 3   14    3    2   10
+                 4   28   17   14   15
+                 5   28   15   11   15
+                 6   22    3    2    6
+                 7   17    7    1    7
+
+  High Gain RSSI:    50   53   43   48
+   Low Gain RSSI:    24   29   20   25
+
+  SIN Duty Cycle:    37   55   44   54
+  COS Duty Cycle:    56   47   48   52
+
+Receive Test Results = $00000000 ... PASS
+
+IXMT    =      0.6 Amps rms  [Data=31h]
+VXMT    =     25.4 Volts rms [Data=64h]
+   Z    =     45.2 Ohms
+Transmit Test Results = $0 ... PASS
+
+    8    8   12    8
+    8    8    8    0
+   12    8   12    8
+    8    0    8    0
+  255  255  255  255
+   17   12   12    0
+   12    8   12    0
+  255  255  255  255
+    8    8    0    0
+    8   12   19    0
+    8   17   12    0
+  255  255  255  255
+Electronics Test Results = $00000000 ... 
+Receive Bandwidth:
+    Sample      bw    bw    bw    bw    bw
+      rate  expect   Bm1   Bm2   Bm3   Bm4
+      1229     480   340   389   410   391 Khz
+   results          PASS  PASS  PASS  PASS
+RSSI Time Constant:
+
+RSSI Filter Strobe 1 =   38400 Hz
+  time   Bm1   Bm2   Bm3   Bm4
+  msec  cnts  cnts  cnts  cnts
+     1    15    16    12    14
+     2    26    27    22    25
+     3    33    36    29    32
+     4    38    41    33    37
+     5    41    44    36    40
+     6    43    46    38    42
+     7    45    48    40    44
+     8    46    49    40    45
+     9    46    50    41    45
+    10    47    51    41    45
+   nom    48    51    42    46
+result    PASS  PASS  PASS  PASS
+&gt;PA
+
+PRE-DEPLOYMENT TESTS
+
+CPU TESTS:
+  RTC......................................PASS
+  RAM......................................PASS
+  ROM......................................PASS
+RECORDER TESTS:
+  PC Card #0...............................NOT DETECTED
+  PC Card #1...............................NOT DETECTED
+DSP TESTS:
+  Timing RAM...............................PASS
+  Demod  RAM...............................PASS
+  Demod  REG...............................PASS
+  FIFOs....................................PASS
+SYSTEM TESTS:
+  XILINX Interrupts... IRQ3  IRQ3  IRQ3 ...PASS
+  Wide Bandwidth...........................PASS
+  Narrow Bandwidth.........................PASS
+  RSSI Filter..............................PASS
+  Transmit.................................PASS
+SENSOR TESTS:
+  H/W Operation............................PASS
+&gt;PC2
+
+Press any key to quit sensor display ...
+
+Heading   Pitch    Roll   Up/Down    Attitude Temp   Ambient Temp   PRESSURE
+240.83??   0.33??   3.48??    Down         22.56??C        18.51??C         4.5 kPa
+241.89??   0.70??   3.28??    Down         22.59??C        18.52??C         4.6 kPa
+240.93??   0.38??   3.39??    Down         22.57??C        18.54??C         4.7 kPa
+241.96??   0.70??   3.35??    Down         22.56??C        18.50??C         4.6 kPa
+242.11??   0.42??   3.46??    Down         22.58??C        18.53??C         4.7 kPa
+242.02??   0.62??   3.65??    Down         22.56??C        18.53??C         4.7 kPa
+242.82??   0.30??   3.49??    Down         22.57??C        18.54??C         4.6 kPa
+242.53??   0.59??   3.56??    Down         22.58??C        18.54??C         4.4 kPa
+242.37??   0.30??   3.67??    Down         22.57??C        18.53??C         4.5 kPa
+243.54??   0.35??   3.85??    Down         22.55??C        18.53??C         4.7 kPa
+242.99??   0.46??   3.55??    Down         22.59??C        18.51??C         4.5 kPa
+243.89??   0.48??   3.63??    Down         22.57??C        18.51??C         4.6 kPa
+244.15??   0.17??   3.71??    Down         22.53??C        18.54??C         4.7 kPa
+244.03??   0.52??   3.51??    Down         22.57??C        18.51??C         4.6 kPa
+244.62??   0.46??   3.51??    Down         22.53??C        18.52??C         4.7 kPa
+245.14??   0.41??   3.53??    Down         22.56??C        18.56??C         4.7 kPa
+244.84??   0.15??   4.01??    Down         22.53??C        18.53??C         4.7 kPa
+245.07??   0.45??   3.70??    Down         22.55??C        18.51??C         4.5 kPa
+245.03??   0.40??   3.29??    Down         22.52??C        18.51??C         4.6 kPa
+245.10??   0.31??   3.54??    Down         22.56??C        18.52??C         4.6 kPa
+246.43??   0.91??   3.17??    Down         22.55??C        18.53??C         4.5 kPa
+245.88??   0.34??   3.47??    Down         22.56??C        18.53??C         4.4 kPa
+246.10??   0.52??   3.21??    Down         22.55??C        18.53??C         4.5 kPa
+246.61??   0.72??   3.15??    Down         22.56??C        18.55??C         4.6 kPa
+246.65??   0.41??   3.19??    Down         22.57??C        18.55??C         4.5 kPa
+247.18??   0.71??   2.98??    Down         22.59??C        18.52??C         4.5 kPa
+247.08??   0.61??   3.21??    Down         22.53??C        18.53??C         4.5 kPa
+247.15??   0.53??   3.15??    Down         22.59??C        18.52??C         4.5 kPa
+247.48??   0.77??   3.00??    Down         22.53??C        18.53??C         4.5 kPa
+248.11??   0.81??   2.99??    Down         22.55??C        18.53??C         4.6 kPa
+246.97??   0.42??   3.33??    Down         22.56??C        18.52??C         4.5 kPa
+247.93??   0.94??   2.78??    Down         22.55??C        18.52??C         4.3 kPa
+
+&gt;
+[ALT-BREAK Wakeup] WorkHorse Rio Grande Broadband ADCP Version 10.17
+Teledyne RD Instruments (c) 1996-2009
+All Rights Reserved.
+&gt;</Text>
+                  </DiagnosticTest>
+                  <CompassCalibration>
+                    <Text type="char"> 
+[ALT-BREAK Wakeup] WorkHorse Rio Grande Broadband ADCP Version 10.17
+Teledyne RD Instruments (c) 1996-2009
+All Rights Reserved.
+&gt;CR1
+[Parameters set to FACTORY defaults]
+&gt;TS?
+TS = 18/10/18,12:57:05 --- Time Set (yr/mon/day,hour:min:sec)
+&gt;PS0
+  Instrument S/N:  3205
+       Frequency:  1228800 HZ
+   Configuration:  4 BEAM, JANUS
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  DOWN
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients: (c3,c2,c1,offset) 0.00,0.00,0.01,-5.04
+
+Temp Sens Offset:  -0.11 degrees C
+
+    CPU Firmware:  10.17 [0]
+   Boot Code Ver:  Required:  1.13   Actual:  1.13
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   7
+
+Board Serial Number Data:
+   B0  00 00 00 E7 14 6E  09 REC727-1000-02A
+   4C  00 00 02 C6 FE 9D  09 DSP727-2001-02F
+   6B  00 00 03 01 7D BD  09 PIO727-3008-02A
+   DD  00 00 02 C9 0E FF  09 CPU727-2000-00H
+&gt;PS3
+Beam Width:   3.7 degrees
+
+Beam     Elevation     Azimuth
+  1         -69.96      269.91
+  2         -70.04       89.90
+  3         -69.96        0.09
+  4         -70.03      180.09
+
+Beam Directional Matrix (Down):
+  0.3428    0.0006    0.9394    0.2415  
+ -0.3415   -0.0006    0.9399    0.2424  
+ -0.0006   -0.3429    0.9394   -0.2415  
+  0.0006    0.3417    0.9399   -0.2424  
+
+Instrument Transformation Matrix (Down):    Q14:
+  1.4628   -1.4598    0.0012   -0.0035       23967  -23917      20     -58  
+ -0.0012    0.0035   -1.4623    1.4593         -20      58  -23958   23909  
+  0.2656    0.2665    0.2656    0.2665        4351    4367    4351    4367  
+  1.0312    1.0350   -1.0313   -1.0350       16895   16957  -16896  -16957  
+Beam Angle Corrections Are Loaded.
+&gt;AF
+
+-------------------------------------------------------------------------------
+                         Field Calibration Procedure
+Choose calibration method:
+     a.  Remove hard iron error (single cycle) only.
+     b.  Remove hard and soft iron error (single + double cycle).
+     c.  Calibration for a single tilt orientation (single + double cycle).
+     d.  Help.
+     e.  Quit.
+c
+
+
+-------------------------------------------------------------------------------
+                         Field Calibration Procedure
+          Calibration for Constant Tilt Applications (e.g., Rivers)
+
+Select one:
+     a.  Start calibration procedure.
+     b.  Zero calibration coefficients (only constant tilt coefs).
+     c.  Display correction coefficients.
+     d.  Instructions.
+     e.  Quit.
+a
+
+
+------------------------------------------------------------------------------
+                    RDI Compass Error Estimating Algorithm
+
+
+   Press space bar to start taking data after the instrument is setup.
+
+
+
+Rotate the unit in a plane until all data samples are acquired...
+   rotate less than 5??/sec.  Press Q to quit.
+
+ N       NE       E        SE       S       SW        W        NW       N
+ ^                ^                 ^                 ^                 ^
+ ************************************************&gt;***********************
+Calculating compass performance ...                               
+
+
+                          &gt;&gt;&gt; Total error:   3.4?? &lt;&lt;&lt;
+
+Press D for details or any other key to continue...
+                                                               
+
+
+
+
+
+
+
+
+
+
+HEADING ERROR ESTIMATE FOR THE CURRENT COMPASS CALIBRATION:
+
+   OVERALL ERROR:
+      Peak Double + Single Cycle Error (should be &lt; 5??):  ?? 3.39??
+
+   DETAILED ERROR SUMMARY:
+      Single Cycle Error:                                 ?? 3.32??
+      Double Cycle Error:                                 ?? 0.34??
+      Largest Double plus Single Cycle Error:             ?? 3.66??
+      RMS of 3rd Order and Higher + Random Error:         ?? 0.46??
+
+      Orientation:    Down
+      Average Pitch:   0.16??         Pitch Standard Dev:    0.19??
+      Average Roll:    3.95??         Roll Standard Dev:     0.17??
+
+Successfully evaluated compass performance for the current compass calibration.
+
+
+Press C to display Percent Horizontal Field Conponents
+     Relative to Calibration or any other key to continue....
+
+
+   Percent Horizontal Field Component Relative to Calibration:
+           a0 + a1*cos?? + b1*sin?? + a2*cos2*?? + b2*sin2*??
+          a0 =                                             44.989%
+          a1 =                                             -1.143%
+          b1 =                                             -2.344%
+          a2 =                                              0.264%
+          b2 =                                              0.050%
+
+          OneCycleK =                                       0.029 tw_rad
+          Add MagVar to get "OneCycOffset" =              244.003??
+Press space bar to continue...
+Calibration parameters have been updated in NRAM.
+
+&gt;
+[ALT-BREAK Wakeup] WorkHorse Rio Grande Broadband ADCP Version 10.17
+Teledyne RD Instruments (c) 1996-2009
+All Rights Reserved.
+&gt;CR1
+[Parameters set to FACTORY defaults]
+&gt;TS?
+TS = 18/10/18,12:57:05 --- Time Set (yr/mon/day,hour:min:sec)
+&gt;PS0
+  Instrument S/N:  3205
+       Frequency:  1228800 HZ
+   Configuration:  4 BEAM, JANUS
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  DOWN
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients: (c3,c2,c1,offset) 0.00,0.00,0.01,-5.04
+
+Temp Sens Offset:  -0.11 degrees C
+
+    CPU Firmware:  10.17 [0]
+   Boot Code Ver:  Required:  1.13   Actual:  1.13
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   7
+
+Board Serial Number Data:
+   B0  00 00 00 E7 14 6E  09 REC727-1000-02A
+   4C  00 00 02 C6 FE 9D  09 DSP727-2001-02F
+   6B  00 00 03 01 7D BD  09 PIO727-3008-02A
+   DD  00 00 02 C9 0E FF  09 CPU727-2000-00H
+&gt;PS3
+Beam Width:   3.7 degrees
+
+Beam     Elevation     Azimuth
+  1         -69.96      269.91
+  2         -70.04       89.90
+  3         -69.96        0.09
+  4         -70.03      180.09
+
+Beam Directional Matrix (Down):
+  0.3428    0.0006    0.9394    0.2415  
+ -0.3415   -0.0006    0.9399    0.2424  
+ -0.0006   -0.3429    0.9394   -0.2415  
+  0.0006    0.3417    0.9399   -0.2424  
+
+Instrument Transformation Matrix (Down):    Q14:
+  1.4628   -1.4598    0.0012   -0.0035       23967  -23917      20     -58  
+ -0.0012    0.0035   -1.4623    1.4593         -20      58  -23958   23909  
+  0.2656    0.2665    0.2656    0.2665        4351    4367    4351    4367  
+  1.0312    1.0350   -1.0313   -1.0350       16895   16957  -16896  -16957  
+Beam Angle Corrections Are Loaded.
+&gt;AF
+
+-------------------------------------------------------------------------------
+                         Field Calibration Procedure
+Choose calibration method:
+     a.  Remove hard iron error (single cycle) only.
+     b.  Remove hard and soft iron error (single + double cycle).
+     c.  Calibration for a single tilt orientation (single + double cycle).
+     d.  Help.
+     e.  Quit.
+c
+
+
+-------------------------------------------------------------------------------
+                         Field Calibration Procedure
+          Calibration for Constant Tilt Applications (e.g., Rivers)
+
+Select one:
+     a.  Start calibration procedure.
+     b.  Zero calibration coefficients (only constant tilt coefs).
+     c.  Display correction coefficients.
+     d.  Instructions.
+     e.  Quit.
+a
+
+
+------------------------------------------------------------------------------
+                    RDI Compass Error Estimating Algorithm
+
+
+   Press space bar to start taking data after the instrument is setup.
+
+
+
+Rotate the unit in a plane until all data samples are acquired...
+   rotate less than 5??/sec.  Press Q to quit.
+
+ N       NE       E        SE       S       SW        W        NW       N
+ ^                ^                 ^                 ^                 ^
+ ************************************************&gt;***********************
+Calculating compass performance ...                               
+
+
+                          &gt;&gt;&gt; Total error:   3.4?? &lt;&lt;&lt;
+
+Press D for details or any other key to continue...
+                                                               
+
+
+
+
+
+
+
+
+
+
+HEADING ERROR ESTIMATE FOR THE CURRENT COMPASS CALIBRATION:
+
+   OVERALL ERROR:
+      Peak Double + Single Cycle Error (should be &lt; 5??):  ?? 3.39??
+
+   DETAILED ERROR SUMMARY:
+      Single Cycle Error:                                 ?? 3.32??
+      Double Cycle Error:                                 ?? 0.34??
+      Largest Double plus Single Cycle Error:             ?? 3.66??
+      RMS of 3rd Order and Higher + Random Error:         ?? 0.46??
+
+      Orientation:    Down
+      Average Pitch:   0.16??         Pitch Standard Dev:    0.19??
+      Average Roll:    3.95??         Roll Standard Dev:     0.17??
+
+Successfully evaluated compass performance for the current compass calibration.
+
+
+Press C to display Percent Horizontal Field Conponents
+     Relative to Calibration or any other key to continue....
+
+
+   Percent Horizontal Field Component Relative to Calibration:
+           a0 + a1*cos?? + b1*sin?? + a2*cos2*?? + b2*sin2*??
+          a0 =                                             44.989%
+          a1 =                                             -1.143%
+          b1 =                                             -2.344%
+          a2 =                                              0.264%
+          b2 =                                              0.050%
+
+          OneCycleK =                                       0.029 tw_rad
+          Add MagVar to get "OneCycOffset" =              244.003??
+Press space bar to continue...
+Calibration parameters have been updated in NRAM.
+
+&gt;
+[ALT-BREAK Wakeup] WorkHorse Rio Grande Broadband ADCP Version 10.17
+Teledyne RD Instruments (c) 1996-2009
+All Rights Reserved.
+&gt;CR1
+[Parameters set to FACTORY defaults]
+&gt;TS?
+TS = 18/10/18,12:59:04 --- Time Set (yr/mon/day,hour:min:sec)
+&gt;PS0
+  Instrument S/N:  3205
+       Frequency:  1228800 HZ
+   Configuration:  4 BEAM, JANUS
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  DOWN
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients: (c3,c2,c1,offset) 0.00,0.00,0.01,-5.04
+
+Temp Sens Offset:  -0.11 degrees C
+
+    CPU Firmware:  10.17 [0]
+   Boot Code Ver:  Required:  1.13   Actual:  1.13
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   7
+
+Board Serial Number Data:
+   B0  00 00 00 E7 14 6E  09 REC727-1000-02A
+   4C  00 00 02 C6 FE 9D  09 DSP727-2001-02F
+   6B  00 00 03 01 7D BD  09 PIO727-3008-02A
+   DD  00 00 02 C9 0E FF  09 CPU727-2000-00H
+&gt;PS3
+Beam Width:   3.7 degrees
+
+Beam     Elevation     Azimuth
+  1         -69.96      269.91
+  2         -70.04       89.90
+  3         -69.96        0.09
+  4         -70.03      180.09
+
+Beam Directional Matrix (Down):
+  0.3428    0.0006    0.9394    0.2415  
+ -0.3415   -0.0006    0.9399    0.2424  
+ -0.0006   -0.3429    0.9394   -0.2415  
+  0.0006    0.3417    0.9399   -0.2424  
+
+Instrument Transformation Matrix (Down):    Q14:
+  1.4628   -1.4598    0.0012   -0.0035       23967  -23917      20     -58  
+ -0.0012    0.0035   -1.4623    1.4593         -20      58  -23958   23909  
+  0.2656    0.2665    0.2656    0.2665        4351    4367    4351    4367  
+  1.0312    1.0350   -1.0313   -1.0350       16895   16957  -16896  -16957  
+Beam Angle Corrections Are Loaded.
+&gt;AX
+
+------------------------------------------------------------------------------
+                    RDI Compass Error Estimating Algorithm
+
+
+   Press space bar to start taking data after the instrument is setup.
+
+
+
+Rotate the unit in a plane until all data samples are acquired...
+   rotate less than 5??/sec.  Press Q to quit.
+
+ N       NE       E        SE       S       SW        W        NW       N
+ ^                ^                 ^                 ^                 ^
+ *********************************************************&lt;**************
+Calculating compass performance ...                               
+
+
+                          &gt;&gt;&gt; Total error:   1.9?? &lt;&lt;&lt;
+
+Press D for details or any other key to continue...
+                                                               
+
+
+
+
+
+
+
+
+
+
+HEADING ERROR ESTIMATE FOR THE CURRENT COMPASS CALIBRATION:
+
+   OVERALL ERROR:
+      Peak Double + Single Cycle Error (should be &lt; 5??):  ?? 1.89??
+
+   DETAILED ERROR SUMMARY:
+      Single Cycle Error:                                 ?? 1.83??
+      Double Cycle Error:                                 ?? 0.24??
+      Largest Double plus Single Cycle Error:             ?? 2.07??
+      RMS of 3rd Order and Higher + Random Error:         ?? 0.45??
+
+      Orientation:    Down
+      Average Pitch:   0.26??         Pitch Standard Dev:    0.21??
+      Average Roll:    3.91??         Roll Standard Dev:     0.18??
+
+Successfully evaluated compass performance for the current compass calibration.
+
+
+Press C to display Percent Horizontal Field Conponents
+     Relative to Calibration or any other key to continue....
+
+
+   Percent Horizontal Field Component Relative to Calibration:
+           a0 + a1*cos?? + b1*sin?? + a2*cos2*?? + b2*sin2*??
+          a0 =                                             45.059%
+          a1 =                                             -0.590%
+          b1 =                                              1.313%
+          a2 =                                             -0.154%
+          b2 =                                              0.114%
+
+          OneCycleK =                                       0.016 tw_rad
+          Add MagVar to get "OneCycOffset" =              114.214??
+Press space bar to continue...
+
+&gt;
+[ALT-BREAK Wakeup] WorkHorse Rio Grande Broadband ADCP Version 10.17
+Teledyne RD Instruments (c) 1996-2009
+All Rights Reserved.
+&gt;CR1
+[Parameters set to FACTORY defaults]
+&gt;TS?
+TS = 18/10/18,13:01:02 --- Time Set (yr/mon/day,hour:min:sec)
+&gt;PS0
+  Instrument S/N:  3205
+       Frequency:  1228800 HZ
+   Configuration:  4 BEAM, JANUS
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  DOWN
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients: (c3,c2,c1,offset) 0.00,0.00,0.01,-5.04
+
+Temp Sens Offset:  -0.11 degrees C
+
+    CPU Firmware:  10.17 [0]
+   Boot Code Ver:  Required:  1.13   Actual:  1.13
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   7
+
+Board Serial Number Data:
+   B0  00 00 00 E7 14 6E  09 REC727-1000-02A
+   4C  00 00 02 C6 FE 9D  09 DSP727-2001-02F
+   6B  00 00 03 01 7D BD  09 PIO727-3008-02A
+   DD  00 00 02 C9 0E FF  09 CPU727-2000-00H
+&gt;PS3
+Beam Width:   3.7 degrees
+
+Beam     Elevation     Azimuth
+  1         -69.96      269.91
+  2         -70.04       89.90
+  3         -69.96        0.09
+  4         -70.03      180.09
+
+Beam Directional Matrix (Down):
+  0.3428    0.0006    0.9394    0.2415  
+ -0.3415   -0.0006    0.9399    0.2424  
+ -0.0006   -0.3429    0.9394   -0.2415  
+  0.0006    0.3417    0.9399   -0.2424  
+
+Instrument Transformation Matrix (Down):    Q14:
+  1.4628   -1.4598    0.0012   -0.0035       23967  -23917      20     -58  
+ -0.0012    0.0035   -1.4623    1.4593         -20      58  -23958   23909  
+  0.2656    0.2665    0.2656    0.2665        4351    4367    4351    4367  
+  1.0312    1.0350   -1.0313   -1.0350       16895   16957  -16896  -16957  
+Beam Angle Corrections Are Loaded.
+&gt;AF
+
+-------------------------------------------------------------------------------
+                         Field Calibration Procedure
+Choose calibration method:
+     a.  Remove hard iron error (single cycle) only.
+     b.  Remove hard and soft iron error (single + double cycle).
+     c.  Calibration for a single tilt orientation (single + double cycle).
+     d.  Help.
+     e.  Quit.
+c
+
+
+-------------------------------------------------------------------------------
+                         Field Calibration Procedure
+          Calibration for Constant Tilt Applications (e.g., Rivers)
+
+Select one:
+     a.  Start calibration procedure.
+     b.  Zero calibration coefficients (only constant tilt coefs).
+     c.  Display correction coefficients.
+     d.  Instructions.
+     e.  Quit.
+a
+
+
+------------------------------------------------------------------------------
+                    RDI Compass Error Estimating Algorithm
+
+
+   Press space bar to start taking data after the instrument is setup.
+
+
+
+Rotate the unit in a plane until all data samples are acquired...
+   rotate less than 5??/sec.  Press Q to quit.
+
+ N       NE       E        SE       S       SW        W        NW       N
+ ^                ^                 ^                 ^                 ^
+ ********************************************************&gt;***************
+Calculating compass performance ...                               
+
+
+                          &gt;&gt;&gt; Total error:   0.6?? &lt;&lt;&lt;
+
+Press D for details or any other key to continue...
+                                                               
+
+
+
+
+
+
+
+
+
+
+HEADING ERROR ESTIMATE FOR THE CURRENT COMPASS CALIBRATION:
+
+   OVERALL ERROR:
+      Peak Double + Single Cycle Error (should be &lt; 5??):  ?? 0.58??
+
+   DETAILED ERROR SUMMARY:
+      Single Cycle Error:                                 ?? 0.49??
+      Double Cycle Error:                                 ?? 0.25??
+      Largest Double plus Single Cycle Error:             ?? 0.74??
+      RMS of 3rd Order and Higher + Random Error:         ?? 0.43??
+
+      Orientation:    Down
+      Average Pitch:   0.36??         Pitch Standard Dev:    0.24??
+      Average Roll:    3.90??         Roll Standard Dev:     0.17??
+
+Successfully evaluated compass performance for the current compass calibration.
+
+
+Press C to display Percent Horizontal Field Conponents
+     Relative to Calibration or any other key to continue....
+
+
+   Percent Horizontal Field Component Relative to Calibration:
+           a0 + a1*cos?? + b1*sin?? + a2*cos2*?? + b2*sin2*??
+          a0 =                                             44.965%
+          a1 =                                              0.154%
+          b1 =                                             -0.349%
+          a2 =                                             -0.080%
+          b2 =                                             -0.181%
+
+          OneCycleK =                                       0.004 tw_rad
+          Add MagVar to get "OneCycOffset" =              293.834??
+Press space bar to continue...
+Calibration parameters have been updated in NRAM.
+
+&gt;
+[ALT-BREAK Wakeup] WorkHorse Rio Grande Broadband ADCP Version 10.17
+Teledyne RD Instruments (c) 1996-2009
+All Rights Reserved.
+&gt;CR1
+[Parameters set to FACTORY defaults]
+&gt;TS?
+TS = 18/10/18,12:57:05 --- Time Set (yr/mon/day,hour:min:sec)
+&gt;PS0
+  Instrument S/N:  3205
+       Frequency:  1228800 HZ
+   Configuration:  4 BEAM, JANUS
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  DOWN
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients: (c3,c2,c1,offset) 0.00,0.00,0.01,-5.04
+
+Temp Sens Offset:  -0.11 degrees C
+
+    CPU Firmware:  10.17 [0]
+   Boot Code Ver:  Required:  1.13   Actual:  1.13
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   7
+
+Board Serial Number Data:
+   B0  00 00 00 E7 14 6E  09 REC727-1000-02A
+   4C  00 00 02 C6 FE 9D  09 DSP727-2001-02F
+   6B  00 00 03 01 7D BD  09 PIO727-3008-02A
+   DD  00 00 02 C9 0E FF  09 CPU727-2000-00H
+&gt;PS3
+Beam Width:   3.7 degrees
+
+Beam     Elevation     Azimuth
+  1         -69.96      269.91
+  2         -70.04       89.90
+  3         -69.96        0.09
+  4         -70.03      180.09
+
+Beam Directional Matrix (Down):
+  0.3428    0.0006    0.9394    0.2415  
+ -0.3415   -0.0006    0.9399    0.2424  
+ -0.0006   -0.3429    0.9394   -0.2415  
+  0.0006    0.3417    0.9399   -0.2424  
+
+Instrument Transformation Matrix (Down):    Q14:
+  1.4628   -1.4598    0.0012   -0.0035       23967  -23917      20     -58  
+ -0.0012    0.0035   -1.4623    1.4593         -20      58  -23958   23909  
+  0.2656    0.2665    0.2656    0.2665        4351    4367    4351    4367  
+  1.0312    1.0350   -1.0313   -1.0350       16895   16957  -16896  -16957  
+Beam Angle Corrections Are Loaded.
+&gt;AF
+
+-------------------------------------------------------------------------------
+                         Field Calibration Procedure
+Choose calibration method:
+     a.  Remove hard iron error (single cycle) only.
+     b.  Remove hard and soft iron error (single + double cycle).
+     c.  Calibration for a single tilt orientation (single + double cycle).
+     d.  Help.
+     e.  Quit.
+c
+
+
+-------------------------------------------------------------------------------
+                         Field Calibration Procedure
+          Calibration for Constant Tilt Applications (e.g., Rivers)
+
+Select one:
+     a.  Start calibration procedure.
+     b.  Zero calibration coefficients (only constant tilt coefs).
+     c.  Display correction coefficients.
+     d.  Instructions.
+     e.  Quit.
+a
+
+
+------------------------------------------------------------------------------
+                    RDI Compass Error Estimating Algorithm
+
+
+   Press space bar to start taking data after the instrument is setup.
+
+
+
+Rotate the unit in a plane until all data samples are acquired...
+   rotate less than 5??/sec.  Press Q to quit.
+
+ N       NE       E        SE       S       SW        W        NW       N
+ ^                ^                 ^                 ^                 ^
+ ************************************************&gt;***********************
+Calculating compass performance ...                               
+
+
+                          &gt;&gt;&gt; Total error:   3.4?? &lt;&lt;&lt;
+
+Press D for details or any other key to continue...
+                                                               
+
+
+
+
+
+
+
+
+
+
+HEADING ERROR ESTIMATE FOR THE CURRENT COMPASS CALIBRATION:
+
+   OVERALL ERROR:
+      Peak Double + Single Cycle Error (should be &lt; 5??):  ?? 3.39??
+
+   DETAILED ERROR SUMMARY:
+      Single Cycle Error:                                 ?? 3.32??
+      Double Cycle Error:                                 ?? 0.34??
+      Largest Double plus Single Cycle Error:             ?? 3.66??
+      RMS of 3rd Order and Higher + Random Error:         ?? 0.46??
+
+      Orientation:    Down
+      Average Pitch:   0.16??         Pitch Standard Dev:    0.19??
+      Average Roll:    3.95??         Roll Standard Dev:     0.17??
+
+Successfully evaluated compass performance for the current compass calibration.
+
+
+Press C to display Percent Horizontal Field Conponents
+     Relative to Calibration or any other key to continue....
+
+
+   Percent Horizontal Field Component Relative to Calibration:
+           a0 + a1*cos?? + b1*sin?? + a2*cos2*?? + b2*sin2*??
+          a0 =                                             44.989%
+          a1 =                                             -1.143%
+          b1 =                                             -2.344%
+          a2 =                                              0.264%
+          b2 =                                              0.050%
+
+          OneCycleK =                                       0.029 tw_rad
+          Add MagVar to get "OneCycOffset" =              244.003??
+Press space bar to continue...
+Calibration parameters have been updated in NRAM.
+
+&gt;
+[ALT-BREAK Wakeup] WorkHorse Rio Grande Broadband ADCP Version 10.17
+Teledyne RD Instruments (c) 1996-2009
+All Rights Reserved.
+&gt;CR1
+[Parameters set to FACTORY defaults]
+&gt;TS?
+TS = 18/10/18,12:59:04 --- Time Set (yr/mon/day,hour:min:sec)
+&gt;PS0
+  Instrument S/N:  3205
+       Frequency:  1228800 HZ
+   Configuration:  4 BEAM, JANUS
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  DOWN
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients: (c3,c2,c1,offset) 0.00,0.00,0.01,-5.04
+
+Temp Sens Offset:  -0.11 degrees C
+
+    CPU Firmware:  10.17 [0]
+   Boot Code Ver:  Required:  1.13   Actual:  1.13
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   7
+
+Board Serial Number Data:
+   B0  00 00 00 E7 14 6E  09 REC727-1000-02A
+   4C  00 00 02 C6 FE 9D  09 DSP727-2001-02F
+   6B  00 00 03 01 7D BD  09 PIO727-3008-02A
+   DD  00 00 02 C9 0E FF  09 CPU727-2000-00H
+&gt;PS3
+Beam Width:   3.7 degrees
+
+Beam     Elevation     Azimuth
+  1         -69.96      269.91
+  2         -70.04       89.90
+  3         -69.96        0.09
+  4         -70.03      180.09
+
+Beam Directional Matrix (Down):
+  0.3428    0.0006    0.9394    0.2415  
+ -0.3415   -0.0006    0.9399    0.2424  
+ -0.0006   -0.3429    0.9394   -0.2415  
+  0.0006    0.3417    0.9399   -0.2424  
+
+Instrument Transformation Matrix (Down):    Q14:
+  1.4628   -1.4598    0.0012   -0.0035       23967  -23917      20     -58  
+ -0.0012    0.0035   -1.4623    1.4593         -20      58  -23958   23909  
+  0.2656    0.2665    0.2656    0.2665        4351    4367    4351    4367  
+  1.0312    1.0350   -1.0313   -1.0350       16895   16957  -16896  -16957  
+Beam Angle Corrections Are Loaded.
+&gt;AX
+
+------------------------------------------------------------------------------
+                    RDI Compass Error Estimating Algorithm
+
+
+   Press space bar to start taking data after the instrument is setup.
+
+
+
+Rotate the unit in a plane until all data samples are acquired...
+   rotate less than 5??/sec.  Press Q to quit.
+
+ N       NE       E        SE       S       SW        W        NW       N
+ ^                ^                 ^                 ^                 ^
+ *********************************************************&lt;**************
+Calculating compass performance ...                               
+
+
+                          &gt;&gt;&gt; Total error:   1.9?? &lt;&lt;&lt;
+
+Press D for details or any other key to continue...
+                                                               
+
+
+
+
+
+
+
+
+
+
+HEADING ERROR ESTIMATE FOR THE CURRENT COMPASS CALIBRATION:
+
+   OVERALL ERROR:
+      Peak Double + Single Cycle Error (should be &lt; 5??):  ?? 1.89??
+
+   DETAILED ERROR SUMMARY:
+      Single Cycle Error:                                 ?? 1.83??
+      Double Cycle Error:                                 ?? 0.24??
+      Largest Double plus Single Cycle Error:             ?? 2.07??
+      RMS of 3rd Order and Higher + Random Error:         ?? 0.45??
+
+      Orientation:    Down
+      Average Pitch:   0.26??         Pitch Standard Dev:    0.21??
+      Average Roll:    3.91??         Roll Standard Dev:     0.18??
+
+Successfully evaluated compass performance for the current compass calibration.
+
+
+Press C to display Percent Horizontal Field Conponents
+     Relative to Calibration or any other key to continue....
+
+
+   Percent Horizontal Field Component Relative to Calibration:
+           a0 + a1*cos?? + b1*sin?? + a2*cos2*?? + b2*sin2*??
+          a0 =                                             45.059%
+          a1 =                                             -0.590%
+          b1 =                                              1.313%
+          a2 =                                             -0.154%
+          b2 =                                              0.114%
+
+          OneCycleK =                                       0.016 tw_rad
+          Add MagVar to get "OneCycOffset" =              114.214??
+Press space bar to continue...
+
+&gt;
+[ALT-BREAK Wakeup] WorkHorse Rio Grande Broadband ADCP Version 10.17
+Teledyne RD Instruments (c) 1996-2009
+All Rights Reserved.
+&gt;CR1
+[Parameters set to FACTORY defaults]
+&gt;TS?
+TS = 18/10/18,12:57:05 --- Time Set (yr/mon/day,hour:min:sec)
+&gt;PS0
+  Instrument S/N:  3205
+       Frequency:  1228800 HZ
+   Configuration:  4 BEAM, JANUS
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  DOWN
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients: (c3,c2,c1,offset) 0.00,0.00,0.01,-5.04
+
+Temp Sens Offset:  -0.11 degrees C
+
+    CPU Firmware:  10.17 [0]
+   Boot Code Ver:  Required:  1.13   Actual:  1.13
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   7
+
+Board Serial Number Data:
+   B0  00 00 00 E7 14 6E  09 REC727-1000-02A
+   4C  00 00 02 C6 FE 9D  09 DSP727-2001-02F
+   6B  00 00 03 01 7D BD  09 PIO727-3008-02A
+   DD  00 00 02 C9 0E FF  09 CPU727-2000-00H
+&gt;PS3
+Beam Width:   3.7 degrees
+
+Beam     Elevation     Azimuth
+  1         -69.96      269.91
+  2         -70.04       89.90
+  3         -69.96        0.09
+  4         -70.03      180.09
+
+Beam Directional Matrix (Down):
+  0.3428    0.0006    0.9394    0.2415  
+ -0.3415   -0.0006    0.9399    0.2424  
+ -0.0006   -0.3429    0.9394   -0.2415  
+  0.0006    0.3417    0.9399   -0.2424  
+
+Instrument Transformation Matrix (Down):    Q14:
+  1.4628   -1.4598    0.0012   -0.0035       23967  -23917      20     -58  
+ -0.0012    0.0035   -1.4623    1.4593         -20      58  -23958   23909  
+  0.2656    0.2665    0.2656    0.2665        4351    4367    4351    4367  
+  1.0312    1.0350   -1.0313   -1.0350       16895   16957  -16896  -16957  
+Beam Angle Corrections Are Loaded.
+&gt;AF
+
+-------------------------------------------------------------------------------
+                         Field Calibration Procedure
+Choose calibration method:
+     a.  Remove hard iron error (single cycle) only.
+     b.  Remove hard and soft iron error (single + double cycle).
+     c.  Calibration for a single tilt orientation (single + double cycle).
+     d.  Help.
+     e.  Quit.
+c
+
+
+-------------------------------------------------------------------------------
+                         Field Calibration Procedure
+          Calibration for Constant Tilt Applications (e.g., Rivers)
+
+Select one:
+     a.  Start calibration procedure.
+     b.  Zero calibration coefficients (only constant tilt coefs).
+     c.  Display correction coefficients.
+     d.  Instructions.
+     e.  Quit.
+a
+
+
+------------------------------------------------------------------------------
+                    RDI Compass Error Estimating Algorithm
+
+
+   Press space bar to start taking data after the instrument is setup.
+
+
+
+Rotate the unit in a plane until all data samples are acquired...
+   rotate less than 5??/sec.  Press Q to quit.
+
+ N       NE       E        SE       S       SW        W        NW       N
+ ^                ^                 ^                 ^                 ^
+ ************************************************&gt;***********************
+Calculating compass performance ...                               
+
+
+                          &gt;&gt;&gt; Total error:   3.4?? &lt;&lt;&lt;
+
+Press D for details or any other key to continue...
+                                                               
+
+
+
+
+
+
+
+
+
+
+HEADING ERROR ESTIMATE FOR THE CURRENT COMPASS CALIBRATION:
+
+   OVERALL ERROR:
+      Peak Double + Single Cycle Error (should be &lt; 5??):  ?? 3.39??
+
+   DETAILED ERROR SUMMARY:
+      Single Cycle Error:                                 ?? 3.32??
+      Double Cycle Error:                                 ?? 0.34??
+      Largest Double plus Single Cycle Error:             ?? 3.66??
+      RMS of 3rd Order and Higher + Random Error:         ?? 0.46??
+
+      Orientation:    Down
+      Average Pitch:   0.16??         Pitch Standard Dev:    0.19??
+      Average Roll:    3.95??         Roll Standard Dev:     0.17??
+
+Successfully evaluated compass performance for the current compass calibration.
+
+
+Press C to display Percent Horizontal Field Conponents
+     Relative to Calibration or any other key to continue....
+
+
+   Percent Horizontal Field Component Relative to Calibration:
+           a0 + a1*cos?? + b1*sin?? + a2*cos2*?? + b2*sin2*??
+          a0 =                                             44.989%
+          a1 =                                             -1.143%
+          b1 =                                             -2.344%
+          a2 =                                              0.264%
+          b2 =                                              0.050%
+
+          OneCycleK =                                       0.029 tw_rad
+          Add MagVar to get "OneCycOffset" =              244.003??
+Press space bar to continue...
+Calibration parameters have been updated in NRAM.
+
+&gt;
+[ALT-BREAK Wakeup] WorkHorse Rio Grande Broadband ADCP Version 10.17
+Teledyne RD Instruments (c) 1996-2009
+All Rights Reserved.
+&gt;CR1
+[Parameters set to FACTORY defaults]
+&gt;TS?
+TS = 18/10/18,12:59:04 --- Time Set (yr/mon/day,hour:min:sec)
+&gt;PS0
+  Instrument S/N:  3205
+       Frequency:  1228800 HZ
+   Configuration:  4 BEAM, JANUS
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  DOWN
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients: (c3,c2,c1,offset) 0.00,0.00,0.01,-5.04
+
+Temp Sens Offset:  -0.11 degrees C
+
+    CPU Firmware:  10.17 [0]
+   Boot Code Ver:  Required:  1.13   Actual:  1.13
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   7
+
+Board Serial Number Data:
+   B0  00 00 00 E7 14 6E  09 REC727-1000-02A
+   4C  00 00 02 C6 FE 9D  09 DSP727-2001-02F
+   6B  00 00 03 01 7D BD  09 PIO727-3008-02A
+   DD  00 00 02 C9 0E FF  09 CPU727-2000-00H
+&gt;PS3
+Beam Width:   3.7 degrees
+
+Beam     Elevation     Azimuth
+  1         -69.96      269.91
+  2         -70.04       89.90
+  3         -69.96        0.09
+  4         -70.03      180.09
+
+Beam Directional Matrix (Down):
+  0.3428    0.0006    0.9394    0.2415  
+ -0.3415   -0.0006    0.9399    0.2424  
+ -0.0006   -0.3429    0.9394   -0.2415  
+  0.0006    0.3417    0.9399   -0.2424  
+
+Instrument Transformation Matrix (Down):    Q14:
+  1.4628   -1.4598    0.0012   -0.0035       23967  -23917      20     -58  
+ -0.0012    0.0035   -1.4623    1.4593         -20      58  -23958   23909  
+  0.2656    0.2665    0.2656    0.2665        4351    4367    4351    4367  
+  1.0312    1.0350   -1.0313   -1.0350       16895   16957  -16896  -16957  
+Beam Angle Corrections Are Loaded.
+&gt;AX
+
+------------------------------------------------------------------------------
+                    RDI Compass Error Estimating Algorithm
+
+
+   Press space bar to start taking data after the instrument is setup.
+
+
+
+Rotate the unit in a plane until all data samples are acquired...
+   rotate less than 5??/sec.  Press Q to quit.
+
+ N       NE       E        SE       S       SW        W        NW       N
+ ^                ^                 ^                 ^                 ^
+ *********************************************************&lt;**************
+Calculating compass performance ...                               
+
+
+                          &gt;&gt;&gt; Total error:   1.9?? &lt;&lt;&lt;
+
+Press D for details or any other key to continue...
+                                                               
+
+
+
+
+
+
+
+
+
+
+HEADING ERROR ESTIMATE FOR THE CURRENT COMPASS CALIBRATION:
+
+   OVERALL ERROR:
+      Peak Double + Single Cycle Error (should be &lt; 5??):  ?? 1.89??
+
+   DETAILED ERROR SUMMARY:
+      Single Cycle Error:                                 ?? 1.83??
+      Double Cycle Error:                                 ?? 0.24??
+      Largest Double plus Single Cycle Error:             ?? 2.07??
+      RMS of 3rd Order and Higher + Random Error:         ?? 0.45??
+
+      Orientation:    Down
+      Average Pitch:   0.26??         Pitch Standard Dev:    0.21??
+      Average Roll:    3.91??         Roll Standard Dev:     0.18??
+
+Successfully evaluated compass performance for the current compass calibration.
+
+
+Press C to display Percent Horizontal Field Conponents
+     Relative to Calibration or any other key to continue....
+
+
+   Percent Horizontal Field Component Relative to Calibration:
+           a0 + a1*cos?? + b1*sin?? + a2*cos2*?? + b2*sin2*??
+          a0 =                                             45.059%
+          a1 =                                             -0.590%
+          b1 =                                              1.313%
+          a2 =                                             -0.154%
+          b2 =                                              0.114%
+
+          OneCycleK =                                       0.016 tw_rad
+          Add MagVar to get "OneCycOffset" =              114.214??
+Press space bar to continue...
+
+&gt;
+[ALT-BREAK Wakeup] WorkHorse Rio Grande Broadband ADCP Version 10.17
+Teledyne RD Instruments (c) 1996-2009
+All Rights Reserved.
+&gt;CR1
+[Parameters set to FACTORY defaults]
+&gt;TS?
+TS = 18/10/18,13:01:02 --- Time Set (yr/mon/day,hour:min:sec)
+&gt;PS0
+  Instrument S/N:  3205
+       Frequency:  1228800 HZ
+   Configuration:  4 BEAM, JANUS
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  DOWN
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients: (c3,c2,c1,offset) 0.00,0.00,0.01,-5.04
+
+Temp Sens Offset:  -0.11 degrees C
+
+    CPU Firmware:  10.17 [0]
+   Boot Code Ver:  Required:  1.13   Actual:  1.13
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   7
+
+Board Serial Number Data:
+   B0  00 00 00 E7 14 6E  09 REC727-1000-02A
+   4C  00 00 02 C6 FE 9D  09 DSP727-2001-02F
+   6B  00 00 03 01 7D BD  09 PIO727-3008-02A
+   DD  00 00 02 C9 0E FF  09 CPU727-2000-00H
+&gt;PS3
+Beam Width:   3.7 degrees
+
+Beam     Elevation     Azimuth
+  1         -69.96      269.91
+  2         -70.04       89.90
+  3         -69.96        0.09
+  4         -70.03      180.09
+
+Beam Directional Matrix (Down):
+  0.3428    0.0006    0.9394    0.2415  
+ -0.3415   -0.0006    0.9399    0.2424  
+ -0.0006   -0.3429    0.9394   -0.2415  
+  0.0006    0.3417    0.9399   -0.2424  
+
+Instrument Transformation Matrix (Down):    Q14:
+  1.4628   -1.4598    0.0012   -0.0035       23967  -23917      20     -58  
+ -0.0012    0.0035   -1.4623    1.4593         -20      58  -23958   23909  
+  0.2656    0.2665    0.2656    0.2665        4351    4367    4351    4367  
+  1.0312    1.0350   -1.0313   -1.0350       16895   16957  -16896  -16957  
+Beam Angle Corrections Are Loaded.
+&gt;AF
+
+-------------------------------------------------------------------------------
+                         Field Calibration Procedure
+Choose calibration method:
+     a.  Remove hard iron error (single cycle) only.
+     b.  Remove hard and soft iron error (single + double cycle).
+     c.  Calibration for a single tilt orientation (single + double cycle).
+     d.  Help.
+     e.  Quit.
+c
+
+
+-------------------------------------------------------------------------------
+                         Field Calibration Procedure
+          Calibration for Constant Tilt Applications (e.g., Rivers)
+
+Select one:
+     a.  Start calibration procedure.
+     b.  Zero calibration coefficients (only constant tilt coefs).
+     c.  Display correction coefficients.
+     d.  Instructions.
+     e.  Quit.
+a
+
+
+------------------------------------------------------------------------------
+                    RDI Compass Error Estimating Algorithm
+
+
+   Press space bar to start taking data after the instrument is setup.
+
+
+
+Rotate the unit in a plane until all data samples are acquired...
+   rotate less than 5??/sec.  Press Q to quit.
+
+ N       NE       E        SE       S       SW        W        NW       N
+ ^                ^                 ^                 ^                 ^
+ ********************************************************&gt;***************
+Calculating compass performance ...                               
+
+
+                          &gt;&gt;&gt; Total error:   0.6?? &lt;&lt;&lt;
+
+Press D for details or any other key to continue...
+                                                               
+
+
+
+
+
+
+
+
+
+
+HEADING ERROR ESTIMATE FOR THE CURRENT COMPASS CALIBRATION:
+
+   OVERALL ERROR:
+      Peak Double + Single Cycle Error (should be &lt; 5??):  ?? 0.58??
+
+   DETAILED ERROR SUMMARY:
+      Single Cycle Error:                                 ?? 0.49??
+      Double Cycle Error:                                 ?? 0.25??
+      Largest Double plus Single Cycle Error:             ?? 0.74??
+      RMS of 3rd Order and Higher + Random Error:         ?? 0.43??
+
+      Orientation:    Down
+      Average Pitch:   0.36??         Pitch Standard Dev:    0.24??
+      Average Roll:    3.90??         Roll Standard Dev:     0.17??
+
+Successfully evaluated compass performance for the current compass calibration.
+
+
+Press C to display Percent Horizontal Field Conponents
+     Relative to Calibration or any other key to continue....
+
+
+   Percent Horizontal Field Component Relative to Calibration:
+           a0 + a1*cos?? + b1*sin?? + a2*cos2*?? + b2*sin2*??
+          a0 =                                             44.965%
+          a1 =                                              0.154%
+          b1 =                                             -0.349%
+          a2 =                                             -0.080%
+          b2 =                                             -0.181%
+
+          OneCycleK =                                       0.004 tw_rad
+          Add MagVar to get "OneCycOffset" =              293.834??
+Press space bar to continue...
+Calibration parameters have been updated in NRAM.
+
+&gt;
+[ALT-BREAK Wakeup] WorkHorse Rio Grande Broadband ADCP Version 10.17
+Teledyne RD Instruments (c) 1996-2009
+All Rights Reserved.
+&gt;CR1
+[Parameters set to FACTORY defaults]
+&gt;TS?
+TS = 18/10/18,13:02:37 --- Time Set (yr/mon/day,hour:min:sec)
+&gt;PS0
+  Instrument S/N:  3205
+       Frequency:  1228800 HZ
+   Configuration:  4 BEAM, JANUS
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  DOWN
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients: (c3,c2,c1,offset) 0.00,0.00,0.01,-5.04
+
+Temp Sens Offset:  -0.11 degrees C
+
+    CPU Firmware:  10.17 [0]
+   Boot Code Ver:  Required:  1.13   Actual:  1.13
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   7
+
+Board Serial Number Data:
+   B0  00 00 00 E7 14 6E  09 REC727-1000-02A
+   4C  00 00 02 C6 FE 9D  09 DSP727-2001-02F
+   6B  00 00 03 01 7D BD  09 PIO727-3008-02A
+   DD  00 00 02 C9 0E FF  09 CPU727-2000-00H
+&gt;PS3
+Beam Width:   3.7 degrees
+
+Beam     Elevation     Azimuth
+  1         -69.96      269.91
+  2         -70.04       89.90
+  3         -69.96        0.09
+  4         -70.03      180.09
+
+Beam Directional Matrix (Down):
+  0.3428    0.0006    0.9394    0.2415  
+ -0.3415   -0.0006    0.9399    0.2424  
+ -0.0006   -0.3429    0.9394   -0.2415  
+  0.0006    0.3417    0.9399   -0.2424  
+
+Instrument Transformation Matrix (Down):    Q14:
+  1.4628   -1.4598    0.0012   -0.0035       23967  -23917      20     -58  
+ -0.0012    0.0035   -1.4623    1.4593         -20      58  -23958   23909  
+  0.2656    0.2665    0.2656    0.2665        4351    4367    4351    4367  
+  1.0312    1.0350   -1.0313   -1.0350       16895   16957  -16896  -16957  
+Beam Angle Corrections Are Loaded.
+&gt;AX
+
+------------------------------------------------------------------------------
+                    RDI Compass Error Estimating Algorithm
+
+
+   Press space bar to start taking data after the instrument is setup.
+
+
+
+Rotate the unit in a plane until all data samples are acquired...
+   rotate less than 5??/sec.  Press Q to quit.
+
+ N       NE       E        SE       S       SW        W        NW       N
+ ^                ^                 ^                 ^                 ^
+ *************************&gt;**********************************************
+Calculating compass performance ...                               
+
+
+                          &gt;&gt;&gt; Total error:   0.3?? &lt;&lt;&lt;
+
+Press D for details or any other key to continue...
+                                                               
+
+
+
+
+
+
+
+
+
+
+HEADING ERROR ESTIMATE FOR THE CURRENT COMPASS CALIBRATION:
+
+   OVERALL ERROR:
+      Peak Double + Single Cycle Error (should be &lt; 5??):  ?? 0.31??
+
+   DETAILED ERROR SUMMARY:
+      Single Cycle Error:                                 ?? 0.28??
+      Double Cycle Error:                                 ?? 0.09??
+      Largest Double plus Single Cycle Error:             ?? 0.37??
+      RMS of 3rd Order and Higher + Random Error:         ?? 0.55??
+
+      Orientation:    Down
+      Average Pitch:   0.36??         Pitch Standard Dev:    0.28??
+      Average Roll:    4.01??         Roll Standard Dev:     0.19??
+
+Successfully evaluated compass performance for the current compass calibration.
+
+
+Press C to display Percent Horizontal Field Conponents
+     Relative to Calibration or any other key to continue....
+
+
+   Percent Horizontal Field Component Relative to Calibration:
+           a0 + a1*cos?? + b1*sin?? + a2*cos2*?? + b2*sin2*??
+          a0 =                                             45.036%
+          a1 =                                              0.159%
+          b1 =                                              0.148%
+          a2 =                                             -0.055%
+          b2 =                                             -0.050%
+
+          OneCycleK =                                       0.002 tw_rad
+          Add MagVar to get "OneCycOffset" =               42.865??
+Press space bar to continue...
+
+&gt;</Text>
+                  </CompassCalibration>
+                  <MovingBedTest>
+                    <Filename type="char">03290500_701_000_LBT.PD0</Filename>
+                    <TestType type="char">Loop</TestType>
+                    <Duration type="double" unitsCode="sec">183.11</Duration>
+                    <PercentInvalidBT type="double">0</PercentInvalidBT>
+                    <HeadingDifference type="double" unitsCode="deg">0.65871</HeadingDifference>
+                    <MeanFlowDirection type="double" unitsCode="deg">22.523</MeanFlowDirection>
+                    <MovingBedDirection type="double" unitsCode="deg">147.0664</MovingBedDirection>
+                    <DistanceUpstream type="double" unitsCode="m">1.0361</DistanceUpstream>
+                    <MeanFlowSpeed type="double" unitsCode="mps">0.68491</MeanFlowSpeed>
+                    <MovingBedSpeed type="double" unitsCode="mps">0.0056585</MovingBedSpeed>
+                    <PercentMovingBed type="double">0.81941</PercentMovingBed>
+                    <TestQuality type="char">Good</TestQuality>
+                    <MovingBedPresent type="char">No</MovingBedPresent>
+                    <UseToCorrect type="char">No</UseToCorrect>
+                    <UserValid type="char">Yes</UserValid>
+                    <Message type="char">
+ Moving-bed velocity &lt; Minimum moving-bed velocity criteria -- No correction recommended</Message>
+                  </MovingBedTest>
+                  <TemperatureCheck>
+                    <VerificationTemperature type="double" unitsCode="degC">18.2</VerificationTemperature>
+                    <InstrumentTemperature type="double" unitsCode="degC">18.5</InstrumentTemperature>
+                    <TemperatureChange type="double" unitsCode="degC">0.18</TemperatureChange>
+                  </TemperatureCheck>
+                  <QRev_Message type="char">GGA-All: Int. Q for consecutive invalid ensembles exceeds 5%;
+GGA-All: Int. Q for invalid ensembles in a transect exceeds 25%;
+GGA-DGPS: Int. Q for consecutive invalid ensembles exceeds 5%;
+GGA-DGPS: Int. Q for invalid ensembles in a transect exceeds 25%;
+</QRev_Message>
+                </QA>
+                <Instrument>
+                  <Manufacturer type="char">TRDI</Manufacturer>
+                  <Model type="char">Rio Grande</Model>
+                  <SerialNumber type="char">3205</SerialNumber>
+                  <FirmwareVersion type="char">10.17</FirmwareVersion>
+                  <Frequency type="char" unitsCode="kHz">1200</Frequency>
+                  <BeamAngle type="double" unitsCode="deg">20</BeamAngle>
+                  <BlankingDistance type="double" unitsCode="m">0.25</BlankingDistance>
+                  <InstrumentConfiguration type="char">Fixed     CR1       CF11110   BA30      BC220     BE100     BP1       BR2       ES0       EX10111   TE00000000TP000020  WA50      WE1500    WF50      WM1       WN50      WP1       WS50      WV170     WZ005     &amp;R20      Wizard    TP000009  BX299     BM5       WF25      WM12      WV175     WN58      WK25      WO3, 7    WS25      User      </InstrumentConfiguration>
+                </Instrument>
+                <Processing>
+                  <SoftwareVersion type="char">QRev - 3.43</SoftwareVersion>
+                  <Type type="char">QRev</Type>
+                  <AreaComputationMethod type="char">Parallel</AreaComputationMethod>
+                  <Navigation>
+                    <Reference type="char">BT</Reference>
+                    <CompositeTrack type="char">Off</CompositeTrack>
+                    <MagneticVariation type="double" unitsCode="deg">-5.43</MagneticVariation>
+                    <BeamFilter type="char">Auto</BeamFilter>
+                    <ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+                    <VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+                    <OtherFilter type="char">Off</OtherFilter>
+                    <InterpolationType type="char">Linear</InterpolationType>
+                  </Navigation>
+                  <Depth>
+                    <Reference type="char">BT</Reference>
+                    <CompositeDepth type="char">On</CompositeDepth>
+                    <ADCPDepth type="double" unitsCode="m">0.24384</ADCPDepth>
+                    <ADCPDepthConsistent type="boolean">Yes</ADCPDepthConsistent>
+                    <FilterType type="char">Smooth</FilterType>
+                    <InterpolationType type="char">Linear</InterpolationType>
+                    <AveragingMethod type="char">IDW</AveragingMethod>
+                    <ValidDataMethod type="char">QRev</ValidDataMethod>
+                  </Depth>
+                  <WaterTrack>
+                    <ExcludedDistance type="double" unitsCode="m">0</ExcludedDistance>
+                    <BeamFilter type="char">Auto</BeamFilter>
+                    <ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+                    <VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+                    <OtherFilter type="char">Off</OtherFilter>
+                    <SNRFilter type="char">Off</SNRFilter>
+                    <CellInterpolation type="char">TRDI</CellInterpolation>
+                    <EnsembleInterpolation type="char">Linear</EnsembleInterpolation>
+                  </WaterTrack>
+                  <Edge>
+                    <RectangularEdgeMethod type="char">Fixed</RectangularEdgeMethod>
+                    <VelocityMethod type="char">MeasMag</VelocityMethod>
+                    <LeftType type="char">Triangular</LeftType>
+                    <LeftEdgeCoefficient type="char">0.3535</LeftEdgeCoefficient>
+                    <RightType type="char">Triangular</RightType>
+                    <RightEdgeCoefficient type="char">0.3535</RightEdgeCoefficient>
+                  </Edge>
+                  <Extrapolation>
+                    <TopMethod type="char">Power</TopMethod>
+                    <BottomMethod type="char">Power</BottomMethod>
+                    <Exponent type="double">0.1667</Exponent>
+                  </Extrapolation>
+                  <Sensor>
+                    <TemperatureSource type="char">internal</TemperatureSource>
+                    <Salinity type="char" unitsCode="ppt">ADCP</Salinity>
+                    <SpeedofSound type="char" unitsCode="mps">ADCP</SpeedofSound>
+                  </Sensor>
+                </Processing>
+                <Transect>
+                  <Filename type="char">03290500_701_000.PD0</Filename>
+                  <StartDateTime type="char">10/18/2018 13:11:01</StartDateTime>
+                  <EndDateTime type="char">10/18/2018 13:13:55</EndDateTime>
+                  <Discharge>
+                    <Top type="double" unitsCode="cms">38.9202</Top>
+                    <Middle type="double" unitsCode="cms">287.7194</Middle>
+                    <Bottom type="double" unitsCode="cms">38.5953</Bottom>
+                    <Left type="double" unitsCode="cms">2.969</Left>
+                    <Right type="double" unitsCode="cms">6.6378</Right>
+                    <Total type="double" unitsCode="cms">374.8417</Total>
+                    <MovingBedPercentCorrection type="double">0</MovingBedPercentCorrection>
+                  </Discharge>
+                  <Edge>
+                    <StartEdge type="char">Left</StartEdge>
+                    <RectangularEdgeMethod type="char">Fixed</RectangularEdgeMethod>
+                    <VelocityMethod type="char">MeasMag</VelocityMethod>
+                    <LeftType type="char">Triangular</LeftType>
+                    <LeftEdgeCoefficient type="double">0.3535</LeftEdgeCoefficient>
+                    <LeftDistance type="double" unitsCode="m">9.144</LeftDistance>
+                    <LeftNumberEnsembles type="double">10</LeftNumberEnsembles>
+                    <RightType type="char">Triangular</RightType>
+                    <RightEdgeCoefficient type="double">0.3535</RightEdgeCoefficient>
+                    <RightDistance type="double" unitsCode="m">8.2296</RightDistance>
+                    <RightNumberEnsembles type="double">10</RightNumberEnsembles>
+                  </Edge>
+                  <Sensor>
+                    <TemperatureSource type="char">internal</TemperatureSource>
+                    <MeanTemperature type="double" unitsCode="degC">18.4989</MeanTemperature>
+                    <MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+                    <SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+                    <SpeedofSound type="double" unitsCode="mps">1477</SpeedofSound>
+                  </Sensor>
+                  <Other>
+                    <Duration type="double" unitsCode="sec">173.8</Duration>
+                    <Width type="double" unitsCode="m">91.0874</Width>
+                    <Area type="double" unitsCode="sqm">622.6965</Area>
+                    <MeanBoatSpeed type="double" unitsCode="mps">0.46985</MeanBoatSpeed>
+                    <QoverA type="double" unitsCode="mps">0.60197</QoverA>
+                    <CourseMadeGood type="double" unitsCode="deg">109.9288</CourseMadeGood>
+                    <MeanFlowDirection type="double" unitsCode="deg">23.0258</MeanFlowDirection>
+                    <NumberofEnsembles type="double">270</NumberofEnsembles>
+                    <PercentInvalidBins type="double">0.016841</PercentInvalidBins>
+                    <PercentInvalidEns type="double">0</PercentInvalidEns>
+                    <MeanPitch type="double" unitsCode="deg">-0.06754</MeanPitch>
+                    <MeanRoll type="double" unitsCode="deg">3.3884</MeanRoll>
+                    <PitchStdDev type="double" unitsCode="deg">0.34487</PitchStdDev>
+                    <RollStdDev type="double" unitsCode="deg">0.23722</RollStdDev>
+                    <ADCPDepth type="double" unitsCode="m">0.24384</ADCPDepth>
+                  </Other>
+                </Transect>
+                <Transect>
+                  <Filename type="char">03290500_701_001.PD0</Filename>
+                  <StartDateTime type="char">10/18/2018 13:14:02</StartDateTime>
+                  <EndDateTime type="char">10/18/2018 13:17:21</EndDateTime>
+                  <Discharge>
+                    <Top type="double" unitsCode="cms">38.288</Top>
+                    <Middle type="double" unitsCode="cms">283.9914</Middle>
+                    <Bottom type="double" unitsCode="cms">36.2331</Bottom>
+                    <Left type="double" unitsCode="cms">-0.29277</Left>
+                    <Right type="double" unitsCode="cms">10.0148</Right>
+                    <Total type="double" unitsCode="cms">368.2346</Total>
+                    <MovingBedPercentCorrection type="double">0</MovingBedPercentCorrection>
+                  </Discharge>
+                  <Edge>
+                    <StartEdge type="char">Right</StartEdge>
+                    <RectangularEdgeMethod type="char">Fixed</RectangularEdgeMethod>
+                    <VelocityMethod type="char">MeasMag</VelocityMethod>
+                    <LeftType type="char">Triangular</LeftType>
+                    <LeftEdgeCoefficient type="double">0.3535</LeftEdgeCoefficient>
+                    <LeftDistance type="double" unitsCode="m">4.8768</LeftDistance>
+                    <LeftNumberEnsembles type="double">10</LeftNumberEnsembles>
+                    <RightType type="char">Triangular</RightType>
+                    <RightEdgeCoefficient type="double">0.3535</RightEdgeCoefficient>
+                    <RightDistance type="double" unitsCode="m">8.2296</RightDistance>
+                    <RightNumberEnsembles type="double">10</RightNumberEnsembles>
+                  </Edge>
+                  <Sensor>
+                    <TemperatureSource type="char">internal</TemperatureSource>
+                    <MeanTemperature type="double" unitsCode="degC">18.5055</MeanTemperature>
+                    <MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+                    <SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+                    <SpeedofSound type="double" unitsCode="mps">1477</SpeedofSound>
+                  </Sensor>
+                  <Other>
+                    <Duration type="double" unitsCode="sec">199.52</Duration>
+                    <Width type="double" unitsCode="m">89.5778</Width>
+                    <Area type="double" unitsCode="sqm">623.4315</Area>
+                    <MeanBoatSpeed type="double" unitsCode="mps">0.39639</MeanBoatSpeed>
+                    <QoverA type="double" unitsCode="mps">0.59066</QoverA>
+                    <CourseMadeGood type="double" unitsCode="deg">289.4384</CourseMadeGood>
+                    <MeanFlowDirection type="double" unitsCode="deg">21.2978</MeanFlowDirection>
+                    <NumberofEnsembles type="double">311</NumberofEnsembles>
+                    <PercentInvalidBins type="double">0.39947</PercentInvalidBins>
+                    <PercentInvalidEns type="double">0</PercentInvalidEns>
+                    <MeanPitch type="double" unitsCode="deg">0.15657</MeanPitch>
+                    <MeanRoll type="double" unitsCode="deg">3.1923</MeanRoll>
+                    <PitchStdDev type="double" unitsCode="deg">0.34316</PitchStdDev>
+                    <RollStdDev type="double" unitsCode="deg">0.26999</RollStdDev>
+                    <ADCPDepth type="double" unitsCode="m">0.24384</ADCPDepth>
+                  </Other>
+                </Transect>
+                <Transect>
+                  <Filename type="char">03290500_701_002.PD0</Filename>
+                  <StartDateTime type="char">10/18/2018 13:17:33</StartDateTime>
+                  <EndDateTime type="char">10/18/2018 13:21:27</EndDateTime>
+                  <Discharge>
+                    <Top type="double" unitsCode="cms">40.5375</Top>
+                    <Middle type="double" unitsCode="cms">287.4526</Middle>
+                    <Bottom type="double" unitsCode="cms">40.375</Bottom>
+                    <Left type="double" unitsCode="cms">-0.19629</Left>
+                    <Right type="double" unitsCode="cms">4.1149</Right>
+                    <Total type="double" unitsCode="cms">372.2837</Total>
+                    <MovingBedPercentCorrection type="double">0</MovingBedPercentCorrection>
+                  </Discharge>
+                  <Edge>
+                    <StartEdge type="char">Left</StartEdge>
+                    <RectangularEdgeMethod type="char">Fixed</RectangularEdgeMethod>
+                    <VelocityMethod type="char">MeasMag</VelocityMethod>
+                    <LeftType type="char">Triangular</LeftType>
+                    <LeftEdgeCoefficient type="double">0.3535</LeftEdgeCoefficient>
+                    <LeftDistance type="double" unitsCode="m">4.8768</LeftDistance>
+                    <LeftNumberEnsembles type="double">10</LeftNumberEnsembles>
+                    <RightType type="char">Triangular</RightType>
+                    <RightEdgeCoefficient type="double">0.3535</RightEdgeCoefficient>
+                    <RightDistance type="double" unitsCode="m">5.7912</RightDistance>
+                    <RightNumberEnsembles type="double">10</RightNumberEnsembles>
+                  </Edge>
+                  <Sensor>
+                    <TemperatureSource type="char">internal</TemperatureSource>
+                    <MeanTemperature type="double" unitsCode="degC">18.5053</MeanTemperature>
+                    <MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+                    <SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+                    <SpeedofSound type="double" unitsCode="mps">1477</SpeedofSound>
+                  </Sensor>
+                  <Other>
+                    <Duration type="double" unitsCode="sec">234.35</Duration>
+                    <Width type="double" unitsCode="m">91.5829</Width>
+                    <Area type="double" unitsCode="sqm">620.8771</Area>
+                    <MeanBoatSpeed type="double" unitsCode="mps">0.38922</MeanBoatSpeed>
+                    <QoverA type="double" unitsCode="mps">0.59961</QoverA>
+                    <CourseMadeGood type="double" unitsCode="deg">101.5306</CourseMadeGood>
+                    <MeanFlowDirection type="double" unitsCode="deg">21.5799</MeanFlowDirection>
+                    <NumberofEnsembles type="double">369</NumberofEnsembles>
+                    <PercentInvalidBins type="double">0.23467</PercentInvalidBins>
+                    <PercentInvalidEns type="double">0</PercentInvalidEns>
+                    <MeanPitch type="double" unitsCode="deg">0.80742</MeanPitch>
+                    <MeanRoll type="double" unitsCode="deg">3.0086</MeanRoll>
+                    <PitchStdDev type="double" unitsCode="deg">0.53665</PitchStdDev>
+                    <RollStdDev type="double" unitsCode="deg">1.0723</RollStdDev>
+                    <ADCPDepth type="double" unitsCode="m">0.24384</ADCPDepth>
+                  </Other>
+                </Transect>
+                <Transect>
+                  <Filename type="char">03290500_701_003.PD0</Filename>
+                  <StartDateTime type="char">10/18/2018 13:21:51</StartDateTime>
+                  <EndDateTime type="char">10/18/2018 13:25:25</EndDateTime>
+                  <Discharge>
+                    <Top type="double" unitsCode="cms">39.1688</Top>
+                    <Middle type="double" unitsCode="cms">279.9348</Middle>
+                    <Bottom type="double" unitsCode="cms">38.5219</Bottom>
+                    <Left type="double" unitsCode="cms">1.0567</Left>
+                    <Right type="double" unitsCode="cms">5.1802</Right>
+                    <Total type="double" unitsCode="cms">363.8625</Total>
+                    <MovingBedPercentCorrection type="double">0</MovingBedPercentCorrection>
+                  </Discharge>
+                  <Edge>
+                    <StartEdge type="char">Right</StartEdge>
+                    <RectangularEdgeMethod type="char">Fixed</RectangularEdgeMethod>
+                    <VelocityMethod type="char">MeasMag</VelocityMethod>
+                    <LeftType type="char">Triangular</LeftType>
+                    <LeftEdgeCoefficient type="double">0.3535</LeftEdgeCoefficient>
+                    <LeftDistance type="double" unitsCode="m">7.9248</LeftDistance>
+                    <LeftNumberEnsembles type="double">10</LeftNumberEnsembles>
+                    <RightType type="char">Triangular</RightType>
+                    <RightEdgeCoefficient type="double">0.3535</RightEdgeCoefficient>
+                    <RightDistance type="double" unitsCode="m">5.7912</RightDistance>
+                    <RightNumberEnsembles type="double">10</RightNumberEnsembles>
+                  </Edge>
+                  <Sensor>
+                    <TemperatureSource type="char">internal</TemperatureSource>
+                    <MeanTemperature type="double" unitsCode="degC">18.5104</MeanTemperature>
+                    <MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+                    <SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+                    <SpeedofSound type="double" unitsCode="mps">1477</SpeedofSound>
+                  </Sensor>
+                  <Other>
+                    <Duration type="double" unitsCode="sec">213.88</Duration>
+                    <Width type="double" unitsCode="m">91.2428</Width>
+                    <Area type="double" unitsCode="sqm">615.6158</Area>
+                    <MeanBoatSpeed type="double" unitsCode="mps">0.38323</MeanBoatSpeed>
+                    <QoverA type="double" unitsCode="mps">0.59105</QoverA>
+                    <CourseMadeGood type="double" unitsCode="deg">279.8225</CourseMadeGood>
+                    <MeanFlowDirection type="double" unitsCode="deg">19.217</MeanFlowDirection>
+                    <NumberofEnsembles type="double">332</NumberofEnsembles>
+                    <PercentInvalidBins type="double">0.19619</PercentInvalidBins>
+                    <PercentInvalidEns type="double">0</PercentInvalidEns>
+                    <MeanPitch type="double" unitsCode="deg">0.90241</MeanPitch>
+                    <MeanRoll type="double" unitsCode="deg">2.6585</MeanRoll>
+                    <PitchStdDev type="double" unitsCode="deg">0.21035</PitchStdDev>
+                    <RollStdDev type="double" unitsCode="deg">0.23752</RollStdDev>
+                    <ADCPDepth type="double" unitsCode="m">0.24384</ADCPDepth>
+                  </Other>
+                </Transect>
+                <ChannelSummary>
+                  <Discharge>
+                    <Top type="double" unitsCode="cms">39.2286</Top>
+                    <Middle type="double" unitsCode="cms">284.7746</Middle>
+                    <Bottom type="double" unitsCode="cms">38.4313</Bottom>
+                    <Left type="double" unitsCode="cms">0.88416</Left>
+                    <Right type="double" unitsCode="cms">6.4869</Right>
+                    <Total type="double" unitsCode="cms">369.8056</Total>
+                    <MovingBedPercentCorrection type="double">0</MovingBedPercentCorrection>
+                  </Discharge>
+                  <Uncertainty>
+                    <COV type="double">1.2996</COV>
+                    <AutoRandom type="double">2.0679</AutoRandom>
+                    <AutoInvalidData type="double">0.0091809</AutoInvalidData>
+                    <AutoEdge type="double">0.59797</AutoEdge>
+                    <AutoExtrapolation type="double">0.5419</AutoExtrapolation>
+                    <AutoMovingBed type="double">1</AutoMovingBed>
+                    <AutoSystematic type="double">1.5</AutoSystematic>
+                    <AutoTotal type="double">3.8636</AutoTotal>
+                    <UserTotal type="double">3.8636</UserTotal>
+                    <Random type="char">2.1</Random>
+                    <InvalidData type="char">0.0</InvalidData>
+                    <Edge type="char">0.6</Edge>
+                    <Extrapolation type="char">0.5</Extrapolation>
+                    <MovingBed type="char">1.0</MovingBed>
+                    <Systematic type="char">1.5</Systematic>
+                    <Total type="char">3.9</Total>
+                  </Uncertainty>
+                  <Other>
+                    <MeanWidth type="double" unitsCode="m">90.8727</MeanWidth>
+                    <WidthCOV type="double">0.97687</WidthCOV>
+                    <MeanArea type="double" unitsCode="sqm">620.6552</MeanArea>
+                    <AreaCOV type="double">0.56827</AreaCOV>
+                    <MeanBoatSpeed type="double" unitsCode="mps">0.40967</MeanBoatSpeed>
+                    <MeanQoverA type="double" unitsCode="mps">0.59583</MeanQoverA>
+                    <MeanCourseMadeGood type="double" unitsCode="deg">105.8562</MeanCourseMadeGood>
+                    <MeanFlowDirection type="double" unitsCode="deg">21.2802</MeanFlowDirection>
+                    <MeanDepth type="double" unitsCode="m">7.0634</MeanDepth>
+                    <MaximumDepth type="double" unitsCode="m">9.3302</MaximumDepth>
+                    <MaximumWaterSpeed type="double" unitsCode="mps">1.0631</MaximumWaterSpeed>
+                    <NumberofTransects type="integer">4</NumberofTransects>
+                    <Duration type="double" unitsCode="sec">821.55</Duration>
+                    <LeftQPer type="double">0.23909</LeftQPer>
+                    <RightQPer type="double">1.7541</RightQPer>
+                    <InvalidCellsQPer type="double">0.045905</InvalidCellsQPer>
+                    <InvalidEnsQPer type="double">0</InvalidEnsQPer>
+                    <UserRating type="text">Good (2 - 5%)</UserRating>
+                    <DischargePPDefault type="double">369.8056</DischargePPDefault>
+                  </Other>
+                </ChannelSummary>
+                <UserComment type="char">QRev Main 10/19/2018 07:21:38: ADCP moved during the first part of the 3d transect.  Unit was re-adjusted and tightened to stay in place while DCP was collecting data.    Possible negative flow on LEW.    Last transect (#5) started accidentally- do not use.  |||GPS 10/19/2018 07:24:22: Bad GGA.  Will use BT.  no MB.  |||FileSave 10/19/2018 07:25:03: 20181019_072503_QRev by mlott Q=13059.562 ft3/s  |||FileSave 10/19/2018 07:45:52: 20181019_074552_QRev by mlott Q=13059.562 ft3/s  |||</UserComment>
+              </QRevXML>
+              <SuspensionCode description="Rigid boat mount">RIGD</SuspensionCode>
+              <InstrumentTimeSynchronized description="YES">true</InstrumentTimeSynchronized>
+              <InstrumentTimeSynchronizedDateTime>2018-10-18T12:50:00-05:00</InstrumentTimeSynchronizedDateTime>
+              <BoatAndMotorUsedDesc>KANN/Mercury</BoatAndMotorUsedDesc>
+              <AcousticChannelReadings>
+                <Reading>
+                  <ReadingDateTime>2018-10-18T13:15:00-05:00</ReadingDateTime>
+                  <InstrumentTemperatureMeasure>18.5</InstrumentTemperatureMeasure>
+                  <VerificationTemperatureMeasure>18.3</VerificationTemperatureMeasure>
+                  <TemperatureUnits>C</TemperatureUnits>
+                </Reading>
+              </AcousticChannelReadings>
+              <GPSDeviceUsedDesc>Trimble</GPSDeviceUsedDesc>
+              <MagneticVariationCode description="On-site">ONST</MagneticVariationCode>
+            </AdcpDischargeMeasurement>
+          </Channel>
+          <RatingNumberUsed>17.1</RatingNumberUsed>
+          <ReferenceGageHeightUsed>12.94</ReferenceGageHeightUsed>
+          <ShiftedRatingDischarge>13257.69</ShiftedRatingDischarge>
+          <ShiftedRatingPercentDifference>-1.5</ShiftedRatingPercentDifference>
+          <UnshiftedRatingDischarge>13257.69</UnshiftedRatingDischarge>
+          <UnshiftedRatingPercentDifference>-1.5</UnshiftedRatingPercentDifference>
+        </DischargeMeasurement>
+        <StreamFlowControlInspection>
+          <ControlCode description="Channel">CHAN</ControlCode>
+          <ControlCleanedCode description="NO">NTCL</ControlCleanedCode>
+          <ConditionCode description="Clear">CLER</ConditionCode>
+        </StreamFlowControlInspection>
+      </SiteVisit>
+    </SiteData>
+  </Site>
+  <SVMobileSiteSensors>
+    <LocationSensor>
+      <USGSParameterCode>99133</USGSParameterCode>
+      <AQParameterCode>AQ55</AQParameterCode>
+      <Parameter>NO3+NO2,water,insitu as N</Parameter>
+      <MethodCode>AQ55UV013</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <AQParameterCode>HG</AQParameterCode>
+      <Name>CSG1</Name>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGCSG</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>CrestStageCageInspection</SpecialInspType>
+      <Comment>starts 29.25 - 39.35 ft.</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <AQParameterCode>HG</AQParameterCode>
+      <Name>DCP</Name>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGNTRAN</MethodCode>
+      <DefaultReadingType>Routine</DefaultReadingType>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>BubbleGageInspection</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <AQParameterCode>HG</AQParameterCode>
+      <Name>Staff</Name>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGSTAFF</MethodCode>
+      <DefaultReadingType>Reference - Primary</DefaultReadingType>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00400</USGSParameterCode>
+      <AQParameterCode>PH</AQParameterCode>
+      <Parameter>pH</Parameter>
+      <MethodCode>PHPROBE</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00095</USGSParameterCode>
+      <AQParameterCode>SpCond</AQParameterCode>
+      <Parameter>Specific cond at 25C</Parameter>
+      <MethodCode>SpCondSC001</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00010</USGSParameterCode>
+      <AQParameterCode>TW</AQParameterCode>
+      <Parameter>Temperature, water</Parameter>
+      <MethodCode>TWTHM01</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00300</USGSParameterCode>
+      <AQParameterCode>WO</AQParameterCode>
+      <Parameter>Dissolved oxygen</Parameter>
+      <MethodCode>WOLUMIN</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>63680</USGSParameterCode>
+      <AQParameterCode>WTFNU</AQParameterCode>
+      <Parameter>Turbidity, FNU</Parameter>
+      <MethodCode>WTFNUTS213</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+    </LocationSensor>
+  </SVMobileSiteSensors>
+</UsgsHydroML>

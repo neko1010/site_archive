@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="http://water.usgs.gov/XML/AQ/stylesheets/AQSVMobile_SS1.xsl"?>
+<UsgsHydroML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://water.usgs.gov/XML/AQ http://water.usgs.gov/XML/AQ/schema/UsgsHydroML.xsd" xmlns="http://water.usgs.gov/XML/AQ">
+  <Version>AQUARIUS</Version>
+  <Source>
+    <SoftwareName>SVMobile-AQ</SoftwareName>
+    <SoftwareVersionText>2.1.174.0</SoftwareVersionText>
+    <AgencyCode>USGS</AgencyCode>
+    <RemarksText />
+    <EmailAddress />
+  </Source>
+  <UnitsFamily>English</UnitsFamily>
+  <Site>
+    <SiteIdentifier organizationCode="USGS">394632086092701</SiteIdentifier>
+    <Name>MARION 35 (MA 35)</Name>
+    <SiteData>
+      <SiteVisit>
+        <TimeRules>
+          <TimeZoneStandardName>US Eastern Standard Time</TimeZoneStandardName>
+          <TimeZoneWinID>US Eastern Standard Time</TimeZoneWinID>
+          <TimeDatumCode>EST</TimeDatumCode>
+          <AdjustForDayLightSavings>false</AdjustForDayLightSavings>
+          <TimeZoneBaseUTCOffset>-05:00</TimeZoneBaseUTCOffset>
+        </TimeRules>
+        <StartDateTime timeDatumCode="EST">2018-05-11T10:19:00-05:00</StartDateTime>
+        <EndDateTime>2018-05-11T10:25:01-05:00</EndDateTime>
+        <PartyText>BJS/LRL</PartyText>
+        <CollectionAgencyCode>USGS</CollectionAgencyCode>
+        <WeatherDescription>clear, hot, no precip, very light wind</WeatherDescription>
+        <RecorderRecordRemovedIndicator>true</RecorderRecordRemovedIndicator>
+        <WaterQualitySampleIndicator>false</WaterQualitySampleIndicator>
+        <SedimentSampleIndicator>false</SedimentSampleIndicator>
+        <BiologicalSampleIndicator>false</BiologicalSampleIndicator>
+        <OtherSampleIndicator>false</OtherSampleIndicator>
+        <LevelsRunIndicator>false</LevelsRunIndicator>
+        <GwWaterLevelsIndicator>true</GwWaterLevelsIndicator>
+        <SafetyInspectionPerformedIndicator>false</SafetyInspectionPerformedIndicator>
+        <Comment />
+        <DischargeMeasurementStatus>Not Started</DischargeMeasurementStatus>
+        <EnvironmentalMeasurementsStatus />
+        <StreamFlowControlInspectionStatus>Not Started</StreamFlowControlInspectionStatus>
+        <SensorInspectionStatus>Complete</SensorInspectionStatus>
+        <StreamZeroFlowInspectionStatus>Not Started</StreamZeroFlowInspectionStatus>
+        <HighWaterMarkObservationStatus>Not Started</HighWaterMarkObservationStatus>
+        <StillingWellInspectionStatus />
+        <StationLevelsStatus>No Information</StationLevelsStatus>
+        <QWMonMaintStatus>Not Started</QWMonMaintStatus>
+        <GroundwaterLevelsStatus>Complete</GroundwaterLevelsStatus>
+        <MiscSiteVisitInfoStatus>Complete</MiscSiteVisitInfoStatus>
+        <DataAgingCode>500</DataAgingCode>
+        <GroundwaterLevelSet>
+          <SetIdentifier>1</SetIdentifier>
+          <GroundwaterLevel>
+            <GWSIDiscrete>
+              <Party>BJS</Party>
+              <SourceAgencyCode>USGS</SourceAgencyCode>
+              <EntryCode>Below land surface</EntryCode>
+              <StatusCode>Static</StatusCode>
+              <MethodCode>Calibrated Electric Tape</MethodCode>
+              <AccuracyCode>Nearest 0.01 of a foot</AccuracyCode>
+              <UploadToGWSI>true</UploadToGWSI>
+              <UploadSelectedByUser>false</UploadSelectedByUser>
+              <HIFEquipmentID>244136</HIFEquipmentID>
+              <LocalEquipmentID>1174</LocalEquipmentID>
+              <Reading>42.42</Reading>
+              <HIFTapeCalCorrectionValue>-0.02</HIFTapeCalCorrectionValue>
+              <MeasuringPoint>
+                <MPSequenceNumber>1</MPSequenceNumber>
+                <MPBeginDate>200807</MPBeginDate>
+                <MPHeight>2.5</MPHeight>
+                <MPDescription>TOP OF CASING</MPDescription>
+                <IsNewMP>False</IsNewMP>
+              </MeasuringPoint>
+              <ReadingDateTime>2018-05-11T10:24:00-05:00</ReadingDateTime>
+              <WaterLevel>39.90</WaterLevel>
+            </GWSIDiscrete>
+          </GroundwaterLevel>
+          <GroundwaterLevel>
+            <GWSIDiscrete>
+              <Party>BJS</Party>
+              <SourceAgencyCode>USGS</SourceAgencyCode>
+              <EntryCode>Below land surface</EntryCode>
+              <StatusCode>Static</StatusCode>
+              <MethodCode>Calibrated Electric Tape</MethodCode>
+              <AccuracyCode>Nearest 0.01 of a foot</AccuracyCode>
+              <UploadToGWSI>false</UploadToGWSI>
+              <UploadSelectedByUser>false</UploadSelectedByUser>
+              <HIFEquipmentID>244136</HIFEquipmentID>
+              <LocalEquipmentID>1174</LocalEquipmentID>
+              <Reading>42.42</Reading>
+              <HIFTapeCalCorrectionValue>-0.02</HIFTapeCalCorrectionValue>
+              <MeasuringPoint>
+                <MPSequenceNumber>1</MPSequenceNumber>
+                <MPBeginDate>200807</MPBeginDate>
+                <MPHeight>2.5</MPHeight>
+                <MPDescription>TOP OF CASING</MPDescription>
+                <IsNewMP>False</IsNewMP>
+              </MeasuringPoint>
+              <ReadingDateTime>2018-05-11T10:25:00-05:00</ReadingDateTime>
+              <WaterLevel>39.90</WaterLevel>
+            </GWSIDiscrete>
+          </GroundwaterLevel>
+        </GroundwaterLevelSet>
+        <SensorInspection>
+          <LocationSensor>
+            <Location>
+              <LocationName />
+            </Location>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <Name>Water level, depth LSD</Name>
+                  <Units>ft</Units>
+                </Parameter>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+                <MethodCode>Wat_LVL_BLSDWLCET</MethodCode>
+              </SensorType>
+              <SerialNumber>Unspecified (GWSI Discrete)</SerialNumber>
+              <SensorName>GWSI Discrete</SensorName>
+            </Sensor>
+          </LocationSensor>
+          <GroundwaterSetIdentifier>1</GroundwaterSetIdentifier>
+          <SensorReading>
+            <ReadingDateTime>2018-05-11T10:24:00-05:00</ReadingDateTime>
+            <SensorMeasure readingType="Reference - Primary">39.90</SensorMeasure>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+          </SensorReading>
+          <SensorReading>
+            <ReadingDateTime>2018-05-11T10:25:00-05:00</ReadingDateTime>
+            <SensorMeasure readingType="Reference - Primary">39.90</SensorMeasure>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+          </SensorReading>
+        </SensorInspection>
+        <SensorInspection>
+          <LocationSensor>
+            <Location>
+              <LocationName />
+            </Location>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <Name>Water level, depth LSD</Name>
+                  <Units>ft</Units>
+                  <USGSParameterCode>30210</USGSParameterCode>
+                </Parameter>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+                <MethodCode>Wat_LVL_BLSDWLENC</MethodCode>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+              <SensorName>
+              </SensorName>
+            </Sensor>
+          </LocationSensor>
+          <SensorReading>
+            <ReadingDateTime>2018-05-11T10:25:00-05:00</ReadingDateTime>
+            <SensorMeasure readingType="Routine">39.87</SensorMeasure>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+          </SensorReading>
+          <Comment>reset encoder to e tape reading @ 10:30 EST using SDI-12 command 0XS039.90!</Comment>
+        </SensorInspection>
+      </SiteVisit>
+    </SiteData>
+  </Site>
+  <SVMobileSiteSensors>
+    <LocationSensor>
+      <USGSParameterCode>30210</USGSParameterCode>
+      <AQParameterCode>Wat_LVL_BLSD</AQParameterCode>
+      <Parameter>Water level, depth LSD</Parameter>
+      <MethodCode>Wat_LVL_BLSDWLCET</MethodCode>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>30210</USGSParameterCode>
+      <AQParameterCode>Wat_LVL_BLSD</AQParameterCode>
+      <Parameter>Water level, depth LSD</Parameter>
+      <MethodCode>Wat_LVL_BLSDWLENC</MethodCode>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+    </LocationSensor>
+  </SVMobileSiteSensors>
+</UsgsHydroML>

@@ -1,0 +1,2140 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="http://water.usgs.gov/XML/AQ/stylesheets/AQSVMobile_SS1.xsl"?>
+<UsgsHydroML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://water.usgs.gov/XML/AQ http://water.usgs.gov/XML/AQ/schema/UsgsHydroML.xsd" xmlns="http://water.usgs.gov/XML/AQ">
+  <Version>AQUARIUS</Version>
+  <Source>
+    <SoftwareName>SVMobile-AQ</SoftwareName>
+    <SoftwareVersionText>2.2.127.0</SoftwareVersionText>
+    <AgencyCode>USGS</AgencyCode>
+    <RemarksText />
+    <EmailAddress />
+  </Source>
+  <UnitsFamily>English</UnitsFamily>
+  <Site>
+    <SiteIdentifier organizationCode="USGS">03378500</SiteIdentifier>
+    <Name>WABASH RIVER AT NEW HARMONY, IN</Name>
+    <SiteData>
+      <SiteVisit>
+        <TimeRules>
+          <TimeZoneStandardName>Central Standard Time</TimeZoneStandardName>
+          <TimeZoneWinID>Central Standard Time</TimeZoneWinID>
+          <TimeDatumCode>CST</TimeDatumCode>
+          <AdjustForDayLightSavings>false</AdjustForDayLightSavings>
+          <TimeZoneBaseUTCOffset>-06:00</TimeZoneBaseUTCOffset>
+        </TimeRules>
+        <StartDateTime timeDatumCode="CST">2018-10-24T09:15:00-06:00</StartDateTime>
+        <EndDateTime>2018-10-24T17:31:01-06:00</EndDateTime>
+        <PartyText>MKL/JGT</PartyText>
+        <CollectionAgencyCode>USGS</CollectionAgencyCode>
+        <WeatherDescription>clear, cool, no precip, light wind, swirling/variable</WeatherDescription>
+        <RecorderRecordRemovedIndicator>true</RecorderRecordRemovedIndicator>
+        <WaterQualitySampleIndicator>true</WaterQualitySampleIndicator>
+        <SedimentSampleIndicator>true</SedimentSampleIndicator>
+        <BiologicalSampleIndicator>false</BiologicalSampleIndicator>
+        <OtherSampleIndicator>false</OtherSampleIndicator>
+        <LevelsRunIndicator>false</LevelsRunIndicator>
+        <GwWaterLevelsIndicator>false</GwWaterLevelsIndicator>
+        <SafetyInspectionPerformedIndicator>false</SafetyInspectionPerformedIndicator>
+        <Comment>Due to GOES issue, DCP swap (DAA is now stage only sensor, Satlink2 is main DCP) and missing data, stage values are uncertain during this visit.  Stage was reset around 1730 but uncertain of the exact correction...previous applied shift of 0.10 was carried forward to account for some error.  Orifice is possibly unstable due to "jumping around" of stage.  Stage used for QM are computed values.  Major siltation of QW sondes.  Nitrate out of water.  Missing data from 10/24-10/25/2018 due to decodes issue.  Decodes fixed early on 10/25/2018 and data returns.  Available EDL has been added to account for the GOES issue beginning on 10/21.  There is no EDL for the remaining gap.</Comment>
+        <DischargeMeasurementStatus>Complete</DischargeMeasurementStatus>
+        <EnvironmentalMeasurementsStatus />
+        <StreamFlowControlInspectionStatus>Complete</StreamFlowControlInspectionStatus>
+        <SensorInspectionStatus>Complete</SensorInspectionStatus>
+        <StreamZeroFlowInspectionStatus>Not Started</StreamZeroFlowInspectionStatus>
+        <HighWaterMarkObservationStatus>Not Started</HighWaterMarkObservationStatus>
+        <StillingWellInspectionStatus />
+        <StationLevelsStatus>Not Started</StationLevelsStatus>
+        <QWMonMaintStatus>Complete</QWMonMaintStatus>
+        <GroundwaterLevelsStatus>Not Started</GroundwaterLevelsStatus>
+        <MiscSiteVisitInfoStatus>Complete</MiscSiteVisitInfoStatus>
+        <DataAgingCode>500</DataAgingCode>
+        <SensorInspection>
+          <BubbleGageInspection>
+            <LocationSensor>
+              <Location>
+                <LocationName />
+              </Location>
+              <Sensor>
+                <SensorType>
+                  <Parameter>
+                    <Name>Gage height</Name>
+                    <Units>ft</Units>
+                  </Parameter>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                  <MethodCode>HGNTRAN</MethodCode>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+                <SensorName />
+              </Sensor>
+            </LocationSensor>
+          </BubbleGageInspection>
+          <SensorReading>
+            <ReadingDateTime>2018-10-24T09:15:00-06:00</ReadingDateTime>
+            <SensorMeasure readingType="Routine">3.91</SensorMeasure>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+          </SensorReading>
+          <SensorReading>
+            <ReadingDateTime>2018-10-24T17:31:00-06:00</ReadingDateTime>
+            <SensorMeasure readingType="Routine">3.45</SensorMeasure>
+            <MeasureAccuracy>.02</MeasureAccuracy>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+          </SensorReading>
+        </SensorInspection>
+        <MonitorInspection>
+          <Equipment>
+            <EquipmentType>
+              <EquipmentCode>QMON</EquipmentCode>
+              <ManufacturerName>Unspecified</ManufacturerName>
+              <ModelNumber>Unspecified</ModelNumber>
+            </EquipmentType>
+            <SiteEquipmentIndicator>true</SiteEquipmentIndicator>
+            <SerialNumber>Unspecified</SerialNumber>
+            <SensorName>Unspecified</SensorName>
+          </Equipment>
+          <Location>
+            <LocationName />
+          </Location>
+          <FieldMeter>
+            <SiteEquipmentIndicator>false</SiteEquipmentIndicator>
+            <SerialNumber>Unspecified</SerialNumber>
+            <SensorName>Unspecified</SensorName>
+            <EquipmentType>
+              <ManufacturerName>Unspecified</ManufacturerName>
+              <ModelNumber>Unspecified</ModelNumber>
+            </EquipmentType>
+            <SondeChangedIndicator>false</SondeChangedIndicator>
+          </FieldMeter>
+          <InspectionDateTime>2018-10-24T12:28:00-06:00</InspectionDateTime>
+          <Inspector>MKL/JGT</Inspector>
+          <MonitorCheckReadingSet>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>99133</USGSParameterCode>
+                  <Name>NO3+NO2,water,insitu as N</Name>
+                  <Units>mg/l</Units>
+                </Parameter>
+                <MethodCode>AQ55UV016</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <MonitorCheckReading>
+              <ReadingID>1abb7515-2f4d-4219-af56-2635bd9223ac</ReadingID>
+              <CheckReadingCode>BFOR</CheckReadingCode>
+              <ReadingDateTime>2018-10-24T12:28:00-06:00</ReadingDateTime>
+              <SensorMeasure readingType="Cleaning - Before">.4</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>99133</USGSParameterCode>
+                    <Name>NO3+NO2,water,insitu as N</Name>
+                    <Units>mg/l</Units>
+                  </Parameter>
+                  <MethodCode>AQ55UV016</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+            </MonitorCheckReading>
+            <MonitorCheckReading>
+              <ReadingID>62252c96-8b37-4e7e-8e9d-a1a4498c82f7</ReadingID>
+              <CheckReadingCode>AFTR</CheckReadingCode>
+              <ReadingDateTime>2018-10-24T12:40:00-06:00</ReadingDateTime>
+              <SensorMeasure readingType="Cleaning - After">.4</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>99133</USGSParameterCode>
+                    <Name>NO3+NO2,water,insitu as N</Name>
+                    <Units>mg/l</Units>
+                  </Parameter>
+                  <MethodCode>AQ55UV016</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+            </MonitorCheckReading>
+          </MonitorCheckReadingSet>
+          <BatteryChangedIndicator>false</BatteryChangedIndicator>
+          <SondeChangedIndicator>false</SondeChangedIndicator>
+          <DriftCheckConductance>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>00095</USGSParameterCode>
+                  <Name>Specific cond at 25C</Name>
+                  <Units>uS/cm</Units>
+                </Parameter>
+                <MethodCode>SpCondSC001</MethodCode>
+                <Name>Specific cond at 25C</Name>
+                <Units>uS/cm</Units>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <DriftCheckConductanceReading>
+              <ReadingID>fcc9c8f9-40f8-4fa5-8a68-c7d4f6568f51</ReadingID>
+              <CalibrationCode>CALI</CalibrationCode>
+              <ReadingDateTime>2018-10-24T13:01:00-06:00</ReadingDateTime>
+              <StandardMeasure>250</StandardMeasure>
+              <LotNumber>1801E25</LotNumber>
+              <StandardCode>KCL</StandardCode>
+              <ExpirationDate>2020-12-01</ExpirationDate>
+              <UsedForRecalibration>false</UsedForRecalibration>
+              <TemperatureMeasure>15.2</TemperatureMeasure>
+              <ConductanceMeasure>232</ConductanceMeasure>
+              <ErrorMeasure>7.20</ErrorMeasure>
+            </DriftCheckConductanceReading>
+            <DriftCheckConductanceReading>
+              <ReadingID>6f665949-728f-4941-8b9d-4a305f877040</ReadingID>
+              <CalibrationCode>CALI</CalibrationCode>
+              <ReadingDateTime>2018-10-24T13:05:00-06:00</ReadingDateTime>
+              <StandardMeasure>500</StandardMeasure>
+              <LotNumber>1804M16</LotNumber>
+              <StandardCode>KCL</StandardCode>
+              <ExpirationDate>2020-04-01</ExpirationDate>
+              <UsedForRecalibration>false</UsedForRecalibration>
+              <TemperatureMeasure>15.2</TemperatureMeasure>
+              <ConductanceMeasure>452</ConductanceMeasure>
+              <ErrorMeasure>9.60</ErrorMeasure>
+            </DriftCheckConductanceReading>
+            <DriftCheckConductanceReading>
+              <ReadingID>87802f92-9ba9-4474-ae49-a61ffd800523</ReadingID>
+              <CalibrationCode>CALI</CalibrationCode>
+              <ReadingDateTime>2018-10-24T13:06:00-06:00</ReadingDateTime>
+              <StandardMeasure>1000</StandardMeasure>
+              <LotNumber>4708443</LotNumber>
+              <StandardCode>KCL</StandardCode>
+              <ExpirationDate>2019-07-01</ExpirationDate>
+              <UsedForRecalibration>false</UsedForRecalibration>
+              <TemperatureMeasure>15.7</TemperatureMeasure>
+              <ConductanceMeasure>906</ConductanceMeasure>
+              <ErrorMeasure>9.40</ErrorMeasure>
+            </DriftCheckConductanceReading>
+            <DriftCheckConductanceReading>
+              <ReadingID>99147868-c756-4f92-a417-792e36664951</ReadingID>
+              <CalibrationCode>RECL</CalibrationCode>
+              <ReadingDateTime>2018-10-24T13:19:00-06:00</ReadingDateTime>
+              <StandardMeasure>1000</StandardMeasure>
+              <LotNumber>4708443</LotNumber>
+              <StandardCode>KCL</StandardCode>
+              <ExpirationDate>2019-07-01</ExpirationDate>
+              <UsedForRecalibration>true</UsedForRecalibration>
+              <TemperatureMeasure>15.6</TemperatureMeasure>
+              <ConductanceMeasure>1000</ConductanceMeasure>
+              <ErrorMeasure>0.00</ErrorMeasure>
+            </DriftCheckConductanceReading>
+            <DriftCheckConductanceReading>
+              <ReadingID>79fdfc9e-e099-4c3f-b675-3c453bab559b</ReadingID>
+              <CalibrationCode>RECL</CalibrationCode>
+              <ReadingDateTime>2018-10-24T13:19:00-06:00</ReadingDateTime>
+              <StandardMeasure>250</StandardMeasure>
+              <LotNumber>1801E25</LotNumber>
+              <StandardCode>KCL</StandardCode>
+              <ExpirationDate>2020-12-01</ExpirationDate>
+              <UsedForRecalibration>false</UsedForRecalibration>
+              <TemperatureMeasure>15.7</TemperatureMeasure>
+              <ConductanceMeasure>257</ConductanceMeasure>
+              <ErrorMeasure>2.80</ErrorMeasure>
+            </DriftCheckConductanceReading>
+            <DriftCheckConductanceReading>
+              <ReadingID>554cc091-18d6-4b3e-a593-5db354c128aa</ReadingID>
+              <CalibrationCode>RECL</CalibrationCode>
+              <ReadingDateTime>2018-10-24T13:23:00-06:00</ReadingDateTime>
+              <StandardMeasure>500</StandardMeasure>
+              <LotNumber>1804M16</LotNumber>
+              <StandardCode>KCL</StandardCode>
+              <ExpirationDate>2020-04-01</ExpirationDate>
+              <UsedForRecalibration>false</UsedForRecalibration>
+              <TemperatureMeasure>15.9</TemperatureMeasure>
+              <ConductanceMeasure>498</ConductanceMeasure>
+              <ErrorMeasure>0.40</ErrorMeasure>
+            </DriftCheckConductanceReading>
+            <SensorChanged>false</SensorChanged>
+          </DriftCheckConductance>
+          <DriftCheckPh>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>00400</USGSParameterCode>
+                  <Name>pH</Name>
+                  <Units>pH Units</Units>
+                </Parameter>
+                <MethodCode>PHPROBE</MethodCode>
+                <Name>pH</Name>
+                <Units>pH Units</Units>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <DriftCheckPhReading>
+              <ReadingID>8cd704e0-3959-4b35-a92e-6f999b9388e0</ReadingID>
+              <CalibrationCode>CALI</CalibrationCode>
+              <ReadingDateTime>2018-10-24T13:27:00-06:00</ReadingDateTime>
+              <StandardMeasure>10.10</StandardMeasure>
+              <LotNumber>1803J6</LotNumber>
+              <StandardCode>RICCA</StandardCode>
+              <ExpirationDate>2019-09-01</ExpirationDate>
+              <UsedForRecalibration>false</UsedForRecalibration>
+              <TemperatureMeasure>15.8</TemperatureMeasure>
+              <PhMeasure>9.48</PhMeasure>
+              <StandardMeasureBeforeTemperatureAdjustment>10</StandardMeasureBeforeTemperatureAdjustment>
+              <ErrorMeasure>0.62</ErrorMeasure>
+            </DriftCheckPhReading>
+            <DriftCheckPhReading>
+              <ReadingID>b874feec-b931-4c79-9763-fab686a8856e</ReadingID>
+              <CalibrationCode>CALI</CalibrationCode>
+              <ReadingDateTime>2018-10-24T13:27:00-06:00</ReadingDateTime>
+              <StandardMeasure>7.04</StandardMeasure>
+              <LotNumber>1807J37</LotNumber>
+              <StandardCode>RICCA</StandardCode>
+              <ExpirationDate>2019-12-01</ExpirationDate>
+              <UsedForRecalibration>false</UsedForRecalibration>
+              <TemperatureMeasure>15.8</TemperatureMeasure>
+              <PhMeasure>6.28</PhMeasure>
+              <StandardMeasureBeforeTemperatureAdjustment>7</StandardMeasureBeforeTemperatureAdjustment>
+              <ErrorMeasure>0.76</ErrorMeasure>
+            </DriftCheckPhReading>
+            <DriftCheckPhReading>
+              <ReadingID>15ac091d-c7d8-43c4-a004-8ddfa8296ebe</ReadingID>
+              <CalibrationCode>RECL</CalibrationCode>
+              <ReadingDateTime>2018-10-24T13:29:00-06:00</ReadingDateTime>
+              <StandardMeasure>7.04</StandardMeasure>
+              <LotNumber>1807J37</LotNumber>
+              <StandardCode>RICCA</StandardCode>
+              <ExpirationDate>2019-12-01</ExpirationDate>
+              <UsedForRecalibration>true</UsedForRecalibration>
+              <TemperatureMeasure>15.8</TemperatureMeasure>
+              <PhMeasure>7.03</PhMeasure>
+              <StandardMeasureBeforeTemperatureAdjustment>7</StandardMeasureBeforeTemperatureAdjustment>
+              <ErrorMeasure>0.01</ErrorMeasure>
+            </DriftCheckPhReading>
+            <DriftCheckPhReading>
+              <ReadingID>5e45054e-f1ca-4c84-8a0f-839ea9ed23f1</ReadingID>
+              <CalibrationCode>RECL</CalibrationCode>
+              <ReadingDateTime>2018-10-24T13:31:00-06:00</ReadingDateTime>
+              <StandardMeasure>10.10</StandardMeasure>
+              <LotNumber>1803J6</LotNumber>
+              <StandardCode>RICCA</StandardCode>
+              <ExpirationDate>2019-09-01</ExpirationDate>
+              <UsedForRecalibration>true</UsedForRecalibration>
+              <TemperatureMeasure>15.8</TemperatureMeasure>
+              <PhMeasure>10.2</PhMeasure>
+              <StandardMeasureBeforeTemperatureAdjustment>10</StandardMeasureBeforeTemperatureAdjustment>
+              <ErrorMeasure>0.10</ErrorMeasure>
+            </DriftCheckPhReading>
+            <SensorChanged>false</SensorChanged>
+          </DriftCheckPh>
+          <DriftCheckTurbidity>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>63680</USGSParameterCode>
+                  <Name>Turbidity, FNU</Name>
+                  <Units>_FNU</Units>
+                </Parameter>
+                <MethodCode>WTFNUTS213</MethodCode>
+                <Name>Turbidity, FNU</Name>
+                <Units>_FNU</Units>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <SensorWiperCode>Unspecified</SensorWiperCode>
+            <DriftCheckTurbidityReading>
+              <ReadingID>e0771cc4-7553-4fef-81e4-83aaafa01d6a</ReadingID>
+              <CalibrationCode>CALI</CalibrationCode>
+              <ReadingDateTime>2018-10-24T13:32:00-06:00</ReadingDateTime>
+              <StandardMeasure>0</StandardMeasure>
+              <StandardCode>DI water</StandardCode>
+              <UsedForRecalibration>false</UsedForRecalibration>
+              <TemperatureMeasure>15.7</TemperatureMeasure>
+              <TurbidityMeasure>.48</TurbidityMeasure>
+            </DriftCheckTurbidityReading>
+            <DriftCheckTurbidityReading>
+              <ReadingID>9b244450-9077-46fb-a911-ea876e1ecef3</ReadingID>
+              <CalibrationCode>CALI</CalibrationCode>
+              <ReadingDateTime>2018-10-24T13:40:00-06:00</ReadingDateTime>
+              <StandardMeasure>124</StandardMeasure>
+              <StandardCode>Polymer</StandardCode>
+              <LotNumber>18G18241906</LotNumber>
+              <ExpirationDate>2019-07-19</ExpirationDate>
+              <UsedForRecalibration>false</UsedForRecalibration>
+              <TemperatureMeasure>14.4</TemperatureMeasure>
+              <TurbidityMeasure>128</TurbidityMeasure>
+              <ErrorMeasure>3.23</ErrorMeasure>
+            </DriftCheckTurbidityReading>
+            <SensorChanged>false</SensorChanged>
+          </DriftCheckTurbidity>
+          <DriftCheckDissolvedOxygen>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>00300</USGSParameterCode>
+                  <Name>Dissolved oxygen</Name>
+                  <Units>mg/l</Units>
+                </Parameter>
+                <MethodCode>WOLUMIN</MethodCode>
+                <Name>Dissolved oxygen</Name>
+                <Units>mg/l</Units>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <SalinityCorrectionAppliedIndicator>false</SalinityCorrectionAppliedIndicator>
+            <DriftCheckDissolvedOxygenReading>
+              <ReadingID>3267ec4b-4efa-4d35-babe-50818a4fd2cc</ReadingID>
+              <CalibrationCode>CALI</CalibrationCode>
+              <ReadingDateTime>2018-10-24T12:57:00-06:00</ReadingDateTime>
+              <TemperatureMeasure>15.2</TemperatureMeasure>
+              <BarometricMeasure>758</BarometricMeasure>
+              <DissolvedOxygenTableMeasure>10.06</DissolvedOxygenTableMeasure>
+              <SalinityCorrectionFactor>1.000</SalinityCorrectionFactor>
+              <DissolvedOxygenMeasure>9.48</DissolvedOxygenMeasure>
+              <ErrorMeasure>0.58</ErrorMeasure>
+              <MethodCode>SAIR</MethodCode>
+            </DriftCheckDissolvedOxygenReading>
+            <DriftCheckDissolvedOxygenReading>
+              <ReadingID>c3d0eb2a-e388-4d86-b320-e932a5f6a04a</ReadingID>
+              <CalibrationCode>RECL</CalibrationCode>
+              <ReadingDateTime>2018-10-24T13:46:00-06:00</ReadingDateTime>
+              <TemperatureMeasure>15.3</TemperatureMeasure>
+              <BarometricMeasure>758</BarometricMeasure>
+              <DissolvedOxygenTableMeasure>9.99</DissolvedOxygenTableMeasure>
+              <SalinityCorrectionFactor>1.000</SalinityCorrectionFactor>
+              <DissolvedOxygenMeasure>9.99</DissolvedOxygenMeasure>
+              <ErrorMeasure>0.00</ErrorMeasure>
+              <MethodCode>SAIR</MethodCode>
+            </DriftCheckDissolvedOxygenReading>
+            <OpticalDOCapChanged>false</OpticalDOCapChanged>
+            <SensorWiperCode>Unspecified</SensorWiperCode>
+            <SensorChanged>false</SensorChanged>
+          </DriftCheckDissolvedOxygen>
+          <MonitorCheckReadingSet>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>00010</USGSParameterCode>
+                  <Name>Temperature, water</Name>
+                  <Units>degC</Units>
+                </Parameter>
+                <MethodCode>TWTHM01</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <MonitorCheckReading>
+              <ReadingID>d7be8a2a-af8d-4f9f-9293-1b43f73d9489</ReadingID>
+              <CheckReadingCode>BFOR</CheckReadingCode>
+              <ReadingDateTime>2018-10-24T12:30:00-06:00</ReadingDateTime>
+              <SensorMeasure readingType="Cleaning - Before">13.2</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00010</USGSParameterCode>
+                    <Name>Temperature, water</Name>
+                    <Units>degC</Units>
+                  </Parameter>
+                  <MethodCode>TWTHM01</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">13.3</FieldSensorMeasure>
+            </MonitorCheckReading>
+            <MonitorCheckReading>
+              <ReadingID>36f8fa6d-de21-43b2-9c1a-d085a7aa21cb</ReadingID>
+              <CheckReadingCode>AFTR</CheckReadingCode>
+              <ReadingDateTime>2018-10-24T12:40:00-06:00</ReadingDateTime>
+              <SensorMeasure readingType="Cleaning - After">13.2</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00010</USGSParameterCode>
+                    <Name>Temperature, water</Name>
+                    <Units>degC</Units>
+                  </Parameter>
+                  <MethodCode>TWTHM01</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">13.4</FieldSensorMeasure>
+            </MonitorCheckReading>
+          </MonitorCheckReadingSet>
+          <MonitorCheckReadingSet>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>00300</USGSParameterCode>
+                  <Name>Dissolved oxygen</Name>
+                  <Units>mg/l</Units>
+                </Parameter>
+                <MethodCode>WOLUMIN</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <MonitorCheckReading>
+              <ReadingID>feb136f8-a468-46f1-a8be-404d03ae38a6</ReadingID>
+              <CheckReadingCode>BFOR</CheckReadingCode>
+              <ReadingDateTime>2018-10-24T12:30:00-06:00</ReadingDateTime>
+              <SensorMeasure readingType="Cleaning - Before">8.4</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00300</USGSParameterCode>
+                    <Name>Dissolved oxygen</Name>
+                    <Units>mg/l</Units>
+                  </Parameter>
+                  <MethodCode>WOLUMIN</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">10.8</FieldSensorMeasure>
+            </MonitorCheckReading>
+            <MonitorCheckReading>
+              <ReadingID>4ca09cb9-9a6e-4e0c-90b1-1c325c9524e3</ReadingID>
+              <CheckReadingCode>AFTR</CheckReadingCode>
+              <ReadingDateTime>2018-10-24T12:40:00-06:00</ReadingDateTime>
+              <SensorMeasure readingType="Cleaning - After">11.35</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00300</USGSParameterCode>
+                    <Name>Dissolved oxygen</Name>
+                    <Units>mg/l</Units>
+                  </Parameter>
+                  <MethodCode>WOLUMIN</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">11.0</FieldSensorMeasure>
+            </MonitorCheckReading>
+          </MonitorCheckReadingSet>
+          <MonitorCheckReadingSet>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>00095</USGSParameterCode>
+                  <Name>Specific cond at 25C</Name>
+                  <Units>uS/cm</Units>
+                </Parameter>
+                <MethodCode>SpCondSC001</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <MonitorCheckReading>
+              <ReadingID>1e3146ed-3ba4-48c6-a79f-4a55a7e94a55</ReadingID>
+              <CheckReadingCode>BFOR</CheckReadingCode>
+              <ReadingDateTime>2018-10-24T12:30:00-06:00</ReadingDateTime>
+              <SensorMeasure readingType="Cleaning - Before">526</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00095</USGSParameterCode>
+                    <Name>Specific cond at 25C</Name>
+                    <Units>uS/cm</Units>
+                  </Parameter>
+                  <MethodCode>SpCondSC001</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">579</FieldSensorMeasure>
+            </MonitorCheckReading>
+            <MonitorCheckReading>
+              <ReadingID>8f4ba36f-dcd9-4303-b19f-47389b4f8546</ReadingID>
+              <CheckReadingCode>AFTR</CheckReadingCode>
+              <ReadingDateTime>2018-10-24T12:40:00-06:00</ReadingDateTime>
+              <SensorMeasure readingType="Cleaning - After">523</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00095</USGSParameterCode>
+                    <Name>Specific cond at 25C</Name>
+                    <Units>uS/cm</Units>
+                  </Parameter>
+                  <MethodCode>SpCondSC001</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">579</FieldSensorMeasure>
+            </MonitorCheckReading>
+          </MonitorCheckReadingSet>
+          <MonitorCheckReadingSet>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>00400</USGSParameterCode>
+                  <Name>pH</Name>
+                  <Units>pH Units</Units>
+                </Parameter>
+                <MethodCode>PHPROBE</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <MonitorCheckReading>
+              <ReadingID>6031bc80-131f-4aab-a73e-d197331781c9</ReadingID>
+              <CheckReadingCode>BFOR</CheckReadingCode>
+              <ReadingDateTime>2018-10-24T12:30:00-06:00</ReadingDateTime>
+              <SensorMeasure readingType="Cleaning - Before">7.37</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00400</USGSParameterCode>
+                    <Name>pH</Name>
+                    <Units>pH Units</Units>
+                  </Parameter>
+                  <MethodCode>PHPROBE</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">8.38</FieldSensorMeasure>
+            </MonitorCheckReading>
+            <MonitorCheckReading>
+              <ReadingID>03a59e4d-0556-4b48-a357-055e46ad7ba8</ReadingID>
+              <CheckReadingCode>AFTR</CheckReadingCode>
+              <ReadingDateTime>2018-10-24T12:40:00-06:00</ReadingDateTime>
+              <SensorMeasure readingType="Cleaning - After">7.56</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00400</USGSParameterCode>
+                    <Name>pH</Name>
+                    <Units>pH Units</Units>
+                  </Parameter>
+                  <MethodCode>PHPROBE</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">8.40</FieldSensorMeasure>
+            </MonitorCheckReading>
+          </MonitorCheckReadingSet>
+          <MonitorCheckReadingSet>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>63680</USGSParameterCode>
+                  <Name>Turbidity, FNU</Name>
+                  <Units>_FNU</Units>
+                </Parameter>
+                <MethodCode>WTFNUTS213</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <MonitorCheckReading>
+              <ReadingID>72bc17d4-229d-4ac5-afbc-0ba91f55f5c3</ReadingID>
+              <CheckReadingCode>BFOR</CheckReadingCode>
+              <ReadingDateTime>2018-10-24T12:30:00-06:00</ReadingDateTime>
+              <SensorMeasure readingType="Cleaning - Before">266</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>63680</USGSParameterCode>
+                    <Name>Turbidity, FNU</Name>
+                    <Units>_FNU</Units>
+                  </Parameter>
+                  <MethodCode>WTFNUTS213</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">181</FieldSensorMeasure>
+            </MonitorCheckReading>
+            <MonitorCheckReading>
+              <ReadingID>a89a1ad7-b9d6-4896-a5a6-685cd0afeea5</ReadingID>
+              <CheckReadingCode>AFTR</CheckReadingCode>
+              <ReadingDateTime>2018-10-24T12:40:00-06:00</ReadingDateTime>
+              <SensorMeasure readingType="Cleaning - After">33</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>63680</USGSParameterCode>
+                    <Name>Turbidity, FNU</Name>
+                    <Units>_FNU</Units>
+                  </Parameter>
+                  <MethodCode>WTFNUTS213</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">122</FieldSensorMeasure>
+            </MonitorCheckReading>
+          </MonitorCheckReadingSet>
+          <FoulingComment>Heavy; silt</FoulingComment>
+          <Comment>Sonde was covered in heavy silt when removed from pipe.  It does appear that the sonde was in the water but lower part of pipe is covered in mud.  Nitrate is out of water and cannot be lowered any more unless the cable is changed.  Movement by field techs in the mud caused high turbidity values.  Turbidity from the cross section read ~18-20FNU.  Field turbidity and site are influenced by plumes it was nearly impossible to not disturb the mud when taking readings.  After cleaning readings from both the site and field sonde were taken from the boat.  DO probe swapped (GOAP out, WABASH in). Missing data due to GOES issues and DCP swap.</Comment>
+          <FieldMeterComment>Field readingss taken from the boat near end of pipes.  Tried to clear mud around the ends of pipes but it won't last.</FieldMeterComment>
+          <MonitorCheckReadingSet>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>00010</USGSParameterCode>
+                  <Name>Temperature, water</Name>
+                  <Units>degC</Units>
+                </Parameter>
+                <MethodCode>TWTHM01</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <MonitorCheckReading>
+              <ReadingID>cfd17fa6-5979-4292-9eb1-a5cbdc556593</ReadingID>
+              <CheckReadingCode>ACAL</CheckReadingCode>
+              <ReadingDateTime>2018-10-24T14:30:00-06:00</ReadingDateTime>
+              <SensorMeasure readingType="After Calibration">13.3</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00010</USGSParameterCode>
+                    <Name>Temperature, water</Name>
+                    <Units>degC</Units>
+                  </Parameter>
+                  <MethodCode>TWTHM01</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">13.7</FieldSensorMeasure>
+            </MonitorCheckReading>
+          </MonitorCheckReadingSet>
+          <MonitorCheckReadingSet>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>00300</USGSParameterCode>
+                  <Name>Dissolved oxygen</Name>
+                  <Units>mg/l</Units>
+                </Parameter>
+                <MethodCode>WOLUMIN</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <MonitorCheckReading>
+              <ReadingID>a7a7e848-75cd-4162-931a-1f108cdc6ccb</ReadingID>
+              <CheckReadingCode>ACAL</CheckReadingCode>
+              <ReadingDateTime>2018-10-24T14:30:00-06:00</ReadingDateTime>
+              <SensorMeasure readingType="After Calibration">11.3</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00300</USGSParameterCode>
+                    <Name>Dissolved oxygen</Name>
+                    <Units>mg/l</Units>
+                  </Parameter>
+                  <MethodCode>WOLUMIN</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">11.37</FieldSensorMeasure>
+            </MonitorCheckReading>
+          </MonitorCheckReadingSet>
+          <MonitorCheckReadingSet>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>00095</USGSParameterCode>
+                  <Name>Specific cond at 25C</Name>
+                  <Units>uS/cm</Units>
+                </Parameter>
+                <MethodCode>SpCondSC001</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <MonitorCheckReading>
+              <ReadingID>865069df-eb12-467a-9e59-2d21e281e13c</ReadingID>
+              <CheckReadingCode>ACAL</CheckReadingCode>
+              <ReadingDateTime>2018-10-24T14:30:00-06:00</ReadingDateTime>
+              <SensorMeasure readingType="After Calibration">544</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00095</USGSParameterCode>
+                    <Name>Specific cond at 25C</Name>
+                    <Units>uS/cm</Units>
+                  </Parameter>
+                  <MethodCode>SpCondSC001</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">579</FieldSensorMeasure>
+            </MonitorCheckReading>
+          </MonitorCheckReadingSet>
+          <MonitorCheckReadingSet>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>00400</USGSParameterCode>
+                  <Name>pH</Name>
+                  <Units>pH Units</Units>
+                </Parameter>
+                <MethodCode>PHPROBE</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <MonitorCheckReading>
+              <ReadingID>27268a77-953f-45a9-956e-ddd07e90a3f3</ReadingID>
+              <CheckReadingCode>ACAL</CheckReadingCode>
+              <ReadingDateTime>2018-10-24T14:30:00-06:00</ReadingDateTime>
+              <SensorMeasure readingType="After Calibration">8.4</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00400</USGSParameterCode>
+                    <Name>pH</Name>
+                    <Units>pH Units</Units>
+                  </Parameter>
+                  <MethodCode>PHPROBE</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">8.42</FieldSensorMeasure>
+            </MonitorCheckReading>
+          </MonitorCheckReadingSet>
+          <MonitorCheckReadingSet>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>63680</USGSParameterCode>
+                  <Name>Turbidity, FNU</Name>
+                  <Units>_FNU</Units>
+                </Parameter>
+                <MethodCode>WTFNUTS213</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <MonitorCheckReading>
+              <ReadingID>1769eba7-82f0-4fee-abfd-f300b549f5ad</ReadingID>
+              <CheckReadingCode>ACAL</CheckReadingCode>
+              <ReadingDateTime>2018-10-24T14:30:00-06:00</ReadingDateTime>
+              <SensorMeasure readingType="After Calibration">282</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>63680</USGSParameterCode>
+                    <Name>Turbidity, FNU</Name>
+                    <Units>_FNU</Units>
+                  </Parameter>
+                  <MethodCode>WTFNUTS213</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+              <FieldSensorMeasure readingType="Routine">47</FieldSensorMeasure>
+            </MonitorCheckReading>
+          </MonitorCheckReadingSet>
+          <MonitorCheckReadingSet>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <USGSParameterCode>99133</USGSParameterCode>
+                  <Name>NO3+NO2,water,insitu as N</Name>
+                  <Units>mg/l</Units>
+                </Parameter>
+                <MethodCode>AQ55UV016</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified</SerialNumber>
+            </Sensor>
+            <MonitorCheckReading>
+              <ReadingID>a4102986-fe00-4f36-85ca-0b5022d4d67a</ReadingID>
+              <CheckReadingCode>ACAL</CheckReadingCode>
+              <ReadingDateTime>2018-10-24T14:30:00-06:00</ReadingDateTime>
+              <SensorMeasure readingType="After Calibration">.4</SensorMeasure>
+              <FieldSensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>99133</USGSParameterCode>
+                    <Name>NO3+NO2,water,insitu as N</Name>
+                    <Units>mg/l</Units>
+                  </Parameter>
+                  <MethodCode>AQ55UV016</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+              </FieldSensor>
+            </MonitorCheckReading>
+          </MonitorCheckReadingSet>
+        </MonitorInspection>
+        <SensorInspection>
+          <WireWeightGageInspection>
+            <LocationSensor>
+              <Location>
+                <LocationName />
+              </Location>
+              <Sensor>
+                <SensorType>
+                  <Parameter>
+                    <Name>Gage height</Name>
+                    <Units>ft</Units>
+                    <USGSParameterCode>00065</USGSParameterCode>
+                  </Parameter>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                  <MethodCode>HGWWG</MethodCode>
+                </SensorType>
+                <SerialNumber>Unspecified</SerialNumber>
+                <SensorName>
+                </SensorName>
+              </Sensor>
+            </LocationSensor>
+            <CheckbarFoundMeasure>61.26</CheckbarFoundMeasure>
+          </WireWeightGageInspection>
+          <SensorReading>
+            <ReadingDateTime>2018-10-24T17:30:00-06:00</ReadingDateTime>
+            <SensorMeasure readingType="Routine">3.45</SensorMeasure>
+            <MeasureAccuracy>.02</MeasureAccuracy>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+          </SensorReading>
+        </SensorInspection>
+        <StreamFlowControlInspection>
+          <ControlCode description="Channel">CHAN</ControlCode>
+          <ControlCleanedCode description="NO">NTCL</ControlCleanedCode>
+          <ConditionCode description="Light debris">LGDB</ConditionCode>
+          <Comment>some tree debris on L &amp; REW.  Very low flow.</Comment>
+        </StreamFlowControlInspection>
+        <DischargeMeasurement>
+          <MeasurementNumber>331</MeasurementNumber>
+          <DischargeDateTime>2018-10-24T10:23:06-06:00</DischargeDateTime>
+          <StartDateTime>2018-10-24T10:08:14-06:00</StartDateTime>
+          <EndDateTime>2018-10-24T10:37:58-06:00</EndDateTime>
+          <ShowInRatingDevelopment>true</ShowInRatingDevelopment>
+          <AddToTimeSeries>true</AddToTimeSeries>
+          <Publish>true</Publish>
+          <ReasonFor>Routine</ReasonFor>
+          <MeasurementQualityCode description="Fair (8%)">FAIR</MeasurementQualityCode>
+          <DischargeCode description="Measured">MEAS</DischargeCode>
+          <DischargeMeasure>14093.646</DischargeMeasure>
+          <StageMeasure>3.77</StageMeasure>
+          <StageDifferenceMeasure>-.06</StageDifferenceMeasure>
+          <StageDifferenceDurationMeasure>.5</StageDifferenceDurationMeasure>
+          <BaseFlowCode description="Unknown">UNKN</BaseFlowCode>
+          <Comment>QRev - Moving-Bed Test 10/26/2018  11:46:11: - Loop closure error.  Very low stage and velocities, moving bed is very unlikely.  Will still use BT as reference.
+
+QRev - FileSave 10/26/2018  11:50:55: - 20181026_115055_QRev by mlott Q=14093.647 ft3/s</Comment>
+          <Channel>
+            <ChannelNumber>1</ChannelNumber>
+            <ChannelName>MAIN</ChannelName>
+            <DischargeMeasure>14093.646</DischargeMeasure>
+            <DeploymentMethodCode description="Manned moving boat">MBOT</DeploymentMethodCode>
+            <MeasurementMethodCode description="ADCP">QADCP</MeasurementMethodCode>
+            <VelocityMethodCode>WVADCP</VelocityMethodCode>
+            <ChannelMaterialCode description="silt-mud">SILT</ChannelMaterialCode>
+            <ChannelStabilityCode description="soft">SOFT</ChannelStabilityCode>
+            <ChannelEvennessCode description="even">EVEN</ChannelEvennessCode>
+            <HorizontalFlowCode description="Even">EVEN</HorizontalFlowCode>
+            <VerticalVelocityDistributionCode description="standard">STND</VerticalVelocityDistributionCode>
+            <VelocityVariation description="steady">STDY</VelocityVariation>
+            <SectionLocationCode description="Downstream">DNST</SectionLocationCode>
+            <SectionDistanceMeasure>800</SectionDistanceMeasure>
+            <AdcpDischargeMeasurement>
+              <AcousticChannelNotes>
+                <Note>
+                  <DateTime>2018-10-24T12:05:29-06:00</DateTime>
+                  <NoteTitle>QRev - Moving-Bed Test 10/26/2018  11:46:11:</NoteTitle>
+                  <NoteText>Loop closure error.  Very low stage and velocities, moving bed is very unlikely.  Will still use BT as reference.</NoteText>
+                </Note>
+                <Note>
+                  <DateTime>2018-10-24T12:05:29-06:00</DateTime>
+                  <NoteTitle>QRev - FileSave 10/26/2018  11:50:55:</NoteTitle>
+                  <NoteText>20181026_115055_QRev by mlott Q=14093.647 ft3/s</NoteText>
+                </Note>
+              </AcousticChannelNotes>
+              <DiagnosticTestText>Pass</DiagnosticTestText>
+              <CompassCalibrationText>Max  0.5</CompassCalibrationText>
+              <InstrumentTested description="YES">true</InstrumentTested>
+              <CompassCallibrationCompleted description="YES">true</CompassCallibrationCompleted>
+              <NavigationMethod description="Bottom tracking">BT</NavigationMethod>
+              <MagneticVariationAngle>-3.17</MagneticVariationAngle>
+              <ExternalDepthSounderIndicator description="NO">false</ExternalDepthSounderIndicator>
+              <AreaComputationCode description="Parallel to boat course">PARA</AreaComputationCode>
+              <BoatMotorUsedText />
+              <AcousticDopplerCurrentProfiler>
+                <SensorType>
+                  <Parameter>
+                    <Name>Stream velocity</Name>
+                    <Units>ft/s</Units>
+                  </Parameter>
+                  <MethodCode>WVADCP</MethodCode>
+                  <ManufacturerName>RDI</ManufacturerName>
+                  <ModelNumber>Rio Grande Workhorse ADCP</ModelNumber>
+                </SensorType>
+                <SerialNumber>3143 - 600 kHz</SerialNumber>
+                <FrequencyCode description="600 kHz">600</FrequencyCode>
+              </AcousticDopplerCurrentProfiler>
+              <SoftwareVersionText>QRev - 3.43</SoftwareVersionText>
+              <FirmwareVersionText>10.17</FirmwareVersionText>
+              <InstrumentConfiguration>Fixed     CR1       CF11110   BA30      BC220     BE100     BP1       BR2       ES0       EX10111   TE00000000TP000020  WA50      WE1500    WF50      WM1       WN50      WP1       WS50      WV170     WZ005     &amp;R20      Wizard    TP000020  BX221     BM5       WF25      WM12      WV175     WN22      WK50      WO6, 5    WS50      User</InstrumentConfiguration>
+              <ADCPDepthMeasure>1.05</ADCPDepthMeasure>
+              <DepthConsistentIndicator>true</DepthConsistentIndicator>
+              <BlankingDistanceMeasure>0.82</BlankingDistanceMeasure>
+              <WidthMeasure>779.206</WidthMeasure>
+              <AreaMeasure>10648.323</AreaMeasure>
+              <MeanDepthMeasure>13.878</MeanDepthMeasure>
+              <MaximumDepthMeasure>18.455</MaximumDepthMeasure>
+              <MeanVelocityMeasure>1.324</MeanVelocityMeasure>
+              <MaximumVelocityMeasure>2.548</MaximumVelocityMeasure>
+              <MeanTopDischargeMeasure>3516.161</MeanTopDischargeMeasure>
+              <MeanMiddleDischargeMeasure>7810.336</MeanMiddleDischargeMeasure>
+              <MeanBottomDischargeMeasure>2723.615</MeanBottomDischargeMeasure>
+              <MeanLeftDischargeMeasure>-0.662</MeanLeftDischargeMeasure>
+              <MeanRightDischargeMeasure>44.193</MeanRightDischargeMeasure>
+              <LeftEdgeCoefficient>0.3535</LeftEdgeCoefficient>
+              <RightEdgeCoefficient>0.3535</RightEdgeCoefficient>
+              <DischargeCoefficient>2.7595</DischargeCoefficient>
+              <TopEstimateMethodCode description="Power">POWR</TopEstimateMethodCode>
+              <TopEstimateExponent>0.094008</TopEstimateExponent>
+              <BottomEstimateMethodCode description="Power">POWR</BottomEstimateMethodCode>
+              <BottomEstimateExponent>0.094008</BottomEstimateExponent>
+              <AdcpTransect>
+                <DischargeMeasure>14163.06</DischargeMeasure>
+                <StartDateTime>2018-10-24T10:08:15</StartDateTime>
+                <EndDateTime>2018-10-24T10:15:25</EndDateTime>
+                <AdcpTransectAttribute>
+                  <AttributeDateTime>2018-10-24T10:08:15</AttributeDateTime>
+                  <Parameter>
+                    <Name>Sensor temperature</Name>
+                    <Units>ft/s</Units>
+                  </Parameter>
+                  <MethodCode />
+                  <AttributeMeasure>12.6989</AttributeMeasure>
+                  <CollectionAgencyCode>USGS</CollectionAgencyCode>
+                </AdcpTransectAttribute>
+              </AdcpTransect>
+              <AdcpTransect>
+                <DischargeMeasure>14541.972</DischargeMeasure>
+                <StartDateTime>2018-10-24T10:15:34</StartDateTime>
+                <EndDateTime>2018-10-24T10:23:53</EndDateTime>
+                <AdcpTransectAttribute>
+                  <AttributeDateTime>2018-10-24T10:15:34</AttributeDateTime>
+                  <Parameter>
+                    <Name>Sensor temperature</Name>
+                    <Units>ft/s</Units>
+                  </Parameter>
+                  <MethodCode />
+                  <AttributeMeasure>12.7703</AttributeMeasure>
+                  <CollectionAgencyCode>USGS</CollectionAgencyCode>
+                </AdcpTransectAttribute>
+              </AdcpTransect>
+              <AdcpTransect>
+                <DischargeMeasure>13596.097</DischargeMeasure>
+                <StartDateTime>2018-10-24T10:24:15</StartDateTime>
+                <EndDateTime>2018-10-24T10:30:36</EndDateTime>
+                <AdcpTransectAttribute>
+                  <AttributeDateTime>2018-10-24T10:24:15</AttributeDateTime>
+                  <Parameter>
+                    <Name>Sensor temperature</Name>
+                    <Units>ft/s</Units>
+                  </Parameter>
+                  <MethodCode />
+                  <AttributeMeasure>12.864</AttributeMeasure>
+                  <CollectionAgencyCode>USGS</CollectionAgencyCode>
+                </AdcpTransectAttribute>
+              </AdcpTransect>
+              <AdcpTransect>
+                <DischargeMeasure>14073.46</DischargeMeasure>
+                <StartDateTime>2018-10-24T10:30:49</StartDateTime>
+                <EndDateTime>2018-10-24T10:37:57</EndDateTime>
+                <AdcpTransectAttribute>
+                  <AttributeDateTime>2018-10-24T10:30:49</AttributeDateTime>
+                  <Parameter>
+                    <Name>Sensor temperature</Name>
+                    <Units>ft/s</Units>
+                  </Parameter>
+                  <MethodCode />
+                  <AttributeMeasure>12.951</AttributeMeasure>
+                  <CollectionAgencyCode>USGS</CollectionAgencyCode>
+                </AdcpTransectAttribute>
+              </AdcpTransect>
+              <QRevXML>
+                <SiteInformation>
+                  <StationName type="char">Wabash River @ New Harmony, IN</StationName>
+                  <SiteID type="char">03378500</SiteID>
+                </SiteInformation>
+                <QA>
+                  <DiagnosticTestResult type="char">Pass</DiagnosticTestResult>
+                  <CompassCalibrationResult type="char">Max  0.5</CompassCalibrationResult>
+                  <MovingBedTestType type="char">Loop</MovingBedTestType>
+                  <MovingBedTestResult type="char">No</MovingBedTestResult>
+                  <DiagnosticTest>
+                    <Text type="char"> 
+[ALT-BREAK Wakeup] WorkHorse Rio Grande Broadband ADCP Version 10.17
+Teledyne RD Instruments (c) 1996-2009
+All Rights Reserved.
+&gt;CR1
+[Parameters set to FACTORY defaults]
+&gt;TS?
+TS = 18/10/24,09:55:53 --- Time Set (yr/mon/day,hour:min:sec)
+&gt;PS0
+  Instrument S/N:  3143
+       Frequency:  614400 HZ
+   Configuration:  4 BEAM, JANUS
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  DOWN
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients: (c3,c2,c1,offset) -0.00,0.00,0.02,-5.09
+
+Temp Sens Offset:  -0.15 degrees C
+
+    CPU Firmware:  10.17 [0]
+   Boot Code Ver:  Required:  1.13   Actual:  1.13
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   7
+
+Board Serial Number Data:
+   90  00 00 00 E6 FA B0  09 DSP727-2001-03F
+   BE  00 00 03 01 7F 42  09 REC727-1000-03A
+   33  00 00 02 FA A4 72  09 CPU727-2000-00H
+   3A  00 00 03 01 6F 49  09 PIO727-3008-03A
+&gt;PS3
+Beam Width:   3.7 degrees
+
+Beam     Elevation     Azimuth
+  1         -69.98      269.90
+  2         -70.04       89.89
+  3         -69.95        0.10
+  4         -69.97      180.10
+
+Beam Directional Matrix (Down):
+  0.3423    0.0006    0.9396    0.2416  
+ -0.3413   -0.0006    0.9400    0.2423  
+ -0.0007   -0.3428    0.9394   -0.2420  
+  0.0006    0.3426    0.9395   -0.2421  
+
+Instrument Transformation Matrix (Down):    Q14:
+  1.4641   -1.4617    0.0018   -0.0037       23988  -23948      29     -60  
+ -0.0025    0.0029   -1.4593    1.4587         -41      48  -23909   23899  
+  0.2657    0.2665    0.2659    0.2661        4354    4366    4357    4360  
+  1.0313    1.0344   -1.0328   -1.0336       16897   16947  -16922  -16934  
+Beam Angle Corrections Are Loaded.
+&gt;PT200
+
+  Ambient  Temperature =    12.45 Degrees C
+  Attitude Temperature =    14.36 Degrees C
+  Internal Moisture    = 90DAh
+
+Correlation Magnitude: Wide Bandwidth
+
+               Lag  Bm1  Bm2  Bm3  Bm4
+                 0  255  255  255  255
+                 1  167  170  168  172
+                 2   48   55   51   50
+                 3   28   31   30   24
+                 4   21   22   29   29
+                 5   13   15   23   18
+                 6   18   22   25   20
+                 7   17   16   15   19
+
+  High Gain RSSI:    57   50   58   56
+   Low Gain RSSI:    30   24   28   28
+
+  SIN Duty Cycle:    50   48   53   45
+  COS Duty Cycle:    49   47   48   49
+
+Receive Test Results = $00000000 ... PASS
+
+IXMT    =      0.7 Amps rms  [Data=3ch]
+VXMT    =     20.6 Volts rms [Data=36h]
+   Z    =     29.9 Ohms
+Transmit Test Results = $0 ... PASS
+
+    0    0    0    0
+    0    0    0    0
+    0    0    0    0
+    0    0    0    0
+  255  255  255  255
+    0    0    0    0
+    0    0    0    0
+  255  255  255  255
+    0    0    0    0
+    0    0    0    0
+    0    0    0    0
+  255  255  255  255
+Electronics Test Results = $00000000 ... 
+Receive Bandwidth:
+    Sample      bw    bw    bw    bw    bw
+      rate  expect   Bm1   Bm2   Bm3   Bm4
+       614     200   173   169   168   179 Khz
+   results          PASS  PASS  PASS  PASS
+RSSI Time Constant:
+
+RSSI Filter Strobe 1 =   38400 Hz
+  time   Bm1   Bm2   Bm3   Bm4
+  msec  cnts  cnts  cnts  cnts
+     1     8     7     7     8
+     2    14    13    13    15
+     3    19    19    18    21
+     4    24    24    23    27
+     5    28    27    27    31
+     6    32    31    31    35
+     7    35    33    33    38
+     8    38    36    36    41
+     9    40    38    39    43
+    10    42    40    41    45
+   nom    56    52    54    58
+result    PASS  PASS  PASS  PASS
+&gt;PA
+
+PRE-DEPLOYMENT TESTS
+
+CPU TESTS:
+  RTC......................................PASS
+  RAM......................................PASS
+  ROM......................................PASS
+RECORDER TESTS:
+  PC Card #0...............................NOT DETECTED
+  PC Card #1...............................NOT DETECTED
+DSP TESTS:
+  Timing RAM...............................PASS
+  Demod  RAM...............................PASS
+  Demod  REG...............................PASS
+  FIFOs....................................PASS
+SYSTEM TESTS:
+  XILINX Interrupts... IRQ3  IRQ3  IRQ3 ...PASS
+  Wide Bandwidth...........................PASS
+  Narrow Bandwidth.........................PASS
+  RSSI Filter..............................PASS
+  Transmit.................................PASS
+SENSOR TESTS:
+  H/W Operation............................PASS
+&gt;PC2
+
+Press any key to quit sensor display ...
+
+Heading   Pitch    Roll   Up/Down    Attitude Temp   Ambient Temp   PRESSURE
+ 19.14??   0.71??   1.19??    Down         14.52??C        12.50??C         5.0 kPa
+ 19.46??   0.78??   1.13??    Down         14.52??C        12.48??C         4.9 kPa
+ 19.54??   0.74??   1.14??    Down         14.52??C        12.48??C         4.7 kPa
+ 19.52??   0.79??   1.16??    Down         14.51??C        12.49??C         5.2 kPa
+
+&gt;
+[ALT-BREAK Wakeup] WorkHorse Rio Grande Broadband ADCP Version 10.17
+Teledyne RD Instruments (c) 1996-2009
+All Rights Reserved.
+&gt;</Text>
+                  </DiagnosticTest>
+                  <CompassCalibration>
+                    <Text type="char"> 
+[ALT-BREAK Wakeup] WorkHorse Rio Grande Broadband ADCP Version 10.17
+Teledyne RD Instruments (c) 1996-2009
+All Rights Reserved.
+&gt;CR1
+[Parameters set to FACTORY defaults]
+&gt;TS?
+TS = 18/10/24,09:57:17 --- Time Set (yr/mon/day,hour:min:sec)
+&gt;PS0
+  Instrument S/N:  3143
+       Frequency:  614400 HZ
+   Configuration:  4 BEAM, JANUS
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  DOWN
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients: (c3,c2,c1,offset) -0.00,0.00,0.02,-5.09
+
+Temp Sens Offset:  -0.15 degrees C
+
+    CPU Firmware:  10.17 [0]
+   Boot Code Ver:  Required:  1.13   Actual:  1.13
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   7
+
+Board Serial Number Data:
+   90  00 00 00 E6 FA B0  09 DSP727-2001-03F
+   BE  00 00 03 01 7F 42  09 REC727-1000-03A
+   33  00 00 02 FA A4 72  09 CPU727-2000-00H
+   3A  00 00 03 01 6F 49  09 PIO727-3008-03A
+&gt;PS3
+Beam Width:   3.7 degrees
+
+Beam     Elevation     Azimuth
+  1         -69.98      269.90
+  2         -70.04       89.89
+  3         -69.95        0.10
+  4         -69.97      180.10
+
+Beam Directional Matrix (Down):
+  0.3423    0.0006    0.9396    0.2416  
+ -0.3413   -0.0006    0.9400    0.2423  
+ -0.0007   -0.3428    0.9394   -0.2420  
+  0.0006    0.3426    0.9395   -0.2421  
+
+Instrument Transformation Matrix (Down):    Q14:
+  1.4641   -1.4617    0.0018   -0.0037       23988  -23948      29     -60  
+ -0.0025    0.0029   -1.4593    1.4587         -41      48  -23909   23899  
+  0.2657    0.2665    0.2659    0.2661        4354    4366    4357    4360  
+  1.0313    1.0344   -1.0328   -1.0336       16897   16947  -16922  -16934  
+Beam Angle Corrections Are Loaded.
+&gt;AF
+
+-------------------------------------------------------------------------------
+                         Field Calibration Procedure
+Choose calibration method:
+     a.  Remove hard iron error (single cycle) only.
+     b.  Remove hard and soft iron error (single + double cycle).
+     c.  Calibration for a single tilt orientation (single + double cycle).
+     d.  Help.
+     e.  Quit.
+c
+
+
+-------------------------------------------------------------------------------
+                         Field Calibration Procedure
+          Calibration for Constant Tilt Applications (e.g., Rivers)
+
+Select one:
+     a.  Start calibration procedure.
+     b.  Zero calibration coefficients (only constant tilt coefs).
+     c.  Display correction coefficients.
+     d.  Instructions.
+     e.  Quit.
+a
+
+
+------------------------------------------------------------------------------
+                    RDI Compass Error Estimating Algorithm
+
+
+   Press space bar to start taking data after the instrument is setup.
+
+
+
+Rotate the unit in a plane until all data samples are acquired...
+   rotate less than 5??/sec.  Press Q to quit.
+
+ N       NE       E        SE       S       SW        W        NW       N
+ ^                ^                 ^                 ^                 ^
+ *****&lt;******************************************************************
+Calculating compass performance ...                               
+
+
+                          &gt;&gt;&gt; Total error:   1.1?? &lt;&lt;&lt;
+
+Press D for details or any other key to continue...
+                                                               
+
+
+
+
+
+
+
+
+
+
+HEADING ERROR ESTIMATE FOR THE CURRENT COMPASS CALIBRATION:
+
+   OVERALL ERROR:
+      Peak Double + Single Cycle Error (should be &lt; 5??):  ?? 1.12??
+
+   DETAILED ERROR SUMMARY:
+      Single Cycle Error:                                 ?? 1.04??
+      Double Cycle Error:                                 ?? 0.43??
+      Largest Double plus Single Cycle Error:             ?? 1.47??
+      RMS of 3rd Order and Higher + Random Error:         ?? 0.25??
+
+      Orientation:    Down
+      Average Pitch:   0.85??         Pitch Standard Dev:    0.12??
+      Average Roll:    0.81??         Roll Standard Dev:     0.18??
+
+Successfully evaluated compass performance for the current compass calibration.
+
+
+Press C to display Percent Horizontal Field Conponents
+     Relative to Calibration or any other key to continue....
+
+
+   Percent Horizontal Field Component Relative to Calibration:
+           a0 + a1*cos?? + b1*sin?? + a2*cos2*?? + b2*sin2*??
+          a0 =                                             46.473%
+          a1 =                                              0.655%
+          b1 =                                              0.529%
+          a2 =                                              0.108%
+          b2 =                                              0.336%
+
+          OneCycleK =                                       0.009 tw_rad
+          Add MagVar to get "OneCycOffset" =               38.922??
+Press space bar to continue...
+Calibration parameters have been updated in NRAM.
+
+&gt;
+[ALT-BREAK Wakeup] WorkHorse Rio Grande Broadband ADCP Version 10.17
+Teledyne RD Instruments (c) 1996-2009
+All Rights Reserved.
+&gt;CR1
+[Parameters set to FACTORY defaults]
+&gt;TS?
+TS = 18/10/24,09:57:17 --- Time Set (yr/mon/day,hour:min:sec)
+&gt;PS0
+  Instrument S/N:  3143
+       Frequency:  614400 HZ
+   Configuration:  4 BEAM, JANUS
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  DOWN
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients: (c3,c2,c1,offset) -0.00,0.00,0.02,-5.09
+
+Temp Sens Offset:  -0.15 degrees C
+
+    CPU Firmware:  10.17 [0]
+   Boot Code Ver:  Required:  1.13   Actual:  1.13
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   7
+
+Board Serial Number Data:
+   90  00 00 00 E6 FA B0  09 DSP727-2001-03F
+   BE  00 00 03 01 7F 42  09 REC727-1000-03A
+   33  00 00 02 FA A4 72  09 CPU727-2000-00H
+   3A  00 00 03 01 6F 49  09 PIO727-3008-03A
+&gt;PS3
+Beam Width:   3.7 degrees
+
+Beam     Elevation     Azimuth
+  1         -69.98      269.90
+  2         -70.04       89.89
+  3         -69.95        0.10
+  4         -69.97      180.10
+
+Beam Directional Matrix (Down):
+  0.3423    0.0006    0.9396    0.2416  
+ -0.3413   -0.0006    0.9400    0.2423  
+ -0.0007   -0.3428    0.9394   -0.2420  
+  0.0006    0.3426    0.9395   -0.2421  
+
+Instrument Transformation Matrix (Down):    Q14:
+  1.4641   -1.4617    0.0018   -0.0037       23988  -23948      29     -60  
+ -0.0025    0.0029   -1.4593    1.4587         -41      48  -23909   23899  
+  0.2657    0.2665    0.2659    0.2661        4354    4366    4357    4360  
+  1.0313    1.0344   -1.0328   -1.0336       16897   16947  -16922  -16934  
+Beam Angle Corrections Are Loaded.
+&gt;AF
+
+-------------------------------------------------------------------------------
+                         Field Calibration Procedure
+Choose calibration method:
+     a.  Remove hard iron error (single cycle) only.
+     b.  Remove hard and soft iron error (single + double cycle).
+     c.  Calibration for a single tilt orientation (single + double cycle).
+     d.  Help.
+     e.  Quit.
+c
+
+
+-------------------------------------------------------------------------------
+                         Field Calibration Procedure
+          Calibration for Constant Tilt Applications (e.g., Rivers)
+
+Select one:
+     a.  Start calibration procedure.
+     b.  Zero calibration coefficients (only constant tilt coefs).
+     c.  Display correction coefficients.
+     d.  Instructions.
+     e.  Quit.
+a
+
+
+------------------------------------------------------------------------------
+                    RDI Compass Error Estimating Algorithm
+
+
+   Press space bar to start taking data after the instrument is setup.
+
+
+
+Rotate the unit in a plane until all data samples are acquired...
+   rotate less than 5??/sec.  Press Q to quit.
+
+ N       NE       E        SE       S       SW        W        NW       N
+ ^                ^                 ^                 ^                 ^
+ *****&lt;******************************************************************
+Calculating compass performance ...                               
+
+
+                          &gt;&gt;&gt; Total error:   1.1?? &lt;&lt;&lt;
+
+Press D for details or any other key to continue...
+                                                               
+
+
+
+
+
+
+
+
+
+
+HEADING ERROR ESTIMATE FOR THE CURRENT COMPASS CALIBRATION:
+
+   OVERALL ERROR:
+      Peak Double + Single Cycle Error (should be &lt; 5??):  ?? 1.12??
+
+   DETAILED ERROR SUMMARY:
+      Single Cycle Error:                                 ?? 1.04??
+      Double Cycle Error:                                 ?? 0.43??
+      Largest Double plus Single Cycle Error:             ?? 1.47??
+      RMS of 3rd Order and Higher + Random Error:         ?? 0.25??
+
+      Orientation:    Down
+      Average Pitch:   0.85??         Pitch Standard Dev:    0.12??
+      Average Roll:    0.81??         Roll Standard Dev:     0.18??
+
+Successfully evaluated compass performance for the current compass calibration.
+
+
+Press C to display Percent Horizontal Field Conponents
+     Relative to Calibration or any other key to continue....
+
+
+   Percent Horizontal Field Component Relative to Calibration:
+           a0 + a1*cos?? + b1*sin?? + a2*cos2*?? + b2*sin2*??
+          a0 =                                             46.473%
+          a1 =                                              0.655%
+          b1 =                                              0.529%
+          a2 =                                              0.108%
+          b2 =                                              0.336%
+
+          OneCycleK =                                       0.009 tw_rad
+          Add MagVar to get "OneCycOffset" =               38.922??
+Press space bar to continue...
+Calibration parameters have been updated in NRAM.
+
+&gt;
+[ALT-BREAK Wakeup] WorkHorse Rio Grande Broadband ADCP Version 10.17
+Teledyne RD Instruments (c) 1996-2009
+All Rights Reserved.
+&gt;CR1
+[Parameters set to FACTORY defaults]
+&gt;TS?
+TS = 18/10/24,09:58:47 --- Time Set (yr/mon/day,hour:min:sec)
+&gt;PS0
+  Instrument S/N:  3143
+       Frequency:  614400 HZ
+   Configuration:  4 BEAM, JANUS
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  DOWN
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients: (c3,c2,c1,offset) -0.00,0.00,0.02,-5.09
+
+Temp Sens Offset:  -0.15 degrees C
+
+    CPU Firmware:  10.17 [0]
+   Boot Code Ver:  Required:  1.13   Actual:  1.13
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   7
+
+Board Serial Number Data:
+   90  00 00 00 E6 FA B0  09 DSP727-2001-03F
+   BE  00 00 03 01 7F 42  09 REC727-1000-03A
+   33  00 00 02 FA A4 72  09 CPU727-2000-00H
+   3A  00 00 03 01 6F 49  09 PIO727-3008-03A
+&gt;PS3
+Beam Width:   3.7 degrees
+
+Beam     Elevation     Azimuth
+  1         -69.98      269.90
+  2         -70.04       89.89
+  3         -69.95        0.10
+  4         -69.97      180.10
+
+Beam Directional Matrix (Down):
+  0.3423    0.0006    0.9396    0.2416  
+ -0.3413   -0.0006    0.9400    0.2423  
+ -0.0007   -0.3428    0.9394   -0.2420  
+  0.0006    0.3426    0.9395   -0.2421  
+
+Instrument Transformation Matrix (Down):    Q14:
+  1.4641   -1.4617    0.0018   -0.0037       23988  -23948      29     -60  
+ -0.0025    0.0029   -1.4593    1.4587         -41      48  -23909   23899  
+  0.2657    0.2665    0.2659    0.2661        4354    4366    4357    4360  
+  1.0313    1.0344   -1.0328   -1.0336       16897   16947  -16922  -16934  
+Beam Angle Corrections Are Loaded.
+&gt;AX
+
+------------------------------------------------------------------------------
+                    RDI Compass Error Estimating Algorithm
+
+
+   Press space bar to start taking data after the instrument is setup.
+
+
+
+Rotate the unit in a plane until all data samples are acquired...
+   rotate less than 5??/sec.  Press Q to quit.
+
+ N       NE       E        SE       S       SW        W        NW       N
+ ^                ^                 ^                 ^                 ^
+ ***************************************************&lt;********************
+Calculating compass performance ...                               
+
+
+                          &gt;&gt;&gt; Total error:   0.5?? &lt;&lt;&lt;
+
+Press D for details or any other key to continue...
+                                                               
+
+
+
+
+
+
+
+
+
+
+HEADING ERROR ESTIMATE FOR THE CURRENT COMPASS CALIBRATION:
+
+   OVERALL ERROR:
+      Peak Double + Single Cycle Error (should be &lt; 5??):  ?? 0.51??
+
+   DETAILED ERROR SUMMARY:
+      Single Cycle Error:                                 ?? 0.45??
+      Double Cycle Error:                                 ?? 0.16??
+      Largest Double plus Single Cycle Error:             ?? 0.61??
+      RMS of 3rd Order and Higher + Random Error:         ?? 0.24??
+
+      Orientation:    Down
+      Average Pitch:   0.96??         Pitch Standard Dev:    0.07??
+      Average Roll:    1.13??         Roll Standard Dev:     0.13??
+
+Successfully evaluated compass performance for the current compass calibration.
+
+
+Press C to display Percent Horizontal Field Conponents
+     Relative to Calibration or any other key to continue....
+
+
+   Percent Horizontal Field Component Relative to Calibration:
+           a0 + a1*cos?? + b1*sin?? + a2*cos2*?? + b2*sin2*??
+          a0 =                                             46.509%
+          a1 =                                             -0.031%
+          b1 =                                              0.362%
+          a2 =                                             -0.062%
+          b2 =                                             -0.113%
+
+          OneCycleK =                                       0.004 tw_rad
+          Add MagVar to get "OneCycOffset" =               94.915??
+Press space bar to continue...
+
+&gt;</Text>
+                  </CompassCalibration>
+                  <MovingBedTest>
+                    <Filename type="char">03378500_331_000_LBT.PD0</Filename>
+                    <TestType type="char">Loop</TestType>
+                    <Duration type="double" unitsCode="sec">444.73</Duration>
+                    <PercentInvalidBT type="double">2.099</PercentInvalidBT>
+                    <HeadingDifference type="double" unitsCode="deg">1.0617</HeadingDifference>
+                    <MeanFlowDirection type="double" unitsCode="deg">197.2415</MeanFlowDirection>
+                    <MovingBedDirection type="double" unitsCode="deg">180.2222</MovingBedDirection>
+                    <DistanceUpstream type="double" unitsCode="m">7.8927</DistanceUpstream>
+                    <MeanFlowSpeed type="double" unitsCode="mps">0.43023</MeanFlowSpeed>
+                    <MovingBedSpeed type="double" unitsCode="mps">0.017747</MovingBedSpeed>
+                    <PercentMovingBed type="double">3.9616</PercentMovingBed>
+                    <TestQuality type="char">Errors</TestQuality>
+                    <MovingBedPresent type="char">Unknown</MovingBedPresent>
+                    <UseToCorrect type="char">No</UseToCorrect>
+                    <UserValid type="char">Yes</UserValid>
+                    <Message type="char">
+ ERROR: Loop closure error not in upstream direction. REPEAT LOOP or USE STATIONARY TEST</Message>
+                  </MovingBedTest>
+                  <TemperatureCheck>
+                    <VerificationTemperature type="double" unitsCode="degC">13.2</VerificationTemperature>
+                    <InstrumentTemperature type="double" unitsCode="degC">12.9</InstrumentTemperature>
+                    <TemperatureChange type="double" unitsCode="degC">0.43</TemperatureChange>
+                  </TemperatureCheck>
+                  <QRev_Message type="char">MOVING-BED TEST: The moving-bed test(s) have critical errors and will not be used;
+bt-All: Int. Q for invalid ensembles in a transect exceeds 10%;
+bt-ErrorVel: Int. Q for invalid ensembles in a transect exceeds 10%;
+</QRev_Message>
+                </QA>
+                <Instrument>
+                  <Manufacturer type="char">TRDI</Manufacturer>
+                  <Model type="char">Rio Grande</Model>
+                  <SerialNumber type="char">3143</SerialNumber>
+                  <FirmwareVersion type="char">10.17</FirmwareVersion>
+                  <Frequency type="char" unitsCode="kHz">600</Frequency>
+                  <BeamAngle type="double" unitsCode="deg">20</BeamAngle>
+                  <BlankingDistance type="double" unitsCode="m">0.25</BlankingDistance>
+                  <InstrumentConfiguration type="char">Fixed     CR1       CF11110   BA30      BC220     BE100     BP1       BR2       ES0       EX10111   TE00000000TP000020  WA50      WE1500    WF50      WM1       WN50      WP1       WS50      WV170     WZ005     &amp;R20      Wizard    TP000020  BX221     BM5       WF25      WM12      WV175     WN22      WK50      WO6, 5    WS50      User      </InstrumentConfiguration>
+                </Instrument>
+                <Processing>
+                  <SoftwareVersion type="char">QRev - 3.43</SoftwareVersion>
+                  <Type type="char">QRev</Type>
+                  <AreaComputationMethod type="char">Parallel</AreaComputationMethod>
+                  <Navigation>
+                    <Reference type="char">BT</Reference>
+                    <CompositeTrack type="char">Off</CompositeTrack>
+                    <MagneticVariation type="double" unitsCode="deg">-3.17</MagneticVariation>
+                    <BeamFilter type="char">Auto</BeamFilter>
+                    <ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+                    <VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+                    <OtherFilter type="char">Off</OtherFilter>
+                    <InterpolationType type="char">Linear</InterpolationType>
+                  </Navigation>
+                  <Depth>
+                    <Reference type="char">BT</Reference>
+                    <CompositeDepth type="char">On</CompositeDepth>
+                    <ADCPDepth type="double" unitsCode="m">0.32004</ADCPDepth>
+                    <ADCPDepthConsistent type="boolean">Yes</ADCPDepthConsistent>
+                    <FilterType type="char">Smooth</FilterType>
+                    <InterpolationType type="char">Linear</InterpolationType>
+                    <AveragingMethod type="char">IDW</AveragingMethod>
+                    <ValidDataMethod type="char">QRev</ValidDataMethod>
+                  </Depth>
+                  <WaterTrack>
+                    <ExcludedDistance type="double" unitsCode="m">0</ExcludedDistance>
+                    <BeamFilter type="char">Auto</BeamFilter>
+                    <ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+                    <VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+                    <OtherFilter type="char">Off</OtherFilter>
+                    <SNRFilter type="char">Off</SNRFilter>
+                    <CellInterpolation type="char">TRDI</CellInterpolation>
+                    <EnsembleInterpolation type="char">Linear</EnsembleInterpolation>
+                  </WaterTrack>
+                  <Edge>
+                    <RectangularEdgeMethod type="char">Fixed</RectangularEdgeMethod>
+                    <VelocityMethod type="char">MeasMag</VelocityMethod>
+                    <LeftType type="char">Triangular</LeftType>
+                    <LeftEdgeCoefficient type="char">0.3535</LeftEdgeCoefficient>
+                    <RightType type="char">Triangular</RightType>
+                    <RightEdgeCoefficient type="char">0.3535</RightEdgeCoefficient>
+                  </Edge>
+                  <Extrapolation>
+                    <TopMethod type="char">Power</TopMethod>
+                    <BottomMethod type="char">Power</BottomMethod>
+                    <Exponent type="double">0.094008</Exponent>
+                  </Extrapolation>
+                  <Sensor>
+                    <TemperatureSource type="char">internal</TemperatureSource>
+                    <Salinity type="char" unitsCode="ppt">ADCP</Salinity>
+                    <SpeedofSound type="char" unitsCode="mps">ADCP</SpeedofSound>
+                  </Sensor>
+                </Processing>
+                <Transect>
+                  <Filename type="char">03378500_331_000.PD0</Filename>
+                  <StartDateTime type="char">10/24/2018 10:08:15</StartDateTime>
+                  <EndDateTime type="char">10/24/2018 10:15:25</EndDateTime>
+                  <Discharge>
+                    <Top type="double" unitsCode="cms">95.7998</Top>
+                    <Middle type="double" unitsCode="cms">230.0702</Middle>
+                    <Bottom type="double" unitsCode="cms">74.3961</Bottom>
+                    <Left type="double" unitsCode="cms">-0.80671</Left>
+                    <Right type="double" unitsCode="cms">1.5939</Right>
+                    <Total type="double" unitsCode="cms">401.0532</Total>
+                    <MovingBedPercentCorrection type="double">0</MovingBedPercentCorrection>
+                  </Discharge>
+                  <Edge>
+                    <StartEdge type="char">Left</StartEdge>
+                    <RectangularEdgeMethod type="char">Fixed</RectangularEdgeMethod>
+                    <VelocityMethod type="char">MeasMag</VelocityMethod>
+                    <LeftType type="char">Triangular</LeftType>
+                    <LeftEdgeCoefficient type="double">0.3535</LeftEdgeCoefficient>
+                    <LeftDistance type="double" unitsCode="m">9.4488</LeftDistance>
+                    <LeftNumberEnsembles type="double">10</LeftNumberEnsembles>
+                    <RightType type="char">Triangular</RightType>
+                    <RightEdgeCoefficient type="double">0.3535</RightEdgeCoefficient>
+                    <RightDistance type="double" unitsCode="m">9.6012</RightDistance>
+                    <RightNumberEnsembles type="double">10</RightNumberEnsembles>
+                  </Edge>
+                  <Sensor>
+                    <TemperatureSource type="char">internal</TemperatureSource>
+                    <MeanTemperature type="double" unitsCode="degC">12.6989</MeanTemperature>
+                    <MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+                    <SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+                    <SpeedofSound type="double" unitsCode="mps">1456.9985</SpeedofSound>
+                  </Sensor>
+                  <Other>
+                    <Duration type="double" unitsCode="sec">429.72</Duration>
+                    <Width type="double" unitsCode="m">241.1789</Width>
+                    <Area type="double" unitsCode="sqm">1026.994</Area>
+                    <MeanBoatSpeed type="double" unitsCode="mps">0.57454</MeanBoatSpeed>
+                    <QoverA type="double" unitsCode="mps">0.39051</QoverA>
+                    <CourseMadeGood type="double" unitsCode="deg">286.3094</CourseMadeGood>
+                    <MeanFlowDirection type="double" unitsCode="deg">200.2926</MeanFlowDirection>
+                    <NumberofEnsembles type="double">646</NumberofEnsembles>
+                    <PercentInvalidBins type="double">0.2381</PercentInvalidBins>
+                    <PercentInvalidEns type="double">5.418</PercentInvalidEns>
+                    <MeanPitch type="double" unitsCode="deg">0.43566</MeanPitch>
+                    <MeanRoll type="double" unitsCode="deg">0.82684</MeanRoll>
+                    <PitchStdDev type="double" unitsCode="deg">0.14337</PitchStdDev>
+                    <RollStdDev type="double" unitsCode="deg">0.27574</RollStdDev>
+                    <ADCPDepth type="double" unitsCode="m">0.32004</ADCPDepth>
+                  </Other>
+                </Transect>
+                <Transect>
+                  <Filename type="char">03378500_331_001.PD0</Filename>
+                  <StartDateTime type="char">10/24/2018 10:15:34</StartDateTime>
+                  <EndDateTime type="char">10/24/2018 10:23:53</EndDateTime>
+                  <Discharge>
+                    <Top type="double" unitsCode="cms">108.9828</Top>
+                    <Middle type="double" unitsCode="cms">217.9577</Middle>
+                    <Bottom type="double" unitsCode="cms">82.9411</Bottom>
+                    <Left type="double" unitsCode="cms">0.064822</Left>
+                    <Right type="double" unitsCode="cms">1.8364</Right>
+                    <Total type="double" unitsCode="cms">411.7828</Total>
+                    <MovingBedPercentCorrection type="double">0</MovingBedPercentCorrection>
+                  </Discharge>
+                  <Edge>
+                    <StartEdge type="char">Right</StartEdge>
+                    <RectangularEdgeMethod type="char">Fixed</RectangularEdgeMethod>
+                    <VelocityMethod type="char">MeasMag</VelocityMethod>
+                    <LeftType type="char">Triangular</LeftType>
+                    <LeftEdgeCoefficient type="double">0.3535</LeftEdgeCoefficient>
+                    <LeftDistance type="double" unitsCode="m">7.1628</LeftDistance>
+                    <LeftNumberEnsembles type="double">10</LeftNumberEnsembles>
+                    <RightType type="char">Triangular</RightType>
+                    <RightEdgeCoefficient type="double">0.3535</RightEdgeCoefficient>
+                    <RightDistance type="double" unitsCode="m">9.6012</RightDistance>
+                    <RightNumberEnsembles type="double">10</RightNumberEnsembles>
+                  </Edge>
+                  <Sensor>
+                    <TemperatureSource type="char">internal</TemperatureSource>
+                    <MeanTemperature type="double" unitsCode="degC">12.7703</MeanTemperature>
+                    <MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+                    <SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+                    <SpeedofSound type="double" unitsCode="mps">1457</SpeedofSound>
+                  </Sensor>
+                  <Other>
+                    <Duration type="double" unitsCode="sec">498.92</Duration>
+                    <Width type="double" unitsCode="m">237.1894</Width>
+                    <Area type="double" unitsCode="sqm">938.4159</Area>
+                    <MeanBoatSpeed type="double" unitsCode="mps">0.52045</MeanBoatSpeed>
+                    <QoverA type="double" unitsCode="mps">0.43881</QoverA>
+                    <CourseMadeGood type="double" unitsCode="deg">114.0605</CourseMadeGood>
+                    <MeanFlowDirection type="double" unitsCode="deg">200.4919</MeanFlowDirection>
+                    <NumberofEnsembles type="double">728</NumberofEnsembles>
+                    <PercentInvalidBins type="double">0.034662</PercentInvalidBins>
+                    <PercentInvalidEns type="double">8.2418</PercentInvalidEns>
+                    <MeanPitch type="double" unitsCode="deg">0.43054</MeanPitch>
+                    <MeanRoll type="double" unitsCode="deg">0.55295</MeanRoll>
+                    <PitchStdDev type="double" unitsCode="deg">0.15246</PitchStdDev>
+                    <RollStdDev type="double" unitsCode="deg">0.21099</RollStdDev>
+                    <ADCPDepth type="double" unitsCode="m">0.32004</ADCPDepth>
+                  </Other>
+                </Transect>
+                <Transect>
+                  <Filename type="char">03378500_331_002.PD0</Filename>
+                  <StartDateTime type="char">10/24/2018 10:24:15</StartDateTime>
+                  <EndDateTime type="char">10/24/2018 10:30:36</EndDateTime>
+                  <Discharge>
+                    <Top type="double" unitsCode="cms">91.5795</Top>
+                    <Middle type="double" unitsCode="cms">219.6363</Middle>
+                    <Bottom type="double" unitsCode="cms">73.0086</Bottom>
+                    <Left type="double" unitsCode="cms">0.15157</Left>
+                    <Right type="double" unitsCode="cms">0.62259</Right>
+                    <Total type="double" unitsCode="cms">384.9986</Total>
+                    <MovingBedPercentCorrection type="double">0</MovingBedPercentCorrection>
+                  </Discharge>
+                  <Edge>
+                    <StartEdge type="char">Left</StartEdge>
+                    <RectangularEdgeMethod type="char">Fixed</RectangularEdgeMethod>
+                    <VelocityMethod type="char">MeasMag</VelocityMethod>
+                    <LeftType type="char">Triangular</LeftType>
+                    <LeftEdgeCoefficient type="double">0.3535</LeftEdgeCoefficient>
+                    <LeftDistance type="double" unitsCode="m">7.62</LeftDistance>
+                    <LeftNumberEnsembles type="double">10</LeftNumberEnsembles>
+                    <RightType type="char">Triangular</RightType>
+                    <RightEdgeCoefficient type="double">0.3535</RightEdgeCoefficient>
+                    <RightDistance type="double" unitsCode="m">5.7912</RightDistance>
+                    <RightNumberEnsembles type="double">10</RightNumberEnsembles>
+                  </Edge>
+                  <Sensor>
+                    <TemperatureSource type="char">internal</TemperatureSource>
+                    <MeanTemperature type="double" unitsCode="degC">12.864</MeanTemperature>
+                    <MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+                    <SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+                    <SpeedofSound type="double" unitsCode="mps">1457.5707</SpeedofSound>
+                  </Sensor>
+                  <Other>
+                    <Duration type="double" unitsCode="sec">380.38</Duration>
+                    <Width type="double" unitsCode="m">236.7021</Width>
+                    <Area type="double" unitsCode="sqm">1028.8509</Area>
+                    <MeanBoatSpeed type="double" unitsCode="mps">0.61236</MeanBoatSpeed>
+                    <QoverA type="double" unitsCode="mps">0.3742</QoverA>
+                    <CourseMadeGood type="double" unitsCode="deg">294.439</CourseMadeGood>
+                    <MeanFlowDirection type="double" unitsCode="deg">203.9145</MeanFlowDirection>
+                    <NumberofEnsembles type="double">573</NumberofEnsembles>
+                    <PercentInvalidBins type="double">0.075019</PercentInvalidBins>
+                    <PercentInvalidEns type="double">1.7452</PercentInvalidEns>
+                    <MeanPitch type="double" unitsCode="deg">0.50191</MeanPitch>
+                    <MeanRoll type="double" unitsCode="deg">0.49368</MeanRoll>
+                    <PitchStdDev type="double" unitsCode="deg">0.15789</PitchStdDev>
+                    <RollStdDev type="double" unitsCode="deg">0.23528</RollStdDev>
+                    <ADCPDepth type="double" unitsCode="m">0.32004</ADCPDepth>
+                  </Other>
+                </Transect>
+                <Transect>
+                  <Filename type="char">03378500_331_003.PD0</Filename>
+                  <StartDateTime type="char">10/24/2018 10:30:49</StartDateTime>
+                  <EndDateTime type="char">10/24/2018 10:37:57</EndDateTime>
+                  <Discharge>
+                    <Top type="double" unitsCode="cms">101.9043</Top>
+                    <Middle type="double" unitsCode="cms">216.9923</Middle>
+                    <Bottom type="double" unitsCode="cms">78.1512</Bottom>
+                    <Left type="double" unitsCode="cms">0.51535</Left>
+                    <Right type="double" unitsCode="cms">0.95289</Right>
+                    <Total type="double" unitsCode="cms">398.516</Total>
+                    <MovingBedPercentCorrection type="double">0</MovingBedPercentCorrection>
+                  </Discharge>
+                  <Edge>
+                    <StartEdge type="char">Right</StartEdge>
+                    <RectangularEdgeMethod type="char">Fixed</RectangularEdgeMethod>
+                    <VelocityMethod type="char">MeasMag</VelocityMethod>
+                    <LeftType type="char">Triangular</LeftType>
+                    <LeftEdgeCoefficient type="double">0.3535</LeftEdgeCoefficient>
+                    <LeftDistance type="double" unitsCode="m">6.7056</LeftDistance>
+                    <LeftNumberEnsembles type="double">10</LeftNumberEnsembles>
+                    <RightType type="char">Triangular</RightType>
+                    <RightEdgeCoefficient type="double">0.3535</RightEdgeCoefficient>
+                    <RightDistance type="double" unitsCode="m">5.7912</RightDistance>
+                    <RightNumberEnsembles type="double">10</RightNumberEnsembles>
+                  </Edge>
+                  <Sensor>
+                    <TemperatureSource type="char">internal</TemperatureSource>
+                    <MeanTemperature type="double" unitsCode="degC">12.951</MeanTemperature>
+                    <MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+                    <SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+                    <SpeedofSound type="double" unitsCode="mps">1458</SpeedofSound>
+                  </Sensor>
+                  <Other>
+                    <Duration type="double" unitsCode="sec">427.31</Duration>
+                    <Width type="double" unitsCode="m">234.9373</Width>
+                    <Area type="double" unitsCode="sqm">962.7854</Area>
+                    <MeanBoatSpeed type="double" unitsCode="mps">0.60397</MeanBoatSpeed>
+                    <QoverA type="double" unitsCode="mps">0.41392</QoverA>
+                    <CourseMadeGood type="double" unitsCode="deg">111.485</CourseMadeGood>
+                    <MeanFlowDirection type="double" unitsCode="deg">198.1037</MeanFlowDirection>
+                    <NumberofEnsembles type="double">617</NumberofEnsembles>
+                    <PercentInvalidBins type="double">0.037064</PercentInvalidBins>
+                    <PercentInvalidEns type="double">10.2107</PercentInvalidEns>
+                    <MeanPitch type="double" unitsCode="deg">0.47835</MeanPitch>
+                    <MeanRoll type="double" unitsCode="deg">0.72861</MeanRoll>
+                    <PitchStdDev type="double" unitsCode="deg">0.15525</PitchStdDev>
+                    <RollStdDev type="double" unitsCode="deg">0.28245</RollStdDev>
+                    <ADCPDepth type="double" unitsCode="m">0.32004</ADCPDepth>
+                  </Other>
+                </Transect>
+                <ChannelSummary>
+                  <Discharge>
+                    <Top type="double" unitsCode="cms">99.5666</Top>
+                    <Middle type="double" unitsCode="cms">221.1641</Middle>
+                    <Bottom type="double" unitsCode="cms">77.1242</Bottom>
+                    <Left type="double" unitsCode="cms">-0.018743</Left>
+                    <Right type="double" unitsCode="cms">1.2514</Right>
+                    <Total type="double" unitsCode="cms">399.0876</Total>
+                    <MovingBedPercentCorrection type="double">0</MovingBedPercentCorrection>
+                  </Discharge>
+                  <Uncertainty>
+                    <COV type="double">2.7595</COV>
+                    <AutoRandom type="double">4.3911</AutoRandom>
+                    <AutoInvalidData type="double">1.5396</AutoInvalidData>
+                    <AutoEdge type="double">0.095481</AutoEdge>
+                    <AutoExtrapolation type="double">1.0301</AutoExtrapolation>
+                    <AutoMovingBed type="double">3</AutoMovingBed>
+                    <AutoSystematic type="double">1.5</AutoSystematic>
+                    <AutoTotal type="double">6.3814</AutoTotal>
+                    <UserTotal type="double">6.3814</UserTotal>
+                    <Random type="char">4.4</Random>
+                    <InvalidData type="char">1.5</InvalidData>
+                    <Edge type="char">0.1</Edge>
+                    <Extrapolation type="char">1.0</Extrapolation>
+                    <MovingBed type="char">3.0</MovingBed>
+                    <Systematic type="char">1.5</Systematic>
+                    <Total type="char">6.4</Total>
+                  </Uncertainty>
+                  <Other>
+                    <MeanWidth type="double" unitsCode="m">237.5019</MeanWidth>
+                    <WidthCOV type="double">1.1096</WidthCOV>
+                    <MeanArea type="double" unitsCode="sqm">989.2616</MeanArea>
+                    <AreaCOV type="double">4.624</AreaCOV>
+                    <MeanBoatSpeed type="double" unitsCode="mps">0.57783</MeanBoatSpeed>
+                    <MeanQoverA type="double" unitsCode="mps">0.40342</MeanQoverA>
+                    <MeanCourseMadeGood type="double" unitsCode="deg">111.485</MeanCourseMadeGood>
+                    <MeanFlowDirection type="double" unitsCode="deg">200.7005</MeanFlowDirection>
+                    <MeanDepth type="double" unitsCode="m">4.2301</MeanDepth>
+                    <MaximumDepth type="double" unitsCode="m">5.625</MaximumDepth>
+                    <MaximumWaterSpeed type="double" unitsCode="mps">0.77659</MaximumWaterSpeed>
+                    <NumberofTransects type="integer">4</NumberofTransects>
+                    <Duration type="double" unitsCode="sec">1736.33</Duration>
+                    <LeftQPer type="double">-0.0046966</LeftQPer>
+                    <RightQPer type="double">0.31357</RightQPer>
+                    <InvalidCellsQPer type="double">0.0043657</InvalidCellsQPer>
+                    <InvalidEnsQPer type="double">7.6935</InvalidEnsQPer>
+                    <UserRating type="text">Fair (5 - 8%)</UserRating>
+                    <DischargePPDefault type="double">395.0615</DischargePPDefault>
+                  </Other>
+                </ChannelSummary>
+                <UserComment type="char">Moving-Bed Test 10/26/2018 11:46:11: Loop closure error.  Very low stage and velocities, moving bed is very unlikely.  Will still use BT as reference.  |||FileSave 10/26/2018 11:50:55: 20181026_115055_QRev by mlott Q=14093.647 ft3/s  |||</UserComment>
+              </QRevXML>
+              <SuspensionCode description="Rigid boat mount">RIGD</SuspensionCode>
+              <InstrumentTimeSynchronized description="YES">true</InstrumentTimeSynchronized>
+              <InstrumentTimeSynchronizedDateTime>2018-10-24T09:55:00-06:00</InstrumentTimeSynchronizedDateTime>
+              <GPSDeviceUsedDesc>Trimble</GPSDeviceUsedDesc>
+              <BoatAndMotorUsedDesc>KANN/Mercury</BoatAndMotorUsedDesc>
+              <MovingBedEffected description="NO">false</MovingBedEffected>
+              <AcousticChannelReadings>
+                <Reading>
+                  <ReadingDateTime>2018-10-24T10:20:00-06:00</ReadingDateTime>
+                  <InstrumentTemperatureMeasure>13.2</InstrumentTemperatureMeasure>
+                  <VerificationTemperatureMeasure>12.9</VerificationTemperatureMeasure>
+                  <TemperatureUnits>C</TemperatureUnits>
+                </Reading>
+              </AcousticChannelReadings>
+              <MagneticVariationCode description="On-site">ONST</MagneticVariationCode>
+            </AdcpDischargeMeasurement>
+          </Channel>
+          <RatingNumberUsed>2.0</RatingNumberUsed>
+          <ReferenceGageHeightUsed>3.77</ReferenceGageHeightUsed>
+          <ShiftedRatingDischarge>14800</ShiftedRatingDischarge>
+          <ShiftedRatingPercentDifference>-4.8</ShiftedRatingPercentDifference>
+          <UnshiftedRatingDischarge>14800</UnshiftedRatingDischarge>
+          <UnshiftedRatingPercentDifference>-4.8</UnshiftedRatingPercentDifference>
+        </DischargeMeasurement>
+      </SiteVisit>
+    </SiteData>
+  </Site>
+  <SVMobileSiteSensors>
+    <LocationSensor>
+      <USGSParameterCode>99133</USGSParameterCode>
+      <AQParameterCode>AQ55</AQParameterCode>
+      <Parameter>NO3+NO2,water,insitu as N</Parameter>
+      <MethodCode>AQ55UV016</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <AQParameterCode>HG</AQParameterCode>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGCSG</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>CrestStageCageInspection</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <AQParameterCode>HG</AQParameterCode>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGNTRAN</MethodCode>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>BubbleGageInspection</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <AQParameterCode>HG</AQParameterCode>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGSTAFF</MethodCode>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <AQParameterCode>HG</AQParameterCode>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGWWG</MethodCode>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>WireWeightGageInspection</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00400</USGSParameterCode>
+      <AQParameterCode>PH</AQParameterCode>
+      <Parameter>pH</Parameter>
+      <MethodCode>PHPROBE</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00095</USGSParameterCode>
+      <AQParameterCode>SpCond</AQParameterCode>
+      <Parameter>Specific cond at 25C</Parameter>
+      <MethodCode>SpCondSC001</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00010</USGSParameterCode>
+      <AQParameterCode>TW</AQParameterCode>
+      <Parameter>Temperature, water</Parameter>
+      <MethodCode>TWTHM01</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00300</USGSParameterCode>
+      <AQParameterCode>WO</AQParameterCode>
+      <Parameter>Dissolved oxygen</Parameter>
+      <MethodCode>WOLUMIN</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>63680</USGSParameterCode>
+      <AQParameterCode>WTFNU</AQParameterCode>
+      <Parameter>Turbidity, FNU</Parameter>
+      <MethodCode>WTFNUTS213</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+    </LocationSensor>
+  </SVMobileSiteSensors>
+</UsgsHydroML>

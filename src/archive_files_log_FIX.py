@@ -158,13 +158,11 @@ def final_dest(files):
                     continue
                 else:
                     for comment in comments:
-                        try:
-                            for word in comment.split(" "):
-                                if "inspection" in word.lower():
-                                    final_dest += "_insp"
-                                    break
-                        except:
-                            pass
+                        for word in comment.split(" "):
+                            if "inspection" in word.lower():
+                                final_dest += "_insp"
+                                break
+            
             else:
                 ## appending measurement numbers to directory name
                 meas_nos = ""
@@ -204,3 +202,13 @@ def archive_files(files, dest, gage_no, date):
             continue
         else:
             shutil.copy( f, dest)
+            root = Tk()
+            e = Entry(root, textvariable = "ENTER INITIALS: ")
+            e.pack()
+            user = e.get()
+            with open(os.path.join("../OKI/log", datetime.today().strftime("%Y_%m%d") + "_filed.txt"), "a+") as log:
+                #if log in os.listdir("../OKI/log"):
+                #user = input("Enter initials: ")
+
+                for file in f:
+                    log.write(user + " " + f) 
