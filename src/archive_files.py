@@ -164,7 +164,7 @@ def final_dest(files):
                                     final_dest += "_insp"
                                     break
                         except:
-                            pass
+                            continue
             else:
                 ## appending measurement numbers to directory name
                 meas_nos = ""
@@ -188,7 +188,7 @@ def final_dest(files):
     return final_dest, gage_no, date
 
 
-def archive_files(files, dest, gage_no, date):
+def archive_files(files, dest):
     """ 
     Archiving site visit files as necessary.
     Accepts the same list of files given to the final_dest function and the destination
@@ -204,3 +204,19 @@ def archive_files(files, dest, gage_no, date):
             continue
         else:
             shutil.copy( f, dest)
+    
+
+def log_files(files, dest):
+    """
+    Writes the initials of the user and files archived to a log file generated for the day 
+    files were logged.
+    
+    Accepts the file list and destination as input arguments.
+    """
+    
+    ##  opening and writing to the log file
+    with open(os.path.join(dest, datetime.today().strftime("%Y_%m%d") + "_filed.txt"), "a+") as log:
+        for f in files:
+            log.write(os.getlogin() + " " + f + "\n")
+
+
