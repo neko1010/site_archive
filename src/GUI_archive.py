@@ -1,5 +1,5 @@
 from tkinter import *
-from archive_files import *
+from archive_files_log_FIX import *
 from tkinter import filedialog, messagebox
 import os
 
@@ -22,7 +22,7 @@ def process():
     if any(os.path.splitext(f)[1] == '.xml' and os.path.split(f)[1].startswith("SV") for f in files):
         ## Determine destination, gage_no, and date for files
         dest, gage_no, date = final_dest(files)
-        archive_files(files, dest, gage_no, date)
+        archive_files(files, dest)
         #root.destroy()
         
         ##Message to confirm archival completion
@@ -30,6 +30,8 @@ def process():
         msg_root.withdraw()
         messagebox.showinfo("Processing complete", "Files archived to " + dest)
         msg_root.destroy()
+        
+        log_files(files, dest)
         
     else:
         ## Message that communicates absence of site visit XML
