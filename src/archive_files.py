@@ -99,7 +99,6 @@ def final_dest(files):
     and returns the appropriate destination of the files based upon information 
     embedded in this document.
     """
-
     KY = "../data/Ky_sites.txt"
     IN = "../data/IN_sites.txt"
 
@@ -215,8 +214,9 @@ def log_files(files, dest):
     """
     
     ##  opening and writing to the log file
-    with open(os.path.join(dest, datetime.today().strftime("%Y_%m%d") + "_filed.txt"), "a+") as log:
+    with open(os.path.join(dest, datetime.today().strftime("%Y_%m%d") + "_filed.txt"), "a+") as log: 
         for f in files:
+        ## will this work on server?
             log.write(os.getlogin() + " " + f + "\n")
 
 
