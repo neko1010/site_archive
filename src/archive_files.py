@@ -154,7 +154,7 @@ def final_dest(files):
                         break
                 ## Checking for inspection note in comments field
                 if final_dest.endswith("_insp"):
-                    continue
+                    pass
                 else:
                     for comment in comments:
                         try:
@@ -162,8 +162,10 @@ def final_dest(files):
                                 if "inspection" in word.lower():
                                     final_dest += "_insp"
                                     break
+
                         except:
                             continue
+            
             else:
                 ## appending measurement numbers to directory name
                 meas_nos = ""
@@ -171,8 +173,6 @@ def final_dest(files):
                   meas_nos += "_" + m  
                
                 final_dest = dest + state + "/" + gage_no + "/WY" + wy + "/" + date  + meas_nos
-                #if (date + meas_nos) not in os.listdir(dest + state + "/" + gage_no + "/WY" + wy + "/"):
-                    #os.mkdir(final_dest)
                 
             ## checking for QW inspection 
             if qw == "Complete":
